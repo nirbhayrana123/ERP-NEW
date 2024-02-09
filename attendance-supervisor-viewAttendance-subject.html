@@ -1,0 +1,1445 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>View Detail</title> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+<link href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" >  
+<link href="https://cdn.datatables.net/fixedcolumns/4.2.2/css/fixedColumns.dataTables.min.css" >
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.4.2/chosen.min.css" /
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+<link href="dist/main.css" rel="stylesheet">
+
+</head>
+
+
+<body class="box-border ">
+  <!-- component -->
+
+  <div class=" w-full w-max-full">
+    <!---left sidbar start-->
+    <aside id="logo-sidebar" class="scrollbar mobileview left-menu ">
+      <div class="  pb-12">
+       <a href="#" class="flex pb-10 pt-10 px-5 text-white">
+       <img src="./src/images/logo.svg">
+           </a>
+         <ul class="space-y-3 font-medium">
+            <li>
+               <a href="dashbord.html" class="navigation-link">
+                 <div class="w-8 "> <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   <path d="M8.85217 23.4348H15.5826C21.1913 23.4348 23.4348 21.1913 23.4348 15.5826V8.85217C23.4348 3.24348 21.1913 1 15.5826 1H8.85217C3.24348 1 1 3.24348 1 8.85217V15.5826C1 21.1913 3.24348 23.4348 8.85217 23.4348Z" stroke="#CACACA" stroke-width="1.68261" stroke-linecap="round" stroke-linejoin="round"/>
+                   <path d="M6.98259 12.8722H10.9087C11.2686 12.8722 11.563 12.5778 11.563 12.2179V6.98308C11.563 6.62319 11.2686 6.32874 10.9087 6.32874H6.98259C6.6227 6.32874 6.32825 6.62319 6.32825 6.98308V12.2179C6.32825 12.5778 6.6227 12.8722 6.98259 12.8722ZM6.98259 18.107H10.9087C11.2686 18.107 11.563 17.8125 11.563 17.4526V14.8353C11.563 14.4754 11.2686 14.1809 10.9087 14.1809H6.98259C6.6227 14.1809 6.32825 14.4754 6.32825 14.8353V17.4526C6.32825 17.8125 6.6227 18.107 6.98259 18.107ZM13.5261 18.107H17.4522C17.8121 18.107 18.1065 17.8125 18.1065 17.4526V12.2179C18.1065 11.858 17.8121 11.5635 17.4522 11.5635H13.5261C13.1662 11.5635 12.8717 11.858 12.8717 12.2179V17.4526C12.8717 17.8125 13.1662 18.107 13.5261 18.107ZM12.8717 6.98308V9.60047C12.8717 9.96037 13.1662 10.2548 13.5261 10.2548H17.4522C17.8121 10.2548 18.1065 9.96037 18.1065 9.60047V6.98308C18.1065 6.62319 17.8121 6.32874 17.4522 6.32874H13.5261C13.1662 6.32874 12.8717 6.62319 12.8717 6.98308Z" fill="#CACACA"/>
+                   </svg>
+                   </div>
+                  <span class=" ml-2">Dashboard</span>
+               </a>
+            </li>
+            <li>
+               <a href="#" class="navigation-link">
+                 <div class="w-8 ">
+                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   <path d="M8.85217 23.8696H15.5826C21.1913 23.8696 23.4348 21.6261 23.4348 16.0174V9.28699C23.4348 3.67829 21.1913 1.43481 15.5826 1.43481H8.85217C3.24348 1.43481 1 3.67829 1 9.28699V16.0174C1 21.6261 3.24348 23.8696 8.85217 23.8696Z" stroke="#CACACA" stroke-width="1.68261" stroke-linecap="round" stroke-linejoin="round"/>
+                   <path d="M14.4667 9.66816C14.4667 11.1139 13.2957 12.2848 11.85 12.2848C10.4043 12.2848 9.23337 11.1139 9.23337 9.66816L9.30532 9.05325L7.27087 8.03275L11.85 5.74316L16.4292 8.03275V11.3036H15.775V8.35983L14.3947 9.05325L14.4667 9.66816ZM11.85 13.5932C14.7414 13.5932 17.0834 14.7641 17.0834 16.2098V17.5182H6.6167V16.2098C6.6167 14.7641 8.95862 13.5932 11.85 13.5932Z" fill="#CACACA"/>
+                   </svg>
+                   </div>
+                    <span class=" ml-2">Profile </span>
+               </a>
+            </li>
+            <li>
+             <a href="#" id="dropdown-default-button"  class="navigation-link-active">
+               <div class="w-8 ">
+               <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <path d="M8.85217 23.3044H15.5826C21.1913 23.3044 23.4348 21.0609 23.4348 15.4522V8.7218C23.4348 3.11311 21.1913 0.869629 15.5826 0.869629H8.85217C3.24348 0.869629 1 3.11311 1 8.7218V15.4522C1 21.0609 3.24348 23.3044 8.85217 23.3044Z" stroke="#CACACA" stroke-width="1.68261" stroke-linecap="round" stroke-linejoin="round"/>
+                 <path d="M15.775 5.87366C15.1863 5.87366 14.4667 6.52782 14.4667 7.18199H9.23335C9.23335 6.52782 8.51377 5.87366 7.92502 5.87366H5.30835V11.7612C5.30835 12.4153 5.96252 13.0695 6.61668 13.0695H8.05585C8.31752 14.3778 9.16793 15.4899 11.1958 15.6862V17.0468C9.23335 17.3477 9.23335 18.957 9.23335 18.957H14.4667C14.4667 18.957 14.4667 17.3477 12.5042 17.0468V15.6862C14.5321 15.4899 15.3825 14.3778 15.6442 13.0695H17.0833C17.7375 13.0695 18.3917 12.4153 18.3917 11.7612V5.87366H15.775ZM7.92502 11.7612H6.61668V7.18199H7.92502V11.7612ZM17.0833 11.7612H15.775V7.18199H17.0833V11.7612Z" fill="#CACACA"/>
+                 </svg> 
+                 </div>
+                 <span class="ml-2">Fee Management</span>
+              </a>
+ 
+              <div id="dropdown" class="z-10 hidden  ">
+               <ul class=" ml-7  pl-2 pr-3 mt-2 border-l border-white">
+                 <li class="px-5 py-2.5">
+                   <a href="log-payment.html" class="submenu-link">Log Payment</a>
+                 </li>
+                 
+                 <li class="px-5 py-2.5">
+                   <a href="bundlewise-fee-collection-report.html" class="submenu-link-active">Download Report</a>
+                 </li>
+                 <li class="px-5 py-2.5">
+                   <a href="universal.html" class="submenu-link">Change Management</a>
+                 </li>
+                 <li class="px-5 py-2.5">
+                   <a href="concession-management.html" class="submenu-link">Concession Management</a>
+                 </li>
+               </ul>
+           </div>
+          </li>
+            <li>
+               <a href="#" class="navigation-link">
+                 <div class="w-8 ">
+                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   <path d="M8.85217 23.7391H15.5826C21.1913 23.7391 23.4348 21.4956 23.4348 15.8869V9.1565C23.4348 3.5478 21.1913 1.30432 15.5826 1.30432H8.85217C3.24348 1.30432 1 3.5478 1 9.1565V15.8869C1 21.4956 3.24348 23.7391 8.85217 23.7391Z" stroke="#CACACA" stroke-width="1.68261" stroke-linecap="round" stroke-linejoin="round"/>
+                   <path d="M10.8688 15.0091H12.8313V13.3737H14.4667V11.4112H12.8313V9.77577H10.8688V11.4112H9.23337V13.3737H10.8688V15.0091ZM11.85 19.2612C10.3345 18.8796 9.08356 18.01 8.09708 16.6524C7.11016 15.2952 6.6167 13.788 6.6167 12.1308V8.14036L11.85 6.17786L17.0834 8.14036V12.1308C17.0834 13.788 16.5901 15.2952 15.6036 16.6524C14.6167 18.01 13.3655 18.8796 11.85 19.2612Z" fill="#CACACA"/>
+                   </svg>
+                 </div>
+                    <span class=" ml-2">Health</span>
+               </a>
+            </li>
+            <li>
+               <a href="#" class="navigation-link">
+                 <div class="w-8 ">
+                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   <path d="M8.85217 23.9565H15.5826C21.1913 23.9565 23.4348 21.713 23.4348 16.1043V9.3739C23.4348 3.76521 21.1913 1.52173 15.5826 1.52173H8.85217C3.24348 1.52173 1 3.76521 1 9.3739V16.1043C1 21.713 3.24348 23.9565 8.85217 23.9565Z" stroke="#CACACA" stroke-width="1.68261" stroke-linecap="round" stroke-linejoin="round"/>
+                   <path d="M17.0833 6.17798H6.61668C5.8971 6.17798 5.31489 6.76673 5.31489 7.48631L5.30835 19.2613L7.92502 16.6446H17.0833C17.8029 16.6446 18.3917 16.0559 18.3917 15.3363V7.48631C18.3917 6.76673 17.8029 6.17798 17.0833 6.17798ZM12.5042 14.028H11.1958V12.7196H12.5042V14.028ZM12.5042 11.4113H11.1958V8.79465H12.5042V11.4113Z" fill="#CACACA"/>
+                   </svg>
+                 </div>
+                    <span class=" ml-2">Feedback &
+                   Observation</span>
+               </a>
+            </li>
+            <li>
+             <a href="#" class="navigation-link">
+               <div class="w-8 ">
+                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   <path d="M8.85217 23.9564H15.5826C21.1913 23.9564 23.4348 21.7129 23.4348 16.1042V9.37378C23.4348 3.76508 21.1913 1.52161 15.5826 1.52161H8.85217C3.24348 1.52161 1 3.76508 1 9.37378V16.1042C1 21.7129 3.24348 23.9564 8.85217 23.9564Z" stroke="#CACACA" stroke-width="1.68261" stroke-linecap="round" stroke-linejoin="round"/>
+                   <path d="M7.27086 18.607C6.91107 18.607 6.60295 18.479 6.34652 18.223C6.09052 17.9666 5.96252 17.6585 5.96252 17.2987V8.14035C5.96252 7.78056 6.09052 7.47244 6.34652 7.21601C6.60295 6.96001 6.91107 6.83201 7.27086 6.83201H10.0184C10.1601 6.43951 10.3973 6.12333 10.7301 5.88347C11.0624 5.64361 11.4357 5.52368 11.85 5.52368C12.2643 5.52368 12.6379 5.64361 12.9706 5.88347C13.3029 6.12333 13.54 6.43951 13.6817 6.83201H16.4292C16.789 6.83201 17.0971 6.96001 17.3535 7.21601C17.6095 7.47244 17.7375 7.78056 17.7375 8.14035V17.2987C17.7375 17.6585 17.6095 17.9666 17.3535 18.223C17.0971 18.479 16.789 18.607 16.4292 18.607H7.27086ZM8.57919 15.9903H13.1584V14.682H8.57919V15.9903ZM8.57919 13.3737H15.1209V12.0653H8.57919V13.3737ZM8.57919 10.757H15.1209V9.44868H8.57919V10.757ZM11.85 7.64972C11.9918 7.64972 12.1091 7.60328 12.202 7.51039C12.2944 7.41793 12.3406 7.30083 12.3406 7.1591C12.3406 7.01736 12.2944 6.90005 12.202 6.80716C12.1091 6.7147 11.9918 6.66847 11.85 6.66847C11.7083 6.66847 11.5912 6.7147 11.4987 6.80716C11.4058 6.90005 11.3594 7.01736 11.3594 7.1591C11.3594 7.30083 11.4058 7.41793 11.4987 7.51039C11.5912 7.60328 11.7083 7.64972 11.85 7.64972Z" fill="#CACACA"/>
+                   </svg>
+                   
+               </div>
+                  <span class=" ml-2">Syllabus &
+                   Assignments</span>
+             </a>
+          </li>
+          
+          <li>
+           <a href="#" class="navigation-link">
+             <div class="w-8 ">
+               <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <path d="M8.85217 23.9564H15.5826C21.1913 23.9564 23.4348 21.7129 23.4348 16.1042V9.37378C23.4348 3.76508 21.1913 1.52161 15.5826 1.52161H8.85217C3.24348 1.52161 1 3.76508 1 9.37378V16.1042C1 21.7129 3.24348 23.9564 8.85217 23.9564Z" stroke="#CACACA" stroke-width="1.68261" stroke-linecap="round" stroke-linejoin="round"/>
+                 <path d="M17.0834 10.1029L13.1584 6.17786H7.92503C7.57804 6.17786 7.24526 6.3157 6.9999 6.56106C6.75454 6.80642 6.6167 7.1392 6.6167 7.48619V17.9529C6.6167 18.2998 6.75454 18.6326 6.9999 18.878C7.24526 19.1233 7.57804 19.2612 7.92503 19.2612H15.775C16.122 19.2612 16.4548 19.1233 16.7002 18.878C16.9455 18.6326 17.0834 18.2998 17.0834 17.9529V10.1029ZM9.88753 17.2987H8.5792V11.4112H9.88753V17.2987ZM12.5042 17.2987H11.1959V13.3737H12.5042V17.2987ZM15.1209 17.2987H13.8125V15.3362H15.1209V17.2987ZM13.1584 10.757H12.5042V7.48619L15.775 10.757H13.1584Z" fill="#CACACA"/>
+                 </svg>
+                 
+                 
+             </div>
+                <span class=" ml-2">Results &
+                 Report Cards</span>
+           </a>
+        </li>
+        <li>
+         <a href="#" class="navigation-link">
+           <div class="w-8 ">
+             <svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.85217 24.1739H15.5826C21.1913 24.1739 23.4348 21.9304 23.4348 16.3217V9.59131C23.4348 3.98261 21.1913 1.73914 15.5826 1.73914H8.85217C3.24348 1.73914 1 3.98261 1 9.59131V16.3217C1 21.9304 3.24348 24.1739 8.85217 24.1739Z" stroke="#CACACA" stroke-width="1.68261" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M11.85 7.70349H7.27085C6.75036 7.70349 6.25119 7.91025 5.88315 8.27829C5.51511 8.64633 5.30835 9.1455 5.30835 9.66599V14.8993C5.30835 15.4198 5.51511 15.919 5.88315 16.287C6.25119 16.6551 6.75036 16.8618 7.27085 16.8618L6.61668 17.516V18.1702H7.27085L8.57918 16.8422L9.88752 16.8618V13.591H6.61668V9.01182H12.5042V10.3202H13.8125V9.66599C13.8125 9.1455 13.6058 8.64633 13.2377 8.27829C12.8697 7.91025 12.3705 7.70349 11.85 7.70349ZM7.27085 14.2452C7.44435 14.2452 7.61073 14.3141 7.73342 14.4368C7.8561 14.5594 7.92502 14.7258 7.92502 14.8993C7.92502 15.0728 7.8561 15.2392 7.73342 15.3619C7.61073 15.4846 7.44435 15.5535 7.27085 15.5535C7.09735 15.5535 6.93096 15.4846 6.80828 15.3619C6.6856 15.2392 6.61668 15.0728 6.61668 14.8993C6.61668 14.7258 6.6856 14.5594 6.80828 14.4368C6.93096 14.3141 7.09735 14.2452 7.27085 14.2452ZM17.4562 11.4061C17.3646 11.1444 17.1161 10.9743 16.8217 10.9743H12.1182C11.8173 10.9743 11.5753 11.1444 11.4771 11.4061L10.5417 14.0947V17.6992C10.5417 17.9477 10.751 18.1702 10.9996 18.1702H11.4052C11.6538 18.1702 11.85 17.9216 11.85 17.673V16.8618H17.0833V17.673C17.0833 17.9216 17.2861 18.1702 17.5347 18.1702H17.9338C18.1823 18.1702 18.3917 17.9477 18.3917 17.6992V14.0947L17.4562 11.4061ZM12.1182 11.6285H16.8217L17.4955 13.591H11.4444L12.1182 11.6285ZM11.85 15.5535C11.6765 15.5535 11.5101 15.4846 11.3875 15.3619C11.2648 15.2392 11.1958 15.0728 11.1958 14.8993C11.1958 14.7258 11.2648 14.5594 11.3875 14.4368C11.5101 14.3141 11.6765 14.2452 11.85 14.2452C12.0235 14.2452 12.1899 14.3141 12.3126 14.4368C12.4353 14.5594 12.5042 14.7258 12.5042 14.8993C12.5042 15.0728 12.4353 15.2392 12.3126 15.3619C12.1899 15.4846 12.0235 15.5535 11.85 15.5535ZM17.0833 15.5535C16.9099 15.5535 16.7435 15.4846 16.6208 15.3619C16.4981 15.2392 16.4292 15.0728 16.4292 14.8993C16.4292 14.7258 16.4981 14.5594 16.6208 14.4368C16.7435 14.3141 16.9099 14.2452 17.0833 14.2452C17.2568 14.2452 17.4232 14.3141 17.5459 14.4368C17.6686 14.5594 17.7375 14.7258 17.7375 14.8993C17.7375 15.0728 17.6686 15.2392 17.5459 15.3619C17.4232 15.4846 17.2568 15.5535 17.0833 15.5535Z" fill="#CACACA"/>
+               </svg>
+               
+           </div>
+              <span class=" ml-2">Transport</span>
+         </a>
+      </li>
+      <li>
+       <a href="#" class="navigation-link">
+         <div class="w-8 ">
+           <svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <path d="M8.85217 24.1739H15.5826C21.1913 24.1739 23.4348 21.9304 23.4348 16.3217V9.59131C23.4348 3.98261 21.1913 1.73914 15.5826 1.73914H8.85217C3.24348 1.73914 1 3.98261 1 9.59131V16.3217C1 21.9304 3.24348 24.1739 8.85217 24.1739Z" stroke="#CACACA" stroke-width="1.68261" stroke-linecap="round" stroke-linejoin="round"/>
+             <path d="M11.85 8.52119C10.7829 8.52142 9.73986 8.83796 8.85265 9.4308C7.96544 10.0237 7.27388 10.8662 6.86538 11.852C6.45687 12.8377 6.34976 13.9225 6.55756 14.9691C6.76537 16.0157 7.27877 16.9773 8.03289 17.7322C8.17082 17.8704 8.2482 18.0577 8.24802 18.2529C8.24784 18.4482 8.1701 18.6354 8.03191 18.7733C7.89372 18.9112 7.7064 18.9886 7.51115 18.9884C7.31591 18.9882 7.12873 18.9105 6.9908 18.7723C6.03082 17.8114 5.37725 16.5875 5.11273 15.2553C4.8482 13.9231 4.98459 12.5423 5.50466 11.2876C6.02472 10.0328 6.90511 8.96046 8.03453 8.20599C9.16396 7.45152 10.4917 7.04883 11.85 7.04883C13.2082 7.04883 14.536 7.45152 15.6654 8.20599C16.7948 8.96046 17.6752 10.0328 18.1953 11.2876C18.7153 12.5423 18.8517 13.9231 18.5872 15.2553C18.3227 16.5875 17.6691 17.8114 16.7091 18.7723C16.6412 18.8426 16.5601 18.8987 16.4703 18.9373C16.3805 18.976 16.284 18.9963 16.1863 18.9972C16.0885 18.9981 15.9916 18.9795 15.9012 18.9426C15.8107 18.9056 15.7285 18.851 15.6594 18.7819C15.5902 18.7129 15.5356 18.6307 15.4985 18.5403C15.4615 18.4499 15.4428 18.353 15.4436 18.2552C15.4444 18.1575 15.4647 18.0609 15.5032 17.9711C15.5417 17.8813 15.5977 17.8001 15.668 17.7322C16.4222 16.9772 16.9356 16.0156 17.1434 14.9689C17.3511 13.9221 17.2439 12.8373 16.8353 11.8515C16.4267 10.8657 15.735 10.0232 14.8476 9.43039C13.9603 8.83762 12.9171 8.52122 11.85 8.52119ZM11.85 12.4462C11.4596 12.4462 11.0852 12.6013 10.8092 12.8773C10.5332 13.1533 10.3781 13.5277 10.3781 13.9181C10.3781 14.3084 10.5332 14.6828 10.8092 14.9588C11.0852 15.2349 11.4596 15.3899 11.85 15.3899C12.2403 15.3899 12.6147 15.2349 12.8907 14.9588C13.1668 14.6828 13.3218 14.3084 13.3218 13.9181C13.3218 13.5277 13.1668 13.1533 12.8907 12.8773C12.6147 12.6013 12.2403 12.4462 11.85 12.4462ZM9.15152 13.9181C9.1515 13.4744 9.26089 13.0375 9.46999 12.6462C9.67909 12.2549 9.98146 11.9212 10.3503 11.6746C10.7192 11.4281 11.1431 11.2762 11.5847 11.2326C12.0262 11.189 12.4717 11.2549 12.8816 11.4245C13.2916 11.5942 13.6534 11.8623 13.9351 12.2051C14.2167 12.5479 14.4094 12.9549 14.4962 13.39C14.583 13.8251 14.5612 14.2749 14.4327 14.6996C14.3042 15.1242 14.073 15.5107 13.7595 15.8246C13.6215 15.9628 13.5442 16.1501 13.5443 16.3454C13.5445 16.5406 13.6223 16.7278 13.7604 16.8657C13.8986 17.0037 14.086 17.0811 14.2812 17.0809C14.4764 17.0807 14.6636 17.0029 14.8016 16.8648C15.3841 16.2813 15.7807 15.5382 15.9411 14.7294C16.1015 13.9206 16.0185 13.0824 15.7027 12.3208C15.3869 11.5591 14.8523 10.9082 14.1667 10.4502C13.481 9.99227 12.675 9.74784 11.8504 9.74784C11.0259 9.74784 10.2199 9.99227 9.53421 10.4502C8.84854 10.9082 8.31402 11.5591 7.99819 12.3208C7.68236 13.0824 7.5994 13.9206 7.7598 14.7294C7.92019 15.5382 8.31674 16.2813 8.89934 16.8648C8.96671 16.9371 9.04796 16.9951 9.13823 17.0353C9.22851 17.0755 9.32596 17.0971 9.42477 17.0989C9.52359 17.1006 9.62174 17.0824 9.71338 17.0454C9.80502 17.0084 9.88826 16.9533 9.95814 16.8834C10.028 16.8136 10.0831 16.7303 10.1201 16.6387C10.1571 16.547 10.1753 16.4489 10.1736 16.3501C10.1718 16.2513 10.1502 16.1538 10.11 16.0635C10.0698 15.9733 10.0118 15.892 9.93946 15.8246C9.68902 15.5744 9.4905 15.2771 9.35528 14.95C9.22006 14.6228 9.15081 14.2721 9.15152 13.9181Z" fill="#CACACA"/>
+             </svg>
+             
+         </div>
+            <span class=" ml-2">Communication</span>
+       </a>
+    </li>
+         </ul>
+      </div>
+      <button  id="close-sidebar" class="h-10 w-10  lg:hidden  z-40 absolute right-10 mt-0 -mr-10 flex items-center shadow rounded-lg bg-cerulean-blue  justify-center cursor-pointer top-0 text-white" >
+       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+         <path stroke="none" d="M0 0h24v24H0z"></path>
+         <line x1="18" y1="6" x2="6" y2="18"></line>
+         <line x1="6" y1="6" x2="18" y2="18"></line>
+       </svg>
+     </button>
+   </aside>
+  <!---left sidbar end-->
+   <!---overlay start --->
+ <div class="fixed inset-0 z-20 bg-gray-900/50 dark:bg-gray-900/60  hidden" id="sidebar-backdrop"></div>
+ <!---overlay end--->
+ 
+   <!---main start--->
+ <div class=" lg:ml-60 ml-0 relative ">
+   <!---top bar start --->
+   <div class="fixed top-0  lg:ml-60  z-10     left-0 right-0 shadow-sm bg-white lg:rounded-tr-3xl">
+     <div>
+       <div class="flex  justify-between">
+         <div class="flex items-center h-16 justify-start w-full">
+           <button class="logo-sidebar inline-flex items-center p-2 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+               
+               <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
+               </svg>
+            </button>
+   
+ <div class="flex-1 items-center">   
+   <div class="relative w-full pl-5">
+       <div class="absolute inset-y-0 left-0 flex items-center pl-8 pointer-events-none">
+         <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path d="M16.031 14.617L20.314 18.899L18.899 20.314L14.617 16.031C13.0237 17.3082 11.042 18.0029 9 18C4.032 18 0 13.968 0 9C0 4.032 4.032 0 9 0C13.968 0 18 4.032 18 9C18.0029 11.042 17.3082 13.0237 16.031 14.617ZM14.025 13.875C15.2941 12.5699 16.0029 10.8204 16 9C16 5.132 12.867 2 9 2C5.132 2 2 5.132 2 9C2 12.867 5.132 16 9 16C10.8204 16.0029 12.5699 15.2941 13.875 14.025L14.025 13.875Z" fill="#6A6A6A"/>
+           </svg>
+           
+       </div>
+       <input type="text" id="simple-search" class="bg-transparent focus:outline-none focus:shadow-none font-urbanist font-medium   text-gray-500 text-base   block w-full pl-12 p-2.5   placeholder-white-grey  " placeholder="Search Directory">
+   </div>
+  
+ </div>
+ 
+ <div class="h-full w-20 border-x  cursor-pointer bg-white border-white-grey flex items-center justify-center relative">
+   <svg width="20" height="22" viewBox="0 0 20 22" class="hover:fill-dark-blue hover:stroke-dark-blue " fill="none" xmlns="http://www.w3.org/2000/svg">
+     <path d="M10 21.8533C10.42 21.8437 10.823 21.6858 11.1378 21.4076C11.4525 21.1294 11.6588 20.7489 11.72 20.3333H8.21338C8.27636 20.7602 8.49226 21.1497 8.82091 21.4293C9.14957 21.7089 9.56859 21.8596 10 21.8533Z" fill="#1F306E"/>
+     <path d="M19.9001 17.7533L19.6734 17.5533C19.0304 16.9804 18.4676 16.3234 18.0001 15.6C17.4896 14.6017 17.1836 13.5115 17.1001 12.3933V9.09999C17.0974 8.69995 17.0617 8.30082 16.9934 7.90665C15.8642 7.67454 14.8498 7.05933 14.1221 6.16517C13.3944 5.27101 12.998 4.15285 13.0001 2.99999V2.57999C12.3041 2.23744 11.5562 2.01219 10.7868 1.91332V1.07332C10.7868 0.837276 10.693 0.610902 10.5261 0.443994C10.3592 0.277087 10.1328 0.183319 9.89678 0.183319C9.66074 0.183319 9.43436 0.277087 9.26746 0.443994C9.10055 0.610902 9.00678 0.837276 9.00678 1.07332V1.94665C7.28393 2.18969 5.70716 3.04782 4.56759 4.36261C3.42803 5.6774 2.8026 7.36008 2.80678 9.09999V12.3933C2.72328 13.5115 2.4173 14.6017 1.90678 15.6C1.44737 16.3216 0.893577 16.9785 0.260114 17.5533L0.0334473 17.7533V19.6333H19.9001V17.7533Z" fill="#1F306E"/>
+     </svg>
+     
+   <div
+     class="absolute w-2 h-2 rounded-full bg-red text-white text-xs left-11 top-5 flex justify-center items-center">
+   </div>
+ </div>
+ <div class="h-full w-20 border-r border-white-grey  cursor-pointer bg-white  flex items-center justify-center">
+   <svg width="24" height="24" viewBox="0 0 24 24" class="hover:fill-dark-blue hover:stroke-dark-blue " fill="none" xmlns="http://www.w3.org/2000/svg">
+     <path d="M12.0116 9.15468C11.3108 9.15468 10.6546 9.42655 10.1577 9.92343C9.66317 10.4203 9.38895 11.0766 9.38895 11.7773C9.38895 12.4781 9.66317 13.1344 10.1577 13.6312C10.6546 14.1258 11.3108 14.4 12.0116 14.4C12.7124 14.4 13.3686 14.1258 13.8655 13.6312C14.36 13.1344 14.6343 12.4781 14.6343 11.7773C14.6343 11.0766 14.36 10.4203 13.8655 9.92343C13.6228 9.67887 13.334 9.48498 13.0157 9.35301C12.6974 9.22104 12.3561 9.15362 12.0116 9.15468ZM21.6749 14.6742L20.1421 13.3641C20.2147 12.9187 20.2522 12.4641 20.2522 12.0117C20.2522 11.5594 20.2147 11.1023 20.1421 10.6594L21.6749 9.34921C21.7907 9.25008 21.8736 9.11806 21.9125 8.97069C21.9514 8.82332 21.9446 8.66759 21.8929 8.52421L21.8718 8.46327C21.4499 7.28364 20.8178 6.1902 20.0061 5.23593L19.964 5.18671C19.8654 5.07081 19.734 4.9875 19.5872 4.94776C19.4403 4.90801 19.2849 4.91369 19.1413 4.96405L17.2382 5.64139C16.535 5.06483 15.7522 4.61014 14.9038 4.29374L14.5358 2.30389C14.5081 2.15399 14.4353 2.01609 14.3273 1.9085C14.2193 1.80091 14.0811 1.72873 13.9311 1.70155L13.8679 1.68983C12.6491 1.46952 11.3647 1.46952 10.146 1.68983L10.0827 1.70155C9.93269 1.72873 9.79451 1.80091 9.6865 1.9085C9.57849 2.01609 9.50578 2.15399 9.47801 2.30389L9.1077 4.30311C8.2673 4.62204 7.48441 5.07563 6.78973 5.64608L4.87255 4.96405C4.72903 4.91329 4.57346 4.9074 4.42652 4.94717C4.27958 4.98695 4.14821 5.07049 4.04989 5.18671L4.0077 5.23593C3.19745 6.19121 2.56553 7.28438 2.14208 8.46327L2.12098 8.52421C2.01551 8.81718 2.10223 9.1453 2.33895 9.34921L3.89051 10.6734C3.81786 11.1141 3.7827 11.5641 3.7827 12.0094C3.7827 12.4594 3.81786 12.9094 3.89051 13.3453L2.34364 14.6695C2.22785 14.7686 2.14497 14.9007 2.10604 15.048C2.0671 15.1954 2.07395 15.3511 2.12567 15.4945L2.14676 15.5555C2.57098 16.7344 3.19676 17.8242 4.01239 18.7828L4.05458 18.832C4.15314 18.9479 4.28451 19.0312 4.43136 19.071C4.57822 19.1107 4.73367 19.105 4.87723 19.0547L6.79442 18.3726C7.49286 18.9469 8.27098 19.4016 9.11239 19.7156L9.4827 21.7148C9.51046 21.8647 9.58318 22.0026 9.69119 22.1102C9.79919 22.2178 9.93738 22.29 10.0874 22.3172L10.1507 22.3289C11.3814 22.5504 12.6418 22.5504 13.8725 22.3289L13.9358 22.3172C14.0858 22.29 14.224 22.2178 14.332 22.1102C14.44 22.0026 14.5128 21.8647 14.5405 21.7148L14.9085 19.725C15.7569 19.4062 16.5397 18.9539 17.2429 18.3773L19.146 19.0547C19.2895 19.1054 19.4451 19.1113 19.592 19.0716C19.739 19.0318 19.8703 18.9482 19.9686 18.832L20.0108 18.7828C20.8265 17.8195 21.4522 16.7344 21.8765 15.5555L21.8975 15.4945C21.9983 15.2039 21.9116 14.8781 21.6749 14.6742ZM12.0116 15.8976C9.73583 15.8976 7.8913 14.0531 7.8913 11.7773C7.8913 9.50155 9.73583 7.65702 12.0116 7.65702C14.2874 7.65702 16.1319 9.50155 16.1319 11.7773C16.1319 14.0531 14.2874 15.8976 12.0116 15.8976Z" fill="#1F306E"/>
+     </svg>
+     
+ </div>
+ 
+ <div class="h-full min-w-20 px-3 border-x border-white-grey bg-white relative cursor-pointer flex flex-col justify-center items-center">
+   <div class="avtar relative">
+   <img src="./src/images/alumni.png" alt="avatar1" class="rounded-full w-8 h-8 mt-2" />
+   <div
+   class="absolute  w-5 h-5 rounded-full bg-red text-white sm:text-xs text-xsm   left-6 sm:top-4 top-1 flex font-urbanist justify-center items-center">
+   05</div>
+ </div>
+   <p class="text-light-grey font-urbanist font-semibold sm:text-xs text-xsm mb-0 rounded-sm  py-2 ">Alumni</p>
+   
+ </div>
+ <div class="h-full min-w-20 px-3 lg:rounded-tr-3xl bg-white relative cursor-pointer flex flex-col justify-center items-center">
+   <div class="relative">
+     <img src="./src/images/avtar.png" alt="avatar1" class="rounded-full w-8 h-8 mt-2" />
+     <div
+     class="absolute  w-5 h-5 rounded-full bg-red text-white sm:text-xs text-xsm   left-6 sm:top-4 top-1 flex font-urbanist justify-center items-center">
+     05</div>
+   </div>
+ 
+   <p class="text-light-grey font-urbanist font-semibold sm:text-xs text-xsm mb-0 rounded-sm border-b-4 py-2 border-dark-blue">Student</p>
+  
+ </div>
+ 
+         </div>
+        
+       </div>
+     </div>
+   </div>
+    <!---top bar end--->
+
+   <div class="p-4 bg-grey-color mt-16 relative "> 
+  <div class=" mt-3 rounded">
+    <div class="border-b sm:flex justify-between border-white-grey">
+    <ul class=" custom-tab nav-tab flex  sm:flex-row flex-wrap list-none " id="tabs-tab"
+    role="tablist" data-te-nav-ref>
+ <li class="nav-itemesa sm:pr-5 pr-1.5" role="presentation">
+   <a href="#tabs-yearly" class="
+   tab-menu data-[te-nav-active]:border-dark-blue data-[te-nav-active]:text-dark-blue
+   " id="tabs-yearly-tab" data-te-toggle="pill" data-te-target="#tabs-yearly" role="tab" aria-controls="tabs-yearly"
+     aria-selected="true " data-te-nav-active>Yearly</a>
+ </li>
+ <li class="nav-itemesa sm:px-5 px-1.5" role="presentation">
+   <a href="#tabs-monthly" class="
+   tab-menu data-[te-nav-active]:border-dark-blue data-[te-nav-active]:text-dark-blue
+   " id="tabs-monthly-tab" data-te-toggle="pill" data-te-target="#tabs-monthly" role="tab"
+     aria-controls="tabs-monthly" aria-selected="false">Monthly</a>
+ </li>
+ <li class="nav-itemesa  sm:px-5 px-1.5" role="presentation">
+   <a href="#tabs-daily" class="
+   tab-menu data-[te-nav-active]:border-dark-blue data-[te-nav-active]:text-dark-blue
+   " id="tabs-daily-tab" data-te-toggle="pill" data-te-target="#tabs-daily" role="tab"
+     aria-controls="tabs-daily " aria-selected="false ">Daily</a>
+ </li>
+
+</ul>
+<div class="flex mt-2 sm:mt-0   space-x-4 mb-1">
+   <button class="font-urbanist font-bold text-small py-1 px-3 sm:py-3 sm:px-10 border-solid border border-dark-blue text-dark-blue rounded min-w-bw">Back</button>
+
+   <div class="select background-blue min-w-bw relative">
+
+    <select>
+      <option> Details Record </option>
+      <option> English </option>
+      <option> Math </option>
+      <option>  Physics </option>  
+      </select> 
+     </div>
+</div>
+</div>
+    </div>
+    
+    <div class=" mt-3" id="tabs-tabContent">
+      <!-----------------------------yearly--page------------------->
+
+      <div class="hidden opacity-100 transition-opacity duration-150 ease-linear data-[te-tab-active]:block" id="tabs-yearly" role="tabpanel" aria-labelledby="tabs-yearly-tab" data-te-tab-active>
+       
+        <div class="border relative border-white-grey rounded-lg">
+          <div class="  border-white-grey">
+      
+            <div class="  grid grid-cols-2 items-center md:grid-cols-3 lg:grid-cols-4 xl:p-0  xl:grid-cols-6 gap-4 xs:pb-3  ">
+              <div class="item imge ">
+                <div class=" bg-white-grey pl-5 pt-5  top-0 xl:h-full left-0  w-44 rounded-md  rounded-r-none">
+               <img he src="./src/images/back-img.svg" class="h-full w-full">
+              </div>
+               </div>
+               <div class="item flex items-center">
+                <div class="sec">
+                  <h4 class="font-urbanist text-lg mb-3 font-bold text-dark-black ">Subject Teacher</h4>
+                  <p class="text-secondary text-sm font-urbanist font-bold">Class and Section</p>
+                </div>
+                
+               
+              </div>
+              
+              <div class="item xl:pl-6 ">
+                <h6 class="font-urbanist mb-3 font-bold text-base text-secondary">Total Hours</h6>
+                 <p class="font-urbanist text-base mt-2 font-bold text-dark-blue">100</p>
+               </div>
+               <div class="item lg:pl-4 xl:pl-4 ">
+                <h6 class="font-urbanist mb-3 font-bold text-base text-secondary">Total Students</h6>
+                 <p class="font-urbanist text-base mt-2 font-bold text-light-green">35</p>
+               </div>
+               <div class="item ">
+                <h6 class="font-urbanist mb-3 font-bold text-base text-secondary">At Risk Students</h6>
+                <div class="risk-students"> 
+                  <img src="src/images/stundent.png"  class="risk-students-user-list z-40">
+                  <img src="src/images/stundent2.png" class="risk-students-user-list z-30">
+                  <img src="src/images/stundent3.png" class="risk-students-user-list z-20">
+                  <img src="src/images/stundent4.png" class="risk-students-user-list z-10">
+                  <img src="src/images/stundent5.png" class="risk-students-user-list z-0">
+                  <a class="risk-students-user-list flex items-center justify-end text-sm font-medium font-urbanist text-dark-blue bg-dark-bluergba" href="#">5+</a>
+               </div> 
+              </div>
+              <div class="item">
+               <button class="bg-red mb-5  xl:ml-0 text-white font-bold font-urbanist text-sm h-10 rounded min-w-downloadbtn ">
+                Download Yearly
+              </button>
+              <div class="select min-w-downloadbtn max-w-120 relative">
+
+                <select class="mt-2">
+                  <option> Subject Name </option>
+                  <option> Math</option>  
+                  <option> Chemistry</option>  
+                  <option> Physics</option>  
+                  <option> English</option>   
+                  </select> 
+                 </div>
+              
+            </div>
+              </div>
+             
+              
+            </div>
+           
+      
+      </div>
+      <div class="overflow-x-auto mt-3  shadow-md sm:rounded-lg">
+        <div class=" w-full align-middle">
+            <div class=" overflow-x-auto w-full ">
+              
+                <table class="departmentlist stripe row-border order-column  w-full  divide-y divide-gray-200 dark:divide-gray-700 overflow-x-auto" style="width: 100%;">
+                 
+                    <thead class="bg-crystal-blue dark:bg-gray-700">
+                        <tr>
+                            <th scope="col" class="bg-crystal-blue  whitespace-nowrap p-5 bundle-table-th ">
+                              Student Id
+                            </th>
+                            <th scope="col" class="bg-crystal-blue  whitespace-nowrap  text-dark-blue p-5 font-urbanist font-bold text-base ">
+                              Student Name
+                            </th>
+                            <th scope="col" class="text-dark-blue p-5 font-urbanist font-bold text-base">
+                              Apr
+                            </th>
+                            <th scope="col" class="text-dark-blue p-5 font-urbanist font-bold text-base">
+                              May
+                            </th>
+                          </th>
+                          <th scope="col" class="text-dark-blue p-5 font-urbanist font-bold text-base">
+                            Jun
+                          </th>
+                        </th>
+                        <th scope="col" class="text-dark-blue p-5 font-urbanist font-bold text-base ">
+                          Jul
+                        </th>
+                      </th>
+                      <th scope="col" class="text-dark-blue p-5 font-urbanist font-bold text-base ">
+                        Aug
+                      </th>
+                    </th>
+                    <th scope="col" class="text-dark-blue p-5 font-urbanist font-bold text-base ">
+                      Sep
+                    </th>
+                  </th>
+                  <th scope="col" class="p-5 text-base font-urbanist font-bold  text-left text-dark-blue ">
+                    Oct
+                  </th>
+                  <th scope="col" class="p-5 text-dark-blue font-urbanist font-bold text-base">
+                    Nov
+                  </th>
+                  <th scope="col" class="p-5 text-dark-blue font-urbanist font-bold text-base ">
+                    Dec
+                  </th>
+                  <th scope="col" class="p-5 text-dark-blue font-urbanist font-bold text-base ">
+                    Jan
+                  </th>
+                  <th scope="col" class="p-5 text-base font-urbanist font-bold  text-left text-dark-blue ">
+                    Feb
+                  </th>
+                  <th scope="col" class="p-5 text-dark-blue font-urbanist font-bold text-base ">
+                    Mar
+                  </th>
+                        </tr>
+                        <tr>
+                          <th scope="col" class="p-5 bg-crystal-blue">
+                            
+                          </th>
+                          <th scope="col" class="p-5 bg-crystal-blue">
+                            
+                          </th>
+                          <th scope="col" class="font-urbanist p-5 text-base font-bold text-light-grey">
+                            20
+                          </th>
+                          <th scope="col" class="font-urbanist p-5 text-base font-bold text-light-grey">
+                            21
+                          </th>
+                        </th>
+                        <th scope="col" class="font-urbanist p-5 text-base font-bold text-light-grey ">
+                          17
+                        </th>
+                      </th>
+                      <th scope="col" class="font-urbanist text-base font-bold text-light-grey ">
+                        20
+                      </th>
+                    </th>
+                    <th scope="col" class="font-urbanist text-base font-bold text-light-grey ">
+                      20
+                    </th>
+                  </th>
+                  <th scope="col" class="font-urbanist text-base font-bold text-light-grey">
+                    18
+                  </th>
+                </th>
+                <th scope="col" class="font-urbanist text-base font-bold text-light-grey ">
+                  20
+                </th>
+                <th scope="col" class="font-urbanist text-base font-bold text-light-grey ">
+                  21
+                </th>
+                <th scope="col" class="font-urbanist text-base font-bold text-light-grey ">
+                  22
+                </th>
+                <th scope="col" class="font-urbanist text-base font-bold text-light-grey">
+                  15
+                </th>
+                <th scope="col" class="font-urbanist text-base font-bold text-light-grey ">
+                  13
+                </th>
+                <th scope="col" class="font-urbanist text-base font-bold text-light-grey ">
+                  10
+                </th>
+                      </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700">
+                        <tr>
+                            <td class="p-5 w-4 bg-white font-urbanist font-bold text-sm text-dark-black">
+                              #01
+                            </td>
+                            <td class="text-secondary bg-white py-5 px-6 font-urbanist font-semibold text-sm">Rob Lee</td>
+                            <td class="text-secondary p-5 font-urbanist font-semibold text-center text-sm">20</td>
+                            <td class="text-secondary text-center p-5 font-urbanist font-semibold text-sm">21</td>
+                            <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">17</td>
+                            <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">20</td>
+                            <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">20</td>
+                            <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">18</td>
+                            <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">20</td>
+                            <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">21</td>
+                            <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">22</td>
+                            <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">15</td>
+                            <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">13</td>
+                            <td class="text-secondary text-center p-5   font-urbanist font-semibold text-sm">10</td>
+                           
+                            
+                        </tr>
+                        <tr>
+                          <td class="p-5 w-4 bg-white font-urbanist font-bold text-sm text-dark-black">
+                            #01
+                          </td>
+                          <td class="text-secondary bg-white py-5 px-6 font-urbanist font-semibold text-sm">Robin Leeaa</td>
+                          <td class="text-secondary p-5 font-urbanist font-semibold text-center text-sm">20</td>
+                          <td class="text-secondary text-center p-5 font-urbanist font-semibold text-sm">21</td>
+                          <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">17</td>
+                          <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">20</td>
+                          <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">20</td>
+                          <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">18</td>
+                          <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">20</td>
+                          <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">21</td>
+                          <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">22</td>
+                          <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">15</td>
+                          <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">13</td>
+                          <td class="text-secondary text-center p-5   font-urbanist font-semibold text-sm">10</td>
+                         
+                          
+                      </tr>
+                      <tr>
+                        <td class="p-5 w-4 bg-white font-urbanist font-bold text-sm text-dark-black">
+                          #01
+                        </td>
+                        <td class="text-secondarybg-white py-5 px-6 font-urbanist font-semibold text-sm">RoLee</td>
+                        <td class="text-secondary p-5 font-urbanist font-semibold text-center text-sm">20</td>
+                        <td class="text-secondary text-center p-5 font-urbanist font-semibold text-sm">21</td>
+                        <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">17</td>
+                        <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">20</td>
+                        <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">20</td>
+                        <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">18</td>
+                        <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">20</td>
+                        <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">21</td>
+                        <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">22</td>
+                        <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">15</td>
+                        <td class="text-secondary text-center p-5  font-urbanist font-semibold text-sm">13</td>
+                        <td class="text-secondary text-center p-5   font-urbanist font-semibold text-sm">10</td>
+                       
+                        
+                    </tr>
+                  
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+      </div>
+<!-----------------yearly---page--end-------------------->
+
+
+<!-----------------monthly---page---------------------->
+      <div class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block" id="tabs-monthly" role="tabpanel" aria-labelledby="tabs-monthly-tab">
+        <div class="border relative mt-3 border-white-grey rounded-lg">
+          <div class="  border-white-grey">
+      
+            <div class="  grid grid-cols-2 items-center md:grid-cols-3 xl:grid-cols-6 gap-4">
+              <div class="imge ">
+                <div class=" bg-white-grey pl-5 pt-5  top-0 xl:h-full left-0  w-44 rounded-md rounded-r-none"> 
+                  <img he="" src="./src/images/back-img.svg" class="h-full w-full">
+                 </div>
+               </div>
+               <div class="item flex items-center">
+                <div class="sec">
+                  <h4 class="font-urbanist text-lg mb-3 font-bold text-dark-black ">Subject Teacher</h4>
+                  <p class="text-secondary text-sm font-urbanist font-bold">Class and Section</p>
+                </div>
+                
+             
+              </div>
+              
+              <div class="item xl:pl-6 ">
+                <h6 class="font-urbanist mb-3 font-bold text-base text-secondary">Total Hours</h6>
+                 <p class="font-urbanist text-base mt-2 font-bold text-dark-blue">100</p>
+               </div>
+               <div class="item xl:pl-4 ">
+                <h6 class="font-urbanist mb-3 font-bold text-base text-secondary">Total Students</h6>
+                 <p class="font-urbanist text-base mt-2 font-bold text-light-green">35</p>
+               </div>
+               <div class="item ">
+                <h6 class="font-urbanist mb-3 font-bold text-base text-secondary">At Risk Students</h6>
+                <div class="risk-students"> 
+                  <img src="src/images/stundent.png"  class="risk-students-user-list z-40">
+                  <img src="src/images/stundent2.png" class="risk-students-user-list z-30">
+                  <img src="src/images/stundent3.png" class="risk-students-user-list z-20">
+                  <img src="src/images/stundent4.png" class="risk-students-user-list z-10">
+                  <img src="src/images/stundent5.png" class="risk-students-user-list z-0">
+                  <a class="risk-students-user-list flex items-center justify-end text-sm font-medium font-urbanist text-dark-blue bg-dark-bluergba" href="#">5+</a>
+               </div> 
+              </div>
+              <div class="item">
+               <button class="bg-red mb-5  xl:ml-0 text-white font-bold font-urbanist text-sm min-w-downloadbtn h-10 rounded ">
+                Download Monthly
+              </button>
+              <div class="select min-w-downloadbtn max-w-120 relative">
+
+                <select class="mt-2">
+                  <option> Subject Name </option>
+                  <option> Math</option>  
+                  <option> Chemistry</option>  
+                  <option> Physics</option>  
+                  <option> English</option>   
+                  </select> 
+                 </div>
+            </div>
+              </div>
+             
+              
+            </div>
+           
+      
+      </div>
+      <div class="p-5 mt-3 bg-gray-scale rounded">
+        <ul class=" flex flex-wrap justify-between ">
+          <li> <a href="#" class="change-managment-nav-link-active">April</a>   </li>
+          <li> <a href="#" class="change-managment-nav-link ">May</a>   </li>
+          <li> <a href="#" class="change-managment-nav-link ">June</a>   </li>
+          <li> <a href="#" class="change-managment-nav-link ">July</a>   </li>
+          <li> <a href="#" class="change-managment-nav-link ">August</a>   </li>
+          <li> <a href="#" class="change-managment-nav-link ">September</a>   </li>
+          <li> <a href="#" class="change-managment-nav-link ">October</a>   </li>
+          <li> <a href="#" class="change-managment-nav-link ">November</a>   </li>
+          <li> <a href="#" class="change-managment-nav-link ">December</a>   </li>
+          <li> <a href="#" class="change-managment-nav-link ">January</a>   </li>
+          <li> <a href="#" class="change-managment-nav-link ">February</a>   </li>
+          <li> <a href="#" class="change-managment-nav-link ">March</a>   </li>
+        
+        </ul>
+      </div>
+      <div class="justify-center items-center my-4 flex">
+        <span class="mr-3 text-sm font-bold font-urbanist text-dark-black  ">Detail View</span>
+<label class="relative inline-flex items-center cursor-pointer">
+  <input type="checkbox" value="" class="sr-only peer" id="togglebtn">
+  <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-dark-blue"></div>
+  
+</label>
+
+      </div>
+      <!------- -------detail---view--first---------------------------->
+      <div class="details1 overflow-x-auto shadow-md sm:rounded-lg">
+        <div class="inline-block w-full align-middle">
+         
+            <div class="first-detail overflow-x-auto ">
+              
+                <table class="w-full divide-y divide-gray-200  dark:divide-gray-700">
+                 
+                    <thead class="bg-crystal-blue dark:bg-gray-700">
+                        <tr>
+                            <th scope="col" class="whitespace-nowrap p-5 bundle-table-th ">
+                              Date
+                            </th>
+                            <th scope="col" class="whitespace-nowrap text-dark-blue p-5 font-urbanist font-bold text-base ">
+                              Total Present
+                            </th>
+                            <th scope="col" class="whitespace-nowrap text-dark-blue p-5 font-urbanist font-bold text-base">
+                              Total Absent
+                            </th>
+                            <th scope="col" class="whitespace-nowrap text-dark-blue p-5 font-urbanist font-bold text-base">
+                              Total Leave
+                            </th>
+                          
+                          <th scope="col" class="whitespace-nowrap text-dark-blue p-5 font-urbanist font-bold text-base">
+                            Attendance %
+                          </th>
+                        </th>
+                        <th scope="col" class="whitespace-nowrap text-dark-blue p-5 font-urbanist font-bold text-base ">
+                          Action
+                        </th>
+                        </tr>
+                        
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700">
+                        <tr class="hover:bg-crystal-blue">
+                            <td class="p-5 whitespace-nowrap font-urbanist font-bold text-sm text-dark-black">
+                              12 Jan 2023
+                            </td>
+                            <td class="text-secondary py-5 px-6 font-urbanist font-semibold text-center text-sm">20</td>
+                            <td class="text-secondary p-5 font-urbanist font-semibold text-center text-sm">10</td>
+                            <td class="text-secondary text-center p-5 font-urbanist font-semibold text-sm">05</td>
+                            
+                              <td class=" text-center py-2 px-3">
+                                <div class="w-12 h-10 bg-light-greens text-light-green m-auto font-urbanist text-sm font-semibold  rounded flex items-center justify-center">90%</div>
+                            </td>
+                            <td class=" text-center py-2 px-3 ">  
+                              <div class="flex items-center justify-center">
+                                <a href="#" class="sm:px-3 pr-3" ><img class="m-auto" src="./src/images/View.svg" alt=""></a>
+                                </div>
+                          </td>
+                            
+                        </tr>
+                        <tr class="hover:bg-crystal-blue">
+                          <td class="p-5  font-urbanist font-bold text-sm text-dark-black">
+                            12 Jan 2023
+                          </td>
+                          <td class="text-secondary py-6 px-6 font-urbanist font-semibold text-center text-sm">20</td>
+                          <td class="text-secondary p-5 font-urbanist font-semibold text-center text-sm">10</td>
+                          <td class="text-secondary text-center p-5 font-urbanist font-semibold text-sm">05</td>
+                          <td class="text-center px-5">
+                            <div class="w-12 h-10 bg-red-light text-red m-auto font-urbanist text-sm font-semibold  rounded flex items-center justify-center">60%</div>
+                          </td>
+                          <td class=" text-center py-2 px-3 ">
+                            <div class="flex items-center justify-center">
+                              <a href="#" class="sm:px-3 pr-3" ><img class="m-auto" src="./src/images/View.svg" alt=""></a>
+                             </div>
+                          </td>
+                          
+                      </tr>
+                      <tr class="hover:bg-crystal-blue">
+                        <td class="p-5 font-urbanist font-bold text-sm text-dark-black">
+                          12 Jan 2023
+                        </td>
+                        <td class="text-secondary py-5 px-6 font-urbanist font-semibold text-center text-sm">20</td>
+                        <td class="text-secondary p-5 font-urbanist font-semibold text-center text-sm">10</td>
+                        <td class="text-secondary text-center p-5 font-urbanist font-semibold text-sm">05</td>
+                        
+                        <td class="text-center px-5">
+                          <div class="w-12 h-10 bg-golden-bells text-golden-bell m-auto font-urbanist text-sm font-semibold  rounded flex items-center justify-center">80%</div>
+                        </td>
+                        <td class=" text-center py-2 px-3 ">
+                          <div class="flex items-center justify-center">
+                            <a href="#" class="sm:px-3 pr-3" ><img class="m-auto" src="./src/images/View.svg" alt=""></a>
+                           </div>
+                        </td>
+                        
+                    </tr>
+                  
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+     <!------- -------detail---view--first---end------------------------->
+
+ <!------- -------detail---view--second---------------------------->
+ <div class="details2 overflow-x-auto hidden shadow-md sm:rounded-lg">
+  <div class="inline-block w-full align-middle">
+ <div class="second-detail w-full overflow-x-auto ">
+              
+  <table class="departmentlistands stripe row-border order-column  w-full divide-y divide-gray-200  dark:divide-gray-700 overflow-x-auto" style="width: 100%;">
+   
+      <thead class="bg-crystal-blue  dark:bg-gray-700">
+          <tr>
+            <th scope="col" class="text-dark-blue bg-crystal-blue border-r border-gray-200   whitespace-nowrap px-1 py-9 font-urbanist font-bold text-xs">
+                <div class="flex justify-between">
+                  <h5 class="px-5">Student ID</h5>
+                  <h5 class="px-5">Student Name</h5>
+                </div>
+              </th>
+              <th scope="col" class="text-dark-blue border-r border-gray-200  whitespace-nowrap px-1 py-9 font-urbanist  rotate-90 font-medium text-xs">
+                01 (Mon)
+              </th>
+              <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist rotate-90 font-medium text-xs">
+                02 (Tue)
+              </th>
+              <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist  font-medium text-xs">
+                03 (Wed)
+              </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              04 (Thu)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              05 (Fri)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              06 (Sat)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              07 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              08 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              09 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              10 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              11 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 px-1 whitespace-nowrap py-9 rotate-90 font-urbanist font-medium text-xs">
+              12 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              13 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              14 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              15 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              16 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              17 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              18 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              19 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              20 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              21 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              22 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              23 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              24 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              25 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              26 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              27 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              28 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              29 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              30 (Sun)
+            </th>
+            <th scope="col" class="text-dark-blue border-r border-gray-200 whitespace-nowrap px-1 py-9 rotate-90 font-urbanist font-medium text-xs">
+              31 (Sun)
+            </th>
+          
+      
+          </tr>
+      </thead>
+      <tbody class="bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700">
+          <tr>
+            <th scope="col" class="border-r bg-white border-gray-200   whitespace-nowrap px-1 py-9 font-urbanist text-xs">
+              <div class="flex justify-between">
+                <h5 class="px-5 text-dark-black font-bold">#01</h5>
+                <h5 class="px-5 text-secondary font-semibold">Robin Lee</h5>
+              </div>
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+          
+          
+              
+          </tr>
+          <tr>
+            <th scope="col" class="border-r bg-white border-gray-200   whitespace-nowrap px-1 py-9 font-urbanist text-xs">
+              <div class="flex justify-between">
+                <h5 class="px-5 text-dark-black font-bold">#01</h5>
+                <h5 class="px-5 text-secondary font-semibold">Robin Lee</h5>
+              </div>
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+          
+          
+              
+          </tr>
+          <tr>
+            <th scope="col" class="border-r bg-white border-gray-200   whitespace-nowrap px-1 py-9 font-urbanist text-xs">
+              <div class="flex justify-between">
+                <h5 class="px-5 text-dark-black font-bold">#01</h5>
+                <h5 class="px-5 text-secondary font-semibold">Robin Lee</h5>
+              </div>
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+          
+          
+              
+          </tr>
+          <tr>
+            <th scope="col" class="border-r bg-white border-gray-200   whitespace-nowrap px-1 py-9 font-urbanist text-xs">
+              <div class="flex justify-between">
+                <h5 class="px-5 text-dark-black font-bold">#01</h5>
+                <h5 class="px-5 text-secondary font-semibold">Robin Lee</h5>
+              </div>
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+            <th scope="col" class="text-red border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              A
+            </th>
+            <th scope="col" class="text-light-green border-r border-gray-200 whitespace-nowrap px-1 py-9 font-urbanist font-semibold text-xs">
+              P 
+            </th>
+          
+          
+              
+          </tr>
+         
+    
+      </tbody>
+  </table>
+</div>
+  </div>
+ </div>
+<!------ -------detail---view--second-end---------------------------->
+
+      </div>
+<!-----------------monthly---page--end-------------------->
+
+
+
+<!------daily---page---start---------------------->
+
+      <div class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block" id="tabs-daily" role="tabpanel" aria-labelledby="tabs-daily-tab">
+      
+        <div class="border relative mt-3  border-white-grey rounded-lg">
+          <div class="  border-white-grey">
+      
+            <div class=" grid grid-cols-2 items-center md:grid-cols-3 xl:grid-cols-5 gap-4">
+              <div class="imge ">
+                <div class=" bg-white-grey pl-5 pt-5  top-0 xl:h-full left-0  w-44 rounded-md rounded-r-none">
+                  <img he="" src="./src/images/back-img.svg" class="h-full w-full">
+                 </div>
+               </div>
+               <div class="item flex items-center">
+                <div class="sec">
+                  <h4 class="font-urbanist text-lg mb-3 font-bold text-dark-black ">Subject Teacher</h4>
+                  <p class="text-secondary text-sm font-urbanist font-bold">Class and Section</p>
+                </div>
+              
+              </div>
+              
+              <div class="item xl:pl-6 ">
+                <label for="countries" class="block mb-2 font-urbanist text-semibold font-bold text-secondary dark:text-white">Date</label>
+<input type="date" class=" border border-gray-300 text-light-grey text-sm font-urbanist font-bold rounded min-w-downloadbtn h-10 p-2">
+
+               </div>
+               
+               <div class="item xl:pl-6">
+                <h6 class="font-urbanist mb-3 font-bold text-base text-secondary">At Risk Students</h6>
+                <div class="risk-students"> 
+                  <img src="src/images/stundent.png"  class="risk-students-user-list z-40">
+                  <img src="src/images/stundent2.png" class="risk-students-user-list z-30">
+                  <img src="src/images/stundent3.png" class="risk-students-user-list z-20">
+                  <img src="src/images/stundent4.png" class="risk-students-user-list z-10">
+                  <img src="src/images/stundent5.png" class="risk-students-user-list z-0">
+                  <a class="risk-students-user-list flex items-center justify-end text-sm font-medium font-urbanist text-dark-blue bg-dark-bluergba" href="#">5+</a>
+               </div> 
+              </div>
+              <div class="item xl:pl-6">
+                <button class="bg-red mb-5   xl:ml-0 text-white font-bold font-urbanist text-sm min-w-downloadbtn h-10 rounded ">
+                 Download Daily
+               </button>
+               <div class="select min-w-downloadbtn max-w-120 relative">
+
+                <select class="mt-2">
+                  <option> Subject Name </option>
+                  <option> Math</option>  
+                  <option> Chemistry</option>  
+                  <option> Physics</option>  
+                  <option> English</option>   
+                  </select> 
+                 </div>
+             </div>
+            
+              </div>
+             
+              
+            </div>
+           
+      
+      </div>
+       <div class="mt-3 overflow-x-auto shadow-md sm:rounded-lg">
+        <div class="inline-block w-full align-middle">
+         
+            <div class="first-detail overflow-x-auto ">
+              
+                <table class="w-full divide-y divide-gray-200 table-fixed dark:divide-gray-700">
+                 
+                    <thead class="bg-crystal-blue dark:bg-gray-700">
+                        <tr>
+                            <th scope="col" class="whitespace-nowrap p-5 bundle-table-th ">
+                              Student ID
+                            </th>
+                            <th scope="col" class="whitespace-nowrap text-dark-blue p-5 font-urbanist font-bold text-base ">
+                              Student Name
+                            </th>
+                            <th scope="col" class="whitespace-nowrap text-dark-blue p-5 font-urbanist font-bold text-base">
+                              Attendance
+                            </th>
+                            <th scope="col" class="whitespace-nowrap text-dark-blue p-5 font-urbanist font-bold text-base">
+                              Attendance %
+                            </th>
+                        <th scope="col" class="whitespace-nowrap text-dark-blue p-5 font-urbanist font-bold text-base ">
+                          Action
+                        </th>
+                        </tr>
+                        
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700">
+                        <tr class="hover:bg-crystal-blue">
+                            <td class="p-5  font-urbanist font-bold text-sm text-dark-black">
+                              #01
+                            </td>
+                            <td class="text-secondary py-5 px-6 font-urbanist font-semibold text-center text-sm">Robin Lee</td>
+                            <td class="text-secondary p-5 font-urbanist font-semibold text-center text-sm">Present</td>
+                              <td class=" text-center py-2 px-3">
+                                <div class="w-12 h-10 bg-light-greens text-light-green m-auto font-urbanist text-sm font-semibold  rounded flex items-center justify-center">90%</div>
+                            </td>
+                            <td class=" text-center py-2 px-3 ">
+                              <div class="flex items-center justify-center">
+                                <a href="#" class="sm:px-3 pr-3" ><img class="m-auto" src="./src/images/View.svg" alt=""></a>
+                              </div>
+                        </td>
+                            
+                        </tr>
+                        <tr class="hover:bg-crystal-blue">
+                          <td class="p-5  font-urbanist font-bold text-sm text-dark-black">
+                            #01
+                          </td>
+                          <td class="text-secondary py-5 px-6 font-urbanist font-semibold text-center text-sm">Robin Lee</td>
+                          <td class="text-secondary p-5 font-urbanist font-semibold text-center text-sm">Present</td>
+                            <td class=" text-center py-2 px-3">
+                            <div class="w-12 h-10 bg-red-light text-red m-auto font-urbanist text-sm font-semibold  rounded flex items-center justify-center">60%</div>
+                          </td>
+                          <td class=" text-center py-2 px-3 ">
+                            <div class="flex items-center justify-center">
+                              <a href="#" class="sm:px-3 pr-3" ><img class="m-auto" src="./src/images/View.svg" alt=""></a>
+                            </div>
+                      </td>
+                          
+                      </tr>
+                      <tr class="hover:bg-crystal-blue">
+                        <td class="p-5  font-urbanist font-bold text-sm text-dark-black">
+                          #01
+                        </td>
+                        <td class="text-secondary p-5 font-urbanist font-semibold text-center text-sm">Robin Lee</td>
+                        <td class="text-secondary p-5 font-urbanist font-semibold text-center text-sm">Present</td>
+                        
+                        
+                        <td class="text-center px-5">
+                          <div class="w-12 h-10 bg-golden-bells text-golden-bell m-auto font-urbanist text-sm font-semibold  rounded flex items-center justify-center">80%</div>
+                        </td>
+                        <td class=" text-center py-2 px-3 ">
+                          <div class="flex items-center justify-center">
+                            <a href="#" class="sm:px-3 pr-3" ><img class="m-auto" src="./src/images/View.svg" alt=""></a>
+                          </div>
+                    </td>
+                        
+                    </tr>
+                    <tr class="bg-pink">
+                      <td class="p-5  font-urbanist font-bold text-sm text-dark-black">
+                        #01
+                      </td>
+                      <td class="text-secondary py-5 px-6 font-urbanist font-semibold text-center text-sm">Robin Lee</td>
+                      <td class="text-secondary p-5 font-urbanist font-semibold text-center text-sm">Absent</td>
+                        <td class=" text-center py-2 px-3">
+                        <div class="w-12 h-10 bg-red-light text-red m-auto font-urbanist text-sm font-semibold  rounded flex items-center justify-center">60%</div>
+                      </td>
+                      <td class=" text-center py-2 px-3 ">
+                        <div class="flex items-center justify-center">
+                          <a href="#" class="sm:px-3 pr-3" ><img class="m-auto" src="./src/images/View.svg" alt=""></a>
+                         </div>
+                  </td>
+                      
+                  </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+
+             
+        </div>
+    </div>
+
+      </div>
+
+       <!------daily---page---start---------------------->
+
+       
+       </div>
+
+<!---main end--->
+</div>
+</div>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+   <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/chosen-js/chosen.jquery.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/fixedcolumns/4.2.2/js/dataTables.fixedColumns.min.js"></script>
+  <script src="node_modules/tw-elements/dist/js/index.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+  <script src="./src/js/admin.js"></script>
+
+
+ 
+</body>
+
+</html>

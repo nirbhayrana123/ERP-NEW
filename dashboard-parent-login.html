@@ -1,0 +1,1358 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+  <link rel="stylesheet" href="node_modules/chosen-js/chosen.css">
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+     <link href="dist/main.css" rel="stylesheet">
+
+</head>
+
+
+<body class="box-border ">
+  <!-- component -->
+
+  <div class=" w-full w-max-full">
+    <!---left sidbar start-->
+    <aside id="logo-sidebar" class="scrollbar mobileview left-menu z-1070">
+      <div class="  pb-12">
+       <a href="#" class="flex pb-10 pt-10 px-5 text-white">
+       <img src="./src/images/logo.svg">
+           </a>
+         <ul class="space-y-3 font-medium">
+            <li>
+               <a href="dashbord.html" class="navigation-link">
+                 <div class="w-8 "> <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   <path d="M8.85217 23.4348H15.5826C21.1913 23.4348 23.4348 21.1913 23.4348 15.5826V8.85217C23.4348 3.24348 21.1913 1 15.5826 1H8.85217C3.24348 1 1 3.24348 1 8.85217V15.5826C1 21.1913 3.24348 23.4348 8.85217 23.4348Z" stroke="#CACACA" stroke-width="1.68261" stroke-linecap="round" stroke-linejoin="round"/>
+                   <path d="M6.98259 12.8722H10.9087C11.2686 12.8722 11.563 12.5778 11.563 12.2179V6.98308C11.563 6.62319 11.2686 6.32874 10.9087 6.32874H6.98259C6.6227 6.32874 6.32825 6.62319 6.32825 6.98308V12.2179C6.32825 12.5778 6.6227 12.8722 6.98259 12.8722ZM6.98259 18.107H10.9087C11.2686 18.107 11.563 17.8125 11.563 17.4526V14.8353C11.563 14.4754 11.2686 14.1809 10.9087 14.1809H6.98259C6.6227 14.1809 6.32825 14.4754 6.32825 14.8353V17.4526C6.32825 17.8125 6.6227 18.107 6.98259 18.107ZM13.5261 18.107H17.4522C17.8121 18.107 18.1065 17.8125 18.1065 17.4526V12.2179C18.1065 11.858 17.8121 11.5635 17.4522 11.5635H13.5261C13.1662 11.5635 12.8717 11.858 12.8717 12.2179V17.4526C12.8717 17.8125 13.1662 18.107 13.5261 18.107ZM12.8717 6.98308V9.60047C12.8717 9.96037 13.1662 10.2548 13.5261 10.2548H17.4522C17.8121 10.2548 18.1065 9.96037 18.1065 9.60047V6.98308C18.1065 6.62319 17.8121 6.32874 17.4522 6.32874H13.5261C13.1662 6.32874 12.8717 6.62319 12.8717 6.98308Z" fill="#CACACA"/>
+                   </svg>
+                   </div>
+                  <span class=" ml-2">Dashboard</span>
+               </a>
+            </li>
+            <li>
+               <a href="#" class="navigation-link">
+                 <div class="w-8 ">
+                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   <path d="M8.85217 23.8696H15.5826C21.1913 23.8696 23.4348 21.6261 23.4348 16.0174V9.28699C23.4348 3.67829 21.1913 1.43481 15.5826 1.43481H8.85217C3.24348 1.43481 1 3.67829 1 9.28699V16.0174C1 21.6261 3.24348 23.8696 8.85217 23.8696Z" stroke="#CACACA" stroke-width="1.68261" stroke-linecap="round" stroke-linejoin="round"/>
+                   <path d="M14.4667 9.66816C14.4667 11.1139 13.2957 12.2848 11.85 12.2848C10.4043 12.2848 9.23337 11.1139 9.23337 9.66816L9.30532 9.05325L7.27087 8.03275L11.85 5.74316L16.4292 8.03275V11.3036H15.775V8.35983L14.3947 9.05325L14.4667 9.66816ZM11.85 13.5932C14.7414 13.5932 17.0834 14.7641 17.0834 16.2098V17.5182H6.6167V16.2098C6.6167 14.7641 8.95862 13.5932 11.85 13.5932Z" fill="#CACACA"/>
+                   </svg>
+                   </div>
+                    <span class=" ml-2">Profile </span>
+               </a>
+            </li>
+            <li>
+             <a href="#" id="dropdown-default-button"  class="navigation-link-active">
+               <div class="w-8 ">
+               <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <path d="M8.85217 23.3044H15.5826C21.1913 23.3044 23.4348 21.0609 23.4348 15.4522V8.7218C23.4348 3.11311 21.1913 0.869629 15.5826 0.869629H8.85217C3.24348 0.869629 1 3.11311 1 8.7218V15.4522C1 21.0609 3.24348 23.3044 8.85217 23.3044Z" stroke="#CACACA" stroke-width="1.68261" stroke-linecap="round" stroke-linejoin="round"/>
+                 <path d="M15.775 5.87366C15.1863 5.87366 14.4667 6.52782 14.4667 7.18199H9.23335C9.23335 6.52782 8.51377 5.87366 7.92502 5.87366H5.30835V11.7612C5.30835 12.4153 5.96252 13.0695 6.61668 13.0695H8.05585C8.31752 14.3778 9.16793 15.4899 11.1958 15.6862V17.0468C9.23335 17.3477 9.23335 18.957 9.23335 18.957H14.4667C14.4667 18.957 14.4667 17.3477 12.5042 17.0468V15.6862C14.5321 15.4899 15.3825 14.3778 15.6442 13.0695H17.0833C17.7375 13.0695 18.3917 12.4153 18.3917 11.7612V5.87366H15.775ZM7.92502 11.7612H6.61668V7.18199H7.92502V11.7612ZM17.0833 11.7612H15.775V7.18199H17.0833V11.7612Z" fill="#CACACA"/>
+                 </svg> 
+                 </div>
+                 <span class="ml-2">Fee Management</span>
+              </a>
+ 
+              <div id="dropdown" class="z-10 hidden  ">
+               <ul class=" ml-7  pl-2 pr-3 mt-2 border-l border-white">
+                 <li class="px-5 py-2.5">
+                   <a href="log-payment.html" class="submenu-link">Log Payment</a>
+                 </li>
+                 
+                 <li class="px-5 py-2.5">
+                   <a href="bundlewise-fee-collection-report.html" class="submenu-link-active">Download Report</a>
+                 </li>
+                 <li class="px-5 py-2.5">
+                   <a href="universal.html" class="submenu-link">Change Management</a>
+                 </li>
+                 <li class="px-5 py-2.5">
+                   <a href="concession-management.html" class="submenu-link">Concession Management</a>
+                 </li>
+               </ul>
+           </div>
+          </li>
+            <li>
+               <a href="#" class="navigation-link">
+                 <div class="w-8 ">
+                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   <path d="M8.85217 23.7391H15.5826C21.1913 23.7391 23.4348 21.4956 23.4348 15.8869V9.1565C23.4348 3.5478 21.1913 1.30432 15.5826 1.30432H8.85217C3.24348 1.30432 1 3.5478 1 9.1565V15.8869C1 21.4956 3.24348 23.7391 8.85217 23.7391Z" stroke="#CACACA" stroke-width="1.68261" stroke-linecap="round" stroke-linejoin="round"/>
+                   <path d="M10.8688 15.0091H12.8313V13.3737H14.4667V11.4112H12.8313V9.77577H10.8688V11.4112H9.23337V13.3737H10.8688V15.0091ZM11.85 19.2612C10.3345 18.8796 9.08356 18.01 8.09708 16.6524C7.11016 15.2952 6.6167 13.788 6.6167 12.1308V8.14036L11.85 6.17786L17.0834 8.14036V12.1308C17.0834 13.788 16.5901 15.2952 15.6036 16.6524C14.6167 18.01 13.3655 18.8796 11.85 19.2612Z" fill="#CACACA"/>
+                   </svg>
+                 </div>
+                    <span class=" ml-2">Health</span>
+               </a>
+            </li>
+            <li>
+               <a href="#" class="navigation-link">
+                 <div class="w-8 ">
+                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   <path d="M8.85217 23.9565H15.5826C21.1913 23.9565 23.4348 21.713 23.4348 16.1043V9.3739C23.4348 3.76521 21.1913 1.52173 15.5826 1.52173H8.85217C3.24348 1.52173 1 3.76521 1 9.3739V16.1043C1 21.713 3.24348 23.9565 8.85217 23.9565Z" stroke="#CACACA" stroke-width="1.68261" stroke-linecap="round" stroke-linejoin="round"/>
+                   <path d="M17.0833 6.17798H6.61668C5.8971 6.17798 5.31489 6.76673 5.31489 7.48631L5.30835 19.2613L7.92502 16.6446H17.0833C17.8029 16.6446 18.3917 16.0559 18.3917 15.3363V7.48631C18.3917 6.76673 17.8029 6.17798 17.0833 6.17798ZM12.5042 14.028H11.1958V12.7196H12.5042V14.028ZM12.5042 11.4113H11.1958V8.79465H12.5042V11.4113Z" fill="#CACACA"/>
+                   </svg>
+                 </div>
+                    <span class=" ml-2">Feedback &
+                   Observation</span>
+               </a>
+            </li>
+            <li>
+             <a href="#" class="navigation-link">
+               <div class="w-8 ">
+                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   <path d="M8.85217 23.9564H15.5826C21.1913 23.9564 23.4348 21.7129 23.4348 16.1042V9.37378C23.4348 3.76508 21.1913 1.52161 15.5826 1.52161H8.85217C3.24348 1.52161 1 3.76508 1 9.37378V16.1042C1 21.7129 3.24348 23.9564 8.85217 23.9564Z" stroke="#CACACA" stroke-width="1.68261" stroke-linecap="round" stroke-linejoin="round"/>
+                   <path d="M7.27086 18.607C6.91107 18.607 6.60295 18.479 6.34652 18.223C6.09052 17.9666 5.96252 17.6585 5.96252 17.2987V8.14035C5.96252 7.78056 6.09052 7.47244 6.34652 7.21601C6.60295 6.96001 6.91107 6.83201 7.27086 6.83201H10.0184C10.1601 6.43951 10.3973 6.12333 10.7301 5.88347C11.0624 5.64361 11.4357 5.52368 11.85 5.52368C12.2643 5.52368 12.6379 5.64361 12.9706 5.88347C13.3029 6.12333 13.54 6.43951 13.6817 6.83201H16.4292C16.789 6.83201 17.0971 6.96001 17.3535 7.21601C17.6095 7.47244 17.7375 7.78056 17.7375 8.14035V17.2987C17.7375 17.6585 17.6095 17.9666 17.3535 18.223C17.0971 18.479 16.789 18.607 16.4292 18.607H7.27086ZM8.57919 15.9903H13.1584V14.682H8.57919V15.9903ZM8.57919 13.3737H15.1209V12.0653H8.57919V13.3737ZM8.57919 10.757H15.1209V9.44868H8.57919V10.757ZM11.85 7.64972C11.9918 7.64972 12.1091 7.60328 12.202 7.51039C12.2944 7.41793 12.3406 7.30083 12.3406 7.1591C12.3406 7.01736 12.2944 6.90005 12.202 6.80716C12.1091 6.7147 11.9918 6.66847 11.85 6.66847C11.7083 6.66847 11.5912 6.7147 11.4987 6.80716C11.4058 6.90005 11.3594 7.01736 11.3594 7.1591C11.3594 7.30083 11.4058 7.41793 11.4987 7.51039C11.5912 7.60328 11.7083 7.64972 11.85 7.64972Z" fill="#CACACA"/>
+                   </svg>
+                   
+               </div>
+                  <span class=" ml-2">Syllabus &
+                   Assignments</span>
+             </a>
+          </li>
+          
+          <li>
+           <a href="#" class="navigation-link">
+             <div class="w-8 ">
+               <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <path d="M8.85217 23.9564H15.5826C21.1913 23.9564 23.4348 21.7129 23.4348 16.1042V9.37378C23.4348 3.76508 21.1913 1.52161 15.5826 1.52161H8.85217C3.24348 1.52161 1 3.76508 1 9.37378V16.1042C1 21.7129 3.24348 23.9564 8.85217 23.9564Z" stroke="#CACACA" stroke-width="1.68261" stroke-linecap="round" stroke-linejoin="round"/>
+                 <path d="M17.0834 10.1029L13.1584 6.17786H7.92503C7.57804 6.17786 7.24526 6.3157 6.9999 6.56106C6.75454 6.80642 6.6167 7.1392 6.6167 7.48619V17.9529C6.6167 18.2998 6.75454 18.6326 6.9999 18.878C7.24526 19.1233 7.57804 19.2612 7.92503 19.2612H15.775C16.122 19.2612 16.4548 19.1233 16.7002 18.878C16.9455 18.6326 17.0834 18.2998 17.0834 17.9529V10.1029ZM9.88753 17.2987H8.5792V11.4112H9.88753V17.2987ZM12.5042 17.2987H11.1959V13.3737H12.5042V17.2987ZM15.1209 17.2987H13.8125V15.3362H15.1209V17.2987ZM13.1584 10.757H12.5042V7.48619L15.775 10.757H13.1584Z" fill="#CACACA"/>
+                 </svg>
+                 
+                 
+             </div>
+                <span class=" ml-2">Results &
+                 Report Cards</span>
+           </a>
+        </li>
+        <li>
+         <a href="#" class="navigation-link">
+           <div class="w-8 ">
+             <svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.85217 24.1739H15.5826C21.1913 24.1739 23.4348 21.9304 23.4348 16.3217V9.59131C23.4348 3.98261 21.1913 1.73914 15.5826 1.73914H8.85217C3.24348 1.73914 1 3.98261 1 9.59131V16.3217C1 21.9304 3.24348 24.1739 8.85217 24.1739Z" stroke="#CACACA" stroke-width="1.68261" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M11.85 7.70349H7.27085C6.75036 7.70349 6.25119 7.91025 5.88315 8.27829C5.51511 8.64633 5.30835 9.1455 5.30835 9.66599V14.8993C5.30835 15.4198 5.51511 15.919 5.88315 16.287C6.25119 16.6551 6.75036 16.8618 7.27085 16.8618L6.61668 17.516V18.1702H7.27085L8.57918 16.8422L9.88752 16.8618V13.591H6.61668V9.01182H12.5042V10.3202H13.8125V9.66599C13.8125 9.1455 13.6058 8.64633 13.2377 8.27829C12.8697 7.91025 12.3705 7.70349 11.85 7.70349ZM7.27085 14.2452C7.44435 14.2452 7.61073 14.3141 7.73342 14.4368C7.8561 14.5594 7.92502 14.7258 7.92502 14.8993C7.92502 15.0728 7.8561 15.2392 7.73342 15.3619C7.61073 15.4846 7.44435 15.5535 7.27085 15.5535C7.09735 15.5535 6.93096 15.4846 6.80828 15.3619C6.6856 15.2392 6.61668 15.0728 6.61668 14.8993C6.61668 14.7258 6.6856 14.5594 6.80828 14.4368C6.93096 14.3141 7.09735 14.2452 7.27085 14.2452ZM17.4562 11.4061C17.3646 11.1444 17.1161 10.9743 16.8217 10.9743H12.1182C11.8173 10.9743 11.5753 11.1444 11.4771 11.4061L10.5417 14.0947V17.6992C10.5417 17.9477 10.751 18.1702 10.9996 18.1702H11.4052C11.6538 18.1702 11.85 17.9216 11.85 17.673V16.8618H17.0833V17.673C17.0833 17.9216 17.2861 18.1702 17.5347 18.1702H17.9338C18.1823 18.1702 18.3917 17.9477 18.3917 17.6992V14.0947L17.4562 11.4061ZM12.1182 11.6285H16.8217L17.4955 13.591H11.4444L12.1182 11.6285ZM11.85 15.5535C11.6765 15.5535 11.5101 15.4846 11.3875 15.3619C11.2648 15.2392 11.1958 15.0728 11.1958 14.8993C11.1958 14.7258 11.2648 14.5594 11.3875 14.4368C11.5101 14.3141 11.6765 14.2452 11.85 14.2452C12.0235 14.2452 12.1899 14.3141 12.3126 14.4368C12.4353 14.5594 12.5042 14.7258 12.5042 14.8993C12.5042 15.0728 12.4353 15.2392 12.3126 15.3619C12.1899 15.4846 12.0235 15.5535 11.85 15.5535ZM17.0833 15.5535C16.9099 15.5535 16.7435 15.4846 16.6208 15.3619C16.4981 15.2392 16.4292 15.0728 16.4292 14.8993C16.4292 14.7258 16.4981 14.5594 16.6208 14.4368C16.7435 14.3141 16.9099 14.2452 17.0833 14.2452C17.2568 14.2452 17.4232 14.3141 17.5459 14.4368C17.6686 14.5594 17.7375 14.7258 17.7375 14.8993C17.7375 15.0728 17.6686 15.2392 17.5459 15.3619C17.4232 15.4846 17.2568 15.5535 17.0833 15.5535Z" fill="#CACACA"/>
+               </svg>
+               
+           </div>
+              <span class=" ml-2">Transport</span>
+         </a>
+      </li>
+      <li>
+       <a href="#" class="navigation-link">
+         <div class="w-8 ">
+           <svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <path d="M8.85217 24.1739H15.5826C21.1913 24.1739 23.4348 21.9304 23.4348 16.3217V9.59131C23.4348 3.98261 21.1913 1.73914 15.5826 1.73914H8.85217C3.24348 1.73914 1 3.98261 1 9.59131V16.3217C1 21.9304 3.24348 24.1739 8.85217 24.1739Z" stroke="#CACACA" stroke-width="1.68261" stroke-linecap="round" stroke-linejoin="round"/>
+             <path d="M11.85 8.52119C10.7829 8.52142 9.73986 8.83796 8.85265 9.4308C7.96544 10.0237 7.27388 10.8662 6.86538 11.852C6.45687 12.8377 6.34976 13.9225 6.55756 14.9691C6.76537 16.0157 7.27877 16.9773 8.03289 17.7322C8.17082 17.8704 8.2482 18.0577 8.24802 18.2529C8.24784 18.4482 8.1701 18.6354 8.03191 18.7733C7.89372 18.9112 7.7064 18.9886 7.51115 18.9884C7.31591 18.9882 7.12873 18.9105 6.9908 18.7723C6.03082 17.8114 5.37725 16.5875 5.11273 15.2553C4.8482 13.9231 4.98459 12.5423 5.50466 11.2876C6.02472 10.0328 6.90511 8.96046 8.03453 8.20599C9.16396 7.45152 10.4917 7.04883 11.85 7.04883C13.2082 7.04883 14.536 7.45152 15.6654 8.20599C16.7948 8.96046 17.6752 10.0328 18.1953 11.2876C18.7153 12.5423 18.8517 13.9231 18.5872 15.2553C18.3227 16.5875 17.6691 17.8114 16.7091 18.7723C16.6412 18.8426 16.5601 18.8987 16.4703 18.9373C16.3805 18.976 16.284 18.9963 16.1863 18.9972C16.0885 18.9981 15.9916 18.9795 15.9012 18.9426C15.8107 18.9056 15.7285 18.851 15.6594 18.7819C15.5902 18.7129 15.5356 18.6307 15.4985 18.5403C15.4615 18.4499 15.4428 18.353 15.4436 18.2552C15.4444 18.1575 15.4647 18.0609 15.5032 17.9711C15.5417 17.8813 15.5977 17.8001 15.668 17.7322C16.4222 16.9772 16.9356 16.0156 17.1434 14.9689C17.3511 13.9221 17.2439 12.8373 16.8353 11.8515C16.4267 10.8657 15.735 10.0232 14.8476 9.43039C13.9603 8.83762 12.9171 8.52122 11.85 8.52119ZM11.85 12.4462C11.4596 12.4462 11.0852 12.6013 10.8092 12.8773C10.5332 13.1533 10.3781 13.5277 10.3781 13.9181C10.3781 14.3084 10.5332 14.6828 10.8092 14.9588C11.0852 15.2349 11.4596 15.3899 11.85 15.3899C12.2403 15.3899 12.6147 15.2349 12.8907 14.9588C13.1668 14.6828 13.3218 14.3084 13.3218 13.9181C13.3218 13.5277 13.1668 13.1533 12.8907 12.8773C12.6147 12.6013 12.2403 12.4462 11.85 12.4462ZM9.15152 13.9181C9.1515 13.4744 9.26089 13.0375 9.46999 12.6462C9.67909 12.2549 9.98146 11.9212 10.3503 11.6746C10.7192 11.4281 11.1431 11.2762 11.5847 11.2326C12.0262 11.189 12.4717 11.2549 12.8816 11.4245C13.2916 11.5942 13.6534 11.8623 13.9351 12.2051C14.2167 12.5479 14.4094 12.9549 14.4962 13.39C14.583 13.8251 14.5612 14.2749 14.4327 14.6996C14.3042 15.1242 14.073 15.5107 13.7595 15.8246C13.6215 15.9628 13.5442 16.1501 13.5443 16.3454C13.5445 16.5406 13.6223 16.7278 13.7604 16.8657C13.8986 17.0037 14.086 17.0811 14.2812 17.0809C14.4764 17.0807 14.6636 17.0029 14.8016 16.8648C15.3841 16.2813 15.7807 15.5382 15.9411 14.7294C16.1015 13.9206 16.0185 13.0824 15.7027 12.3208C15.3869 11.5591 14.8523 10.9082 14.1667 10.4502C13.481 9.99227 12.675 9.74784 11.8504 9.74784C11.0259 9.74784 10.2199 9.99227 9.53421 10.4502C8.84854 10.9082 8.31402 11.5591 7.99819 12.3208C7.68236 13.0824 7.5994 13.9206 7.7598 14.7294C7.92019 15.5382 8.31674 16.2813 8.89934 16.8648C8.96671 16.9371 9.04796 16.9951 9.13823 17.0353C9.22851 17.0755 9.32596 17.0971 9.42477 17.0989C9.52359 17.1006 9.62174 17.0824 9.71338 17.0454C9.80502 17.0084 9.88826 16.9533 9.95814 16.8834C10.028 16.8136 10.0831 16.7303 10.1201 16.6387C10.1571 16.547 10.1753 16.4489 10.1736 16.3501C10.1718 16.2513 10.1502 16.1538 10.11 16.0635C10.0698 15.9733 10.0118 15.892 9.93946 15.8246C9.68902 15.5744 9.4905 15.2771 9.35528 14.95C9.22006 14.6228 9.15081 14.2721 9.15152 13.9181Z" fill="#CACACA"/>
+             </svg>
+             
+         </div>
+            <span class=" ml-2">Communication</span>
+       </a>
+    </li>
+         </ul>
+      </div>
+      <button  id="close-sidebar" class="h-10 w-10  lg:hidden  z-40 absolute right-10 mt-0 -mr-10 flex items-center shadow rounded-lg bg-cerulean-blue  justify-center cursor-pointer top-0 text-white" >
+       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+         <path stroke="none" d="M0 0h24v24H0z"></path>
+         <line x1="18" y1="6" x2="6" y2="18"></line>
+         <line x1="6" y1="6" x2="18" y2="18"></line>
+       </svg>
+     </button>
+   </aside>
+  <!---left sidbar end-->
+   <!---overlay start --->
+ <div class="fixed inset-0 z-20 bg-gray-900/50 dark:bg-gray-900/60  hidden" id="sidebar-backdrop"></div>
+ <!---overlay end--->
+ 
+   <!---main start--->
+ <div class=" lg:ml-60 ml-0 relative ">
+   <!---top bar start --->
+   <div class="fixed top-0  lg:ml-60  z-1070     left-0 right-0 shadow-sm bg-white lg:rounded-tr-3xl">
+     <div>
+       <div class="flex  justify-between">
+         <div class="flex items-center h-16 justify-start w-full">
+           <button class="logo-sidebar inline-flex items-center p-2 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+               
+               <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
+               </svg>
+            </button>
+   
+ <div class="flex-1 items-center">   
+   <div class="relative w-full pl-5">
+       <div class="absolute inset-y-0 left-0 flex items-center pl-8 pointer-events-none">
+         <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path d="M16.031 14.617L20.314 18.899L18.899 20.314L14.617 16.031C13.0237 17.3082 11.042 18.0029 9 18C4.032 18 0 13.968 0 9C0 4.032 4.032 0 9 0C13.968 0 18 4.032 18 9C18.0029 11.042 17.3082 13.0237 16.031 14.617ZM14.025 13.875C15.2941 12.5699 16.0029 10.8204 16 9C16 5.132 12.867 2 9 2C5.132 2 2 5.132 2 9C2 12.867 5.132 16 9 16C10.8204 16.0029 12.5699 15.2941 13.875 14.025L14.025 13.875Z" fill="#6A6A6A"/>
+           </svg>
+           
+       </div>
+       <input type="text" id="simple-search" class="bg-transparent focus:outline-none focus:shadow-none font-urbanist font-medium   text-gray-500 text-base   block w-full pl-12 p-2.5   placeholder-white-grey  " placeholder="Search Directory">
+   </div>
+  
+ </div>
+ 
+ <div  data-te-toggle="modal"
+ data-te-target="#rightTopModal"
+ data-te-ripple-init class="h-full w-20 border-x  cursor-pointer bg-white border-white-grey flex items-center justify-center relative">
+   <svg width="20" height="22" viewBox="0 0 20 22" class="hover:fill-dark-blue hover:stroke-dark-blue " fill="none" xmlns="http://www.w3.org/2000/svg">
+     <path d="M10 21.8533C10.42 21.8437 10.823 21.6858 11.1378 21.4076C11.4525 21.1294 11.6588 20.7489 11.72 20.3333H8.21338C8.27636 20.7602 8.49226 21.1497 8.82091 21.4293C9.14957 21.7089 9.56859 21.8596 10 21.8533Z" fill="#1F306E"/>
+     <path d="M19.9001 17.7533L19.6734 17.5533C19.0304 16.9804 18.4676 16.3234 18.0001 15.6C17.4896 14.6017 17.1836 13.5115 17.1001 12.3933V9.09999C17.0974 8.69995 17.0617 8.30082 16.9934 7.90665C15.8642 7.67454 14.8498 7.05933 14.1221 6.16517C13.3944 5.27101 12.998 4.15285 13.0001 2.99999V2.57999C12.3041 2.23744 11.5562 2.01219 10.7868 1.91332V1.07332C10.7868 0.837276 10.693 0.610902 10.5261 0.443994C10.3592 0.277087 10.1328 0.183319 9.89678 0.183319C9.66074 0.183319 9.43436 0.277087 9.26746 0.443994C9.10055 0.610902 9.00678 0.837276 9.00678 1.07332V1.94665C7.28393 2.18969 5.70716 3.04782 4.56759 4.36261C3.42803 5.6774 2.8026 7.36008 2.80678 9.09999V12.3933C2.72328 13.5115 2.4173 14.6017 1.90678 15.6C1.44737 16.3216 0.893577 16.9785 0.260114 17.5533L0.0334473 17.7533V19.6333H19.9001V17.7533Z" fill="#1F306E"/>
+     </svg>
+     
+   <div
+     class="absolute w-2 h-2 rounded-full bg-red text-white text-xs left-11 top-5 flex justify-center items-center">
+   </div>
+ </div>
+ <div class="h-full w-20 border-r border-white-grey  cursor-pointer bg-white  flex items-center justify-center">
+   <svg width="24" height="24" viewBox="0 0 24 24" class="hover:fill-dark-blue hover:stroke-dark-blue " fill="none" xmlns="http://www.w3.org/2000/svg">
+     <path d="M12.0116 9.15468C11.3108 9.15468 10.6546 9.42655 10.1577 9.92343C9.66317 10.4203 9.38895 11.0766 9.38895 11.7773C9.38895 12.4781 9.66317 13.1344 10.1577 13.6312C10.6546 14.1258 11.3108 14.4 12.0116 14.4C12.7124 14.4 13.3686 14.1258 13.8655 13.6312C14.36 13.1344 14.6343 12.4781 14.6343 11.7773C14.6343 11.0766 14.36 10.4203 13.8655 9.92343C13.6228 9.67887 13.334 9.48498 13.0157 9.35301C12.6974 9.22104 12.3561 9.15362 12.0116 9.15468ZM21.6749 14.6742L20.1421 13.3641C20.2147 12.9187 20.2522 12.4641 20.2522 12.0117C20.2522 11.5594 20.2147 11.1023 20.1421 10.6594L21.6749 9.34921C21.7907 9.25008 21.8736 9.11806 21.9125 8.97069C21.9514 8.82332 21.9446 8.66759 21.8929 8.52421L21.8718 8.46327C21.4499 7.28364 20.8178 6.1902 20.0061 5.23593L19.964 5.18671C19.8654 5.07081 19.734 4.9875 19.5872 4.94776C19.4403 4.90801 19.2849 4.91369 19.1413 4.96405L17.2382 5.64139C16.535 5.06483 15.7522 4.61014 14.9038 4.29374L14.5358 2.30389C14.5081 2.15399 14.4353 2.01609 14.3273 1.9085C14.2193 1.80091 14.0811 1.72873 13.9311 1.70155L13.8679 1.68983C12.6491 1.46952 11.3647 1.46952 10.146 1.68983L10.0827 1.70155C9.93269 1.72873 9.79451 1.80091 9.6865 1.9085C9.57849 2.01609 9.50578 2.15399 9.47801 2.30389L9.1077 4.30311C8.2673 4.62204 7.48441 5.07563 6.78973 5.64608L4.87255 4.96405C4.72903 4.91329 4.57346 4.9074 4.42652 4.94717C4.27958 4.98695 4.14821 5.07049 4.04989 5.18671L4.0077 5.23593C3.19745 6.19121 2.56553 7.28438 2.14208 8.46327L2.12098 8.52421C2.01551 8.81718 2.10223 9.1453 2.33895 9.34921L3.89051 10.6734C3.81786 11.1141 3.7827 11.5641 3.7827 12.0094C3.7827 12.4594 3.81786 12.9094 3.89051 13.3453L2.34364 14.6695C2.22785 14.7686 2.14497 14.9007 2.10604 15.048C2.0671 15.1954 2.07395 15.3511 2.12567 15.4945L2.14676 15.5555C2.57098 16.7344 3.19676 17.8242 4.01239 18.7828L4.05458 18.832C4.15314 18.9479 4.28451 19.0312 4.43136 19.071C4.57822 19.1107 4.73367 19.105 4.87723 19.0547L6.79442 18.3726C7.49286 18.9469 8.27098 19.4016 9.11239 19.7156L9.4827 21.7148C9.51046 21.8647 9.58318 22.0026 9.69119 22.1102C9.79919 22.2178 9.93738 22.29 10.0874 22.3172L10.1507 22.3289C11.3814 22.5504 12.6418 22.5504 13.8725 22.3289L13.9358 22.3172C14.0858 22.29 14.224 22.2178 14.332 22.1102C14.44 22.0026 14.5128 21.8647 14.5405 21.7148L14.9085 19.725C15.7569 19.4062 16.5397 18.9539 17.2429 18.3773L19.146 19.0547C19.2895 19.1054 19.4451 19.1113 19.592 19.0716C19.739 19.0318 19.8703 18.9482 19.9686 18.832L20.0108 18.7828C20.8265 17.8195 21.4522 16.7344 21.8765 15.5555L21.8975 15.4945C21.9983 15.2039 21.9116 14.8781 21.6749 14.6742ZM12.0116 15.8976C9.73583 15.8976 7.8913 14.0531 7.8913 11.7773C7.8913 9.50155 9.73583 7.65702 12.0116 7.65702C14.2874 7.65702 16.1319 9.50155 16.1319 11.7773C16.1319 14.0531 14.2874 15.8976 12.0116 15.8976Z" fill="#1F306E"/>
+     </svg>
+     
+ </div>
+ 
+ <div class="h-full min-w-20 px-3 border-x border-white-grey bg-white relative cursor-pointer flex flex-col justify-center items-center">
+   <div class="avtar relative">
+   <img src="./src/images/alumni.png" alt="avatar1" class="rounded-full w-8 h-8 mt-2" />
+   <div
+   class="absolute  w-5 h-5 rounded-full bg-red text-white sm:text-xs text-xsm   left-6 sm:top-4 top-1 flex font-urbanist justify-center items-center">
+   05</div>
+ </div>
+   <p class="text-light-grey font-urbanist font-semibold sm:text-xs text-xsm mb-0 rounded-sm  py-2 ">Alumni</p>
+   
+ </div>
+
+
+
+
+ <div class="h-full min-w-20 px-3 lg:rounded-tr-3xl bg-white relative cursor-pointer flex flex-col justify-center items-center" data-te-dropdown-ref>
+
+  <div class="relative" id="user"
+  role="button"
+  data-te-dropdown-toggle-ref
+  aria-expanded="false">
+     <img src="./src/images/avtar.png" alt="avatar1" class="rounded-full w-8 h-8 mt-2" />
+     <div
+     class="absolute  w-5 h-5 rounded-full bg-red text-white sm:text-xs text-xsm   left-6 sm:top-4 top-1 flex font-urbanist justify-center items-center">
+     05</div>
+   </div>
+ 
+   <p class="text-light-grey font-urbanist font-semibold sm:text-xs text-xsm mb-0 rounded-sm border-b-4 py-2 border-dark-blue">Student</p>
+
+
+
+   <div
+   class="absolute z-1050 float-left m-0 hidden min-w-300 list-none overflow-hidden rounded-lg border-none bg-white bg-clip-padding text-left  shadow-xl  [&[data-te-dropdown-show]]:block "
+   aria-labelledby="user"
+   data-te-dropdown-menu-ref>
+   <!-- Second dropdown menu items -->
+   <div data-te-dropdown-item-ref class="flex items-center border-b pt-5 px-5 pb-3 border-white-grey cursor-pointer"  >
+    <img src="./src/images/avtar.png">
+    <div class="pl-2">
+      <h4 class="font-urbanist text-sm text-dark-black font-semibold leading-5">Student Name</h4>
+      <p class="font-medium font-urbanist text-xs text-secondary">Role Here</p>
+    </div>
+   </div>
+
+
+   <ul class="py-4 px-2.5 profiles">
+<li>
+  <a href="#" class="flex items-center  hover:bg-silver-white hover:text-dark-blue font-urbanist font-bold rounded-lg text-sm py-2 px-2.5 text-secondary">
+    <span class="mr-4">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 19C14.9705 19 19 14.9705 19 10C19 5.0295 14.9705 1 10 1C5.0295 1 1 5.0295 1 10C1 14.9705 5.0295 19 10 19ZM10 20C15.523 20 20 15.523 20 10C20 4.477 15.523 0 10 0C4.477 0 0 4.477 0 10C0 15.523 4.477 20 10 20Z" fill="#6A6A6A"/>
+        <path d="M4 15.8149C4 15.2984 4.386 14.8619 4.9 14.8049C8.7575 14.3779 11.26 14.4164 15.109 14.8144C15.3012 14.8346 15.4834 14.9103 15.6333 15.0323C15.7831 15.1543 15.8942 15.3173 15.953 15.5014C16.0117 15.6856 16.0156 15.8828 15.9641 16.0691C15.9126 16.2554 15.808 16.4226 15.663 16.5504C11.1205 20.5099 8.5245 20.4554 4.32 16.5544C4.115 16.3644 4 16.0939 4 15.8149Z" fill="#6A6A6A"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0575 15.3114C11.239 14.9164 8.7725 14.8794 4.9545 15.3019C4.82882 15.3165 4.71296 15.377 4.6291 15.4718C4.54524 15.5665 4.49928 15.6889 4.5 15.8154C4.5 15.9584 4.5595 16.0939 4.66 16.1879C6.744 18.1209 8.323 18.9944 9.8665 18.9999C11.4155 19.0054 13.0795 18.1389 15.3345 16.1739C15.4061 16.1101 15.4577 16.0269 15.483 15.9344C15.5082 15.8419 15.506 15.744 15.4767 15.6527C15.4473 15.5614 15.3921 15.4806 15.3177 15.4201C15.2433 15.3596 15.1529 15.3215 15.0575 15.3114ZM4.845 14.3079C8.743 13.8764 11.282 13.9154 15.161 14.3169C15.4502 14.3471 15.7242 14.4609 15.9497 14.6445C16.1751 14.828 16.3422 15.0733 16.4304 15.3503C16.5185 15.6274 16.524 15.9241 16.4462 16.2042C16.3683 16.4843 16.2105 16.7356 15.992 16.9274C13.7045 18.9214 11.7995 20.0074 9.8635 19.9999C7.922 19.9929 6.101 18.8884 3.9805 16.9209C3.82868 16.7795 3.70765 16.6083 3.62497 16.418C3.5423 16.2277 3.49976 16.0224 3.5 15.8149C3.49927 15.4421 3.6361 15.0822 3.88429 14.804C4.13247 14.5258 4.47455 14.3495 4.845 14.3079Z" fill="#6A6A6A"/>
+        <path d="M14 8C14 9.06087 13.5786 10.0783 12.8284 10.8284C12.0783 11.5786 11.0609 12 10 12C8.93913 12 7.92172 11.5786 7.17157 10.8284C6.42143 10.0783 6 9.06087 6 8C6 6.93913 6.42143 5.92172 7.17157 5.17157C7.92172 4.42143 8.93913 4 10 4C11.0609 4 12.0783 4.42143 12.8284 5.17157C13.5786 5.92172 14 6.93913 14 8Z" fill="#6A6A6A"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 11C10.7956 11 11.5587 10.6839 12.1213 10.1213C12.6839 9.55871 13 8.79565 13 8C13 7.20435 12.6839 6.44129 12.1213 5.87868C11.5587 5.31607 10.7956 5 10 5C9.20435 5 8.44129 5.31607 7.87868 5.87868C7.31607 6.44129 7 7.20435 7 8C7 8.79565 7.31607 9.55871 7.87868 10.1213C8.44129 10.6839 9.20435 11 10 11ZM10 12C11.0609 12 12.0783 11.5786 12.8284 10.8284C13.5786 10.0783 14 9.06087 14 8C14 6.93913 13.5786 5.92172 12.8284 5.17157C12.0783 4.42143 11.0609 4 10 4C8.93913 4 7.92172 4.42143 7.17157 5.17157C6.42143 5.92172 6 6.93913 6 8C6 9.06087 6.42143 10.0783 7.17157 10.8284C7.92172 11.5786 8.93913 12 10 12Z" fill="#6A6A6A"/>
+        </svg>
+        
+      </span>
+      Profile
+  </a>
+</li>
+<li>
+  <a href="#" class="flex items-center font-urbanist rounded-lg hover:bg-silver-white hover:text-dark-blue font-bold text-sm py-2 px-2.5 text-secondary">
+    <span class="mr-4"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clip-path="url(#clip0_5235_34680)">
+      <path d="M17.6 17.6H16V16H17.6V17.6ZM12.8 17.6H14.4V16H12.8V17.6ZM20.8 17.6H19.2V16H20.8V17.6Z" fill="#6A6A6A"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M4.8 9.6V5.6C4.8 4.8646 4.94485 4.1364 5.22627 3.45697C5.5077 2.77755 5.92019 2.16021 6.4402 1.6402C6.96021 1.12019 7.57755 0.707701 8.25697 0.426275C8.9364 0.144848 9.6646 0 10.4 0C11.1354 0 11.8636 0.144848 12.543 0.426275C13.2225 0.707701 13.8398 1.12019 14.3598 1.6402C14.8798 2.16021 15.2923 2.77755 15.5737 3.45697C15.8552 4.1364 16 4.8646 16 5.6V9.6H18.4C19.0365 9.6 19.647 9.85286 20.0971 10.3029C20.5471 10.753 20.8 11.3635 20.8 12V12.88C21.7042 13.0636 22.5172 13.5542 23.1011 14.2686C23.685 14.983 24.004 15.8773 24.004 16.8C24.004 17.7227 23.685 18.617 23.1011 19.3314C22.5172 20.0458 21.7042 20.5364 20.8 20.72V21.6C20.8 22.2365 20.5471 22.847 20.0971 23.2971C19.647 23.7471 19.0365 24 18.4 24H2.4C1.76348 24 1.15303 23.7471 0.702944 23.2971C0.252856 22.847 0 22.2365 0 21.6L0 12C0 11.3635 0.252856 10.753 0.702944 10.3029C1.15303 9.85286 1.76348 9.6 2.4 9.6H4.8ZM6.4 5.6C6.4 4.53913 6.82143 3.52172 7.57157 2.77157C8.32172 2.02143 9.33913 1.6 10.4 1.6C11.4609 1.6 12.4783 2.02143 13.2284 2.77157C13.9786 3.52172 14.4 4.53913 14.4 5.6V9.6H6.4V5.6ZM13.6 14.4C12.9635 14.4 12.353 14.6529 11.9029 15.1029C11.4529 15.553 11.2 16.1635 11.2 16.8C11.2 17.4365 11.4529 18.047 11.9029 18.4971C12.353 18.9471 12.9635 19.2 13.6 19.2H20C20.6365 19.2 21.247 18.9471 21.6971 18.4971C22.1471 18.047 22.4 17.4365 22.4 16.8C22.4 16.1635 22.1471 15.553 21.6971 15.1029C21.247 14.6529 20.6365 14.4 20 14.4H13.6Z" fill="#6A6A6A"/>
+      </g>
+      <defs>
+      <clipPath id="clip0_5235_34680">
+      <rect width="24" height="24" fill="white"/>
+      </clipPath>
+      </defs>
+      </svg>
+      </span>
+      Change Password
+  </a>
+</li>
+
+<hr class="my-4 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
+<li>
+  <a href="#" class="flex items-center font-urbanist rounded-lg hover:bg-silver-white hover:text-dark-blue font-bold text-sm py-2 px-2.5 text-secondary">
+    <span class="mr-4">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6 2H15C15.5304 2 16.0391 2.21071 16.4142 2.58579C16.7893 2.96086 17 3.46957 17 4V6H15V4H6V20H15V18H17V20C17 20.5304 16.7893 21.0391 16.4142 21.4142C16.0391 21.7893 15.5304 22 15 22H6C5.46957 22 4.96086 21.7893 4.58579 21.4142C4.21071 21.0391 4 20.5304 4 20V4C4 3.46957 4.21071 2.96086 4.58579 2.58579C4.96086 2.21071 5.46957 2 6 2Z" fill="#6A6A6A"/>
+        <path d="M16.09 15.59L17.5 17L22.5 12L17.5 7L16.09 8.41L18.67 11H9V13H18.67L16.09 15.59Z" fill="#6A6A6A"/>
+        </svg>
+        
+      </span>
+      Log Out
+  </a>
+</li>
+   </ul>
+   
+  </div>
+
+
+
+
+  </div>
+ </div>
+ </div>
+ 
+         </div>
+        
+       </div>
+    <!---top bar end--->
+<div class="p-4 bg-grey-color mt-16 ">
+   <div class="flex flex-wrap mt-3 ">
+    <div class="w-full max-w-full px-2.5 mt-0 lg:w-8/12 lg:flex-none">
+    <div class="  shadow-sm relative flex min-w-0 flex-col break-words rounded-2xl  bg-white bg-clip-border">
+    <div class=" mb-0 rounded-t-2xl   p-4 pt-4 pb-0 flex justify-between items-center ">
+    <h6 class="title-heading">My Timetable</h6>
+    <div class="flex">
+      <div class="flex bg-dark-bluergba rounded-lg transition p-1.5">
+        <ul
+        class="flex items-center   w-28  transition"
+        role="tablist"
+        data-te-nav-ref>
+        <li role="presentation">
+          <a
+            href="#tabs-home"
+            class="tab-link    py-2 px-4 inline-flex items-center gap-2 bg-transparent text-small font-medium rounded-md text-dark-blue
+            data-[te-nav-active]:text-white data-[te-nav-active]:bg-dark-blue"
+            data-te-toggle="pill"
+            data-te-target="#tabs-home"
+            data-te-nav-active
+            role="tab"
+            aria-controls="tabs-home"
+            aria-selected="true"
+            >Day</a
+          >
+        </li>
+        <li role="presentation">
+          <a
+            href="#tabs-profile"
+            class="tab-link    py-2 px-4 inline-flex items-center gap-2 bg-transparent text-small font-medium rounded-md text-dark-blue
+            data-[te-nav-active]:text-white data-[te-nav-active]:bg-dark-blue"
+            data-te-toggle="pill"
+            data-te-target="#tabs-profile"
+            role="tab"
+            aria-controls="tabs-profile"
+            aria-selected="false"
+            >Week</a
+          >
+        </li>
+        
+      </ul>
+      </div>
+    </div>
+    </div>
+  
+    <div class="mt-4">
+      <div
+        class="hidden opacity-100 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
+        id="tabs-home"
+        role="tabpanel"
+        aria-labelledby="tabs-home-tab"
+        data-te-tab-active>
+        <div class="relative overflow-x-auto">
+          <div class="flex items-center justify-between">
+            <div class="px-2 py-2 flex items-center justify-center  w-10 text-center bg-dark-bluergba  ">
+              <a href="#" class="block"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.3 15.3L9.70002 12.7C9.60002 12.6 9.52503 12.4917 9.47503 12.375C9.42503 12.2583 9.40002 12.1333 9.40002 12C9.40002 11.8667 9.42503 11.7417 9.47503 11.625C9.52503 11.5083 9.60002 11.4 9.70002 11.3L12.3 8.7C12.6167 8.38333 12.979 8.31266 13.387 8.488C13.7957 8.66266 14 8.975 14 9.425V14.575C14 15.025 13.7957 15.3373 13.387 15.512C12.979 15.6873 12.6167 15.6167 12.3 15.3Z" fill="#5E44F8"></path>
+                </svg>
+                
+                </a>
+            </div>
+            <div class="px-2 py-3 w-full text-center bg-dark-bluergba font-bold text-dark-blue text-sm font-urbanist">
+              Mon 1 Feb
+            </div>
+            <div class="px-2 py-2  flex items-center justify-center w-10 text-center bg-dark-bluergba ">
+              <a href="#" class="block"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.7 15.3C11.3833 15.6167 11.021 15.6873 10.613 15.512C10.2043 15.3373 10 15.025 10 14.575V9.425C10 8.975 10.2043 8.66266 10.613 8.488C11.021 8.31266 11.3833 8.38333 11.7 8.7L14.3 11.3C14.4 11.4 14.475 11.5083 14.525 11.625C14.575 11.7417 14.6 11.8667 14.6 12C14.6 12.1333 14.575 12.2583 14.525 12.375C14.475 12.4917 14.4 12.6 14.3 12.7L11.7 15.3Z" fill="#5E44F8"></path>
+                </svg>
+                     
+                </a>
+            </div>
+          </div>
+          
+                        <table class="w-full ">
+                            
+                            <tbody>
+                          
+          
+                                <tr class="bg-white ">
+                                    <th class="px-2 py-2 w-10 text-center bg-dark-bluergba font-bold text-dark-blue text-xs font-urbanist">
+                                        P0
+                                    </th> 
+                                    <td colspan="1" class="px-2 bg-green text-center py-2 border-b text-small text-light-green font-urbanist font-bold border-white-grey">
+                                      class Name
+                                  </td>
+                                </tr>
+                                <tr class="bg-white">
+                                  <th class="px-2 py-2 w-10 text-center bg-dark-bluergba font-bold text-dark-blue text-xs font-urbanist">
+                                    P1
+                                </th> 
+                                  <td colspan="1" class="px-2 py-2 text-small text-center font-urbanist font-bold text-dark-black border-b  border-white-grey">
+                                       
+                                  </td>
+                                  
+                              </tr>
+                              <tr class="bg-white">
+                                <th class="px-2 py-2 w-10 text-center bg-dark-bluergba font-bold text-dark-blue text-xs font-urbanist">
+                                  P2
+                              </th> 
+                                <td colspan="1" class="px-2 py-2 text-small text-center font-urbanist font-bold text-dark-black border-b  border-white-grey">
+                                     
+                                </td>
+                                
+                            </tr>
+                            <tr class="bg-white ">
+                              <th class="px-2 py-2 w-10 text-center bg-dark-bluergba font-bold text-dark-blue text-xs font-urbanist">
+                                  P3
+                              </th> 
+                              <td colspan="1" class="px-2 bg-green text-center py-2 border-b text-small text-light-green font-urbanist font-bold border-white-grey">
+                                class Name
+                            </td>
+                          </tr>
+          
+                          <tr class="bg-white">
+                            <th class="px-2 py-2 w-10 text-center bg-dark-bluergba font-bold text-dark-blue text-xs font-urbanist">
+                              P4
+                          </th> 
+                            <td colspan="1" class="px-2 py-2 text-small text-center font-urbanist font-bold text-dark-black border-b  border-white-grey">
+                                 
+                            </td>
+                            
+                        </tr>
+                        <tr class="bg-white">
+                          <th class="px-2 py-2 w-10 text-center bg-dark-bluergba font-bold text-dark-blue text-xs font-urbanist">
+                            P5
+                        </th> 
+                          <td colspan="1" class="px-2 py-2 text-small text-center font-urbanist font-bold text-dark-black border-b  border-white-grey">
+                               
+                          </td>
+                          
+                      </tr>
+                      <tr class="bg-white ">
+                        <th class="px-2 py-2 w-10 text-center bg-dark-bluergba font-bold text-dark-blue text-xs font-urbanist">
+                            P6
+                        </th> 
+                        <td colspan="1" class="px-2 bg-pattens-blue text-center py-2 border-b text-small text-light-blue font-urbanist font-bold border-white-grey">
+                          class Name
+                      </td>
+                    </tr>
+                    <tr class="bg-white">
+                      <th class="px-2 py-2 w-10 text-center bg-dark-bluergba font-bold text-dark-blue text-xs font-urbanist">
+                        P7
+                    </th> 
+                      <td colspan="1" class="px-2 py-2 text-small text-center font-urbanist font-bold text-dark-black border-b  border-white-grey">
+                           
+                      </td>
+                      
+                  </tr>
+                               
+                            </tbody>
+                        </table>
+                    </div>
+      </div>
+      <div
+        class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
+        id="tabs-profile"
+        role="tabpanel"
+        aria-labelledby="tabs-profile-tab">
+        <div class="relative overflow-x-auto shadow-md ">
+          <table class="w-full overflow-x-auto">
+              <thead class="bg-dark-bluergba">
+                  <tr>
+                      <th class="px-1 py-3 whitespace-nowrap text-xs font-urbanist font-bold text-center text-pink-dark ">
+                      </th>
+                      <th class="px-2 whitespace-nowrap py-3 text-xs font-urbanist font-bold text-center text-pink-dark ">
+                        P0
+                         </th>
+                      <th class="px-2 py-3 whitespace-nowrap text-xs font-urbanist font-bold text-center text-pink-dark ">
+                     P1
+                      </th>
+                      <th class="px-2 py-3 whitespace-nowrap text-xs font-urbanist font-bold text-center text-pink-dark ">
+                        P2
+                         </th>
+                         <th class="px-2 py-3 whitespace-nowrap text-xs font-urbanist font-bold text-center text-pink-dark ">
+                          P3
+                           </th>
+                           <th class="px-2 py-3 whitespace-nowrap text-xs font-urbanist font-bold text-center text-pink-dark ">
+                            P4
+                             </th>
+                             <th class="px-2 py-3 text-xs font-urbanist font-bold text-center text-pink-dark ">
+                              P5
+                               </th>
+                               <th class="px-2 py-3 whitespace-nowrap text-xs font-urbanist font-bold text-center text-pink-dark ">
+                                P6
+                                 </th>
+                                 <th class="px-2 py-3 whitespace-nowrap text-xs font-urbanist font-bold text-center text-pink-dark ">
+                                  P7
+                                   </th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                    <th class="px-1 py-2 text-center bg-dark-bluergba font-bold text-dark-blue text-xs font-urbanist">
+                      Mon
+                  </th> 
+                  <td class="px-2 bg-green text-center py-3 border-b text-small text-light-green font-urbanist font-bold border-white-grey">
+                    class Name
+                </td>
+                <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+              </td>
+              <td class="px-2  text-center py-3 border text-small text-white font-urbanist font-bold border-white-grey">
+                class Name
+              </td>
+              <td class="px-2 bg-pattens-blue text-center py-3 border-b text-small text-light-blue font-urbanist font-bold border-white-grey">
+                class Name
+            </td>
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>
+            <td class="px-2 text-center py-3 border text-small text-white font-urbanist font-bold border-white-grey">
+              class Name
+            </td>
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>  
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>          
+                  </tr> 
+                  <tr>
+                    <th class="px-1 py-2 text-center bg-dark-bluergba font-bold text-dark-blue text-xs font-urbanist">
+                      Tue
+                  </th> 
+                  <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+                  </td>
+                <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+              </td>
+              <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+              </td>
+            
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>
+            <td class="px-2 bg-pattens-blue text-center py-3 border  text-small text-light-blue font-urbanist font-bold border-white-grey">
+              class Name
+          </td>
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>      
+                  </tr> 
+        
+        
+                  <tr>
+                    <th class="px-1 py-2 text-center bg-dark-bluergba font-bold text-dark-blue text-xs font-urbanist">
+                      Wed
+                  </th> 
+                  <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+                  </td>
+                <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+              </td>
+              <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+              </td>
+            
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>
+            <td class="px-2 bg-green text-center py-3 border-b text-small text-light-green font-urbanist font-bold border-white-grey">
+              class Name
+          </td>
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>      
+                  </tr> 
+        
+        
+        
+                  <tr>
+                    <th class="px-1 py-2 text-center bg-dark-bluergba font-bold text-dark-blue text-xs font-urbanist">
+                      Thu
+                  </th> 
+                  <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+                  </td>
+                
+              <td class="px-2 bg-green text-center py-3 border-b text-small text-light-green font-urbanist font-bold border-white-grey">
+                class Name
+            </td>
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>
+              <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+              </td>
+            
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>
+           
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>      
+                  </tr> 
+        
+                  <tr>
+                    <th class="px-1 py-2 text-center bg-dark-bluergba font-bold text-dark-blue text-xs font-urbanist">
+                      Fri
+                  </th> 
+                  <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+                  </td>
+                
+                  <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+                  </td>
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>
+              <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+              </td>
+            
+              <td class="px-2 bg-pattens-blue text-center py-3 border-b text-small text-light-blue font-urbanist font-bold border-white-grey">
+                class Name
+            </td>
+           
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>      
+                  </tr> 
+        
+                  <tr>
+                    <th class="px-1 py-2 text-center bg-dark-bluergba font-bold text-dark-blue text-xs font-urbanist">
+                      Fri
+                  </th> 
+                  <td class="px-2 bg-pattens-blue text-center py-3 border  text-small text-light-blue font-urbanist font-bold border-white-grey">
+                    class Name
+                </td>  
+                
+                  <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+                  </td>
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>
+              <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+              </td>
+            
+              <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+              </td>
+           
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>
+            <td class="px-2 text-center py-3 border text-small text-light-green font-urbanist font-bold border-white-grey">
+                 
+            </td>
+            <td class="px-2 bg-pattens-blue text-center py-3 border text-small text-light-blue font-urbanist font-bold border-white-grey">
+              class Name
+          </td>     
+                  </tr> 
+              </tbody>
+          </table>
+        </div>
+      </div>
+     
+    
+    </div>
+    
+    </div>
+<div class="chart">
+  <div class="flex flex-wrap mt-4 -mx-3">
+<div class="w-full max-w-full px-3 shrink-0 md:flex-0 md:w-6/12">
+<div class="relative flex flex-col min-w-0 break-words bg-white  shadow-sm z-2   rounded-2xl bg-clip-border">
+<div class="p-4 pb-0 border-black/12.5 rounded-t-2xl border-b-0 border-solid">
+  <div class="flex justify-between">
+    <div class="w-2/4">
+<h6 class="title-heading" >Performance Statistic</h6>
+<a href="#" class="allnewfeed text-xs font-urbanist text-dark-blue font-bold underline-offset-0	">View All</a>
+</div>
+<div class="w-2/4">
+  <div class="select w-full relative"> 
+    <select>
+      <option>Subject Name</option>
+      <option>United States</option>
+      <option>Canada</option> 
+      
+      </select> 
+     </div> 
+</div>
+</div>
+</div>
+<div class="flex-auto p-4 min-h-performance">
+  <div style="width:100%;">
+    <canvas id="performance"></canvas>
+  </div>
+</div>
+</div>
+</div>
+<div class="w-full max-w-full px-3 mt-6 shrink-0 md:flex-0 md:w-6/12 md:mt-0">
+  <div class="relative flex flex-col min-w-0 break-words bg-white border-0 shadow-sm z-2  rounded-2xl bg-clip-border">
+    <div class="p-4 pb-0  rounded-t-2xl border-b-0 border-solid">
+      <div class="flex justify-between">
+        <div class="w-2/4">
+    <h6 class="title-heading pr-3" >Attendance Statistics</h6>
+    <a href="#" class="allnewfeed text-xs font-urbanist text-dark-blue font-bold underline-offset-0	">View All</a>
+    </div>
+    <div class="w-2/4">
+      <div class="select fontsizesmall w-full relative"> 
+        <select>
+          <option>Subject Name</option>
+          <option>United States</option>
+          <option>Canada</option> 
+          
+          </select> 
+         </div> 
+    </div>
+    </div>
+    </div>
+    <div class="flex-auto p-4 min-h-performance">
+    <div class="flex justify-center">
+       <div class="progress-bar">
+            <div class="label" data-count="70%">0%</div>
+            <div class="line"><span></span></div>
+          </div></div>
+          <svg class=" mt-8 " width="310" height="26" viewBox="0 0 345 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M45.376 17.182C44.7133 17.182 44.0903 17.0513 43.507 16.79C42.9237 16.524 42.4103 16.1577 41.967 15.691C41.5283 15.2243 41.183 14.6853 40.931 14.074C40.6837 13.458 40.56 12.8 40.56 12.1C40.56 11.3953 40.6837 10.7373 40.931 10.126C41.183 9.51 41.5283 8.971 41.967 8.509C42.4103 8.04233 42.9237 7.67833 43.507 7.417C44.0903 7.151 44.7133 7.018 45.376 7.018C46.1693 7.018 46.8997 7.20233 47.567 7.571C48.2343 7.935 48.7873 8.42267 49.226 9.034L47.7 9.853C47.4247 9.51233 47.0817 9.23933 46.671 9.034C46.265 8.82867 45.8333 8.726 45.376 8.726C44.9467 8.726 44.543 8.81467 44.165 8.992C43.787 9.16467 43.4557 9.40733 43.171 9.72C42.8863 10.028 42.6647 10.3873 42.506 10.798C42.3473 11.204 42.268 11.638 42.268 12.1C42.268 12.5667 42.3473 13.003 42.506 13.409C42.6693 13.815 42.8933 14.1743 43.178 14.487C43.4627 14.795 43.7917 15.0377 44.165 15.215C44.543 15.3877 44.9467 15.474 45.376 15.474C45.8427 15.474 46.2767 15.3713 46.678 15.166C47.084 14.956 47.4247 14.6807 47.7 14.34L49.226 15.166C48.7873 15.7727 48.2343 16.2603 47.567 16.629C46.8997 16.9977 46.1693 17.182 45.376 17.182ZM50.547 17V6.5H52.255V17H50.547ZM59.1063 10H60.8143V17H59.1063L59.0293 16.132C58.8379 16.4447 58.5836 16.699 58.2663 16.895C57.9536 17.0863 57.5826 17.182 57.1533 17.182C56.6353 17.182 56.1499 17.084 55.6973 16.888C55.2446 16.692 54.8456 16.4213 54.5003 16.076C54.1596 15.7307 53.8913 15.3317 53.6953 14.879C53.5039 14.4263 53.4083 13.941 53.4083 13.423C53.4083 12.9237 53.4993 12.4547 53.6813 12.016C53.8679 11.5773 54.1269 11.1923 54.4583 10.861C54.7896 10.5297 55.1723 10.2707 55.6063 10.084C56.0403 9.89733 56.5069 9.804 57.0063 9.804C57.4683 9.804 57.8813 9.90667 58.2453 10.112C58.6139 10.3173 58.9266 10.5787 59.1833 10.896L59.1063 10ZM57.1113 15.537C57.4753 15.537 57.7973 15.446 58.0773 15.264C58.3573 15.082 58.5766 14.837 58.7353 14.529C58.8939 14.2163 58.9733 13.8733 58.9733 13.5C58.9733 13.122 58.8939 12.779 58.7353 12.471C58.5766 12.1583 58.3549 11.911 58.0703 11.729C57.7903 11.547 57.4706 11.456 57.1113 11.456C56.7519 11.456 56.4229 11.5493 56.1243 11.736C55.8303 11.918 55.5946 12.163 55.4173 12.471C55.2446 12.779 55.1583 13.122 55.1583 13.5C55.1583 13.878 55.2469 14.221 55.4243 14.529C55.6016 14.837 55.8373 15.082 56.1313 15.264C56.4299 15.446 56.7566 15.537 57.1113 15.537ZM64.2741 17.126C63.9101 17.1027 63.5578 17.0303 63.2171 16.909C62.8811 16.783 62.5825 16.6127 62.3211 16.398C62.0598 16.1833 61.8591 15.9267 61.7191 15.628L63.1611 15.012C63.2171 15.1053 63.3081 15.2057 63.4341 15.313C63.5601 15.4157 63.7095 15.502 63.8821 15.572C64.0595 15.642 64.2531 15.677 64.4631 15.677C64.6405 15.677 64.8085 15.6537 64.9671 15.607C65.1305 15.5557 65.2611 15.4787 65.3591 15.376C65.4618 15.2733 65.5131 15.1403 65.5131 14.977C65.5131 14.8043 65.4525 14.6713 65.3311 14.578C65.2145 14.48 65.0651 14.4077 64.8831 14.361C64.7058 14.3097 64.5331 14.263 64.3651 14.221C63.9218 14.1323 63.5088 13.9947 63.1261 13.808C62.7481 13.6213 62.4425 13.381 62.2091 13.087C61.9805 12.7883 61.8661 12.429 61.8661 12.009C61.8661 11.547 61.9875 11.148 62.2301 10.812C62.4775 10.476 62.7971 10.217 63.1891 10.035C63.5858 9.853 64.0128 9.762 64.4701 9.762C65.0255 9.762 65.5341 9.87867 65.9961 10.112C66.4628 10.3407 66.8315 10.665 67.1021 11.085L65.7511 11.883C65.6858 11.771 65.5948 11.6683 65.4781 11.575C65.3615 11.477 65.2285 11.3977 65.0791 11.337C64.9298 11.2717 64.7735 11.2343 64.6101 11.225C64.4001 11.2157 64.2088 11.2343 64.0361 11.281C63.8635 11.3277 63.7235 11.407 63.6161 11.519C63.5135 11.631 63.4621 11.7803 63.4621 11.967C63.4621 12.1443 63.5321 12.2773 63.6721 12.366C63.8121 12.45 63.9801 12.5153 64.1761 12.562C64.3768 12.6087 64.5681 12.66 64.7501 12.716C65.1608 12.8513 65.5458 13.017 65.9051 13.213C66.2691 13.409 66.5608 13.6493 66.7801 13.934C66.9995 14.2187 67.1045 14.5593 67.0951 14.956C67.0951 15.4087 66.9598 15.8053 66.6891 16.146C66.4185 16.482 66.0685 16.7387 65.6391 16.916C65.2145 17.0933 64.7595 17.1633 64.2741 17.126ZM70.3581 17.126C69.9941 17.1027 69.6418 17.0303 69.3011 16.909C68.9651 16.783 68.6665 16.6127 68.4051 16.398C68.1438 16.1833 67.9431 15.9267 67.8031 15.628L69.2451 15.012C69.3011 15.1053 69.3921 15.2057 69.5181 15.313C69.6441 15.4157 69.7935 15.502 69.9661 15.572C70.1435 15.642 70.3371 15.677 70.5471 15.677C70.7245 15.677 70.8925 15.6537 71.0511 15.607C71.2145 15.5557 71.3451 15.4787 71.4431 15.376C71.5458 15.2733 71.5971 15.1403 71.5971 14.977C71.5971 14.8043 71.5365 14.6713 71.4151 14.578C71.2985 14.48 71.1491 14.4077 70.9671 14.361C70.7898 14.3097 70.6171 14.263 70.4491 14.221C70.0058 14.1323 69.5928 13.9947 69.2101 13.808C68.8321 13.6213 68.5265 13.381 68.2931 13.087C68.0645 12.7883 67.9501 12.429 67.9501 12.009C67.9501 11.547 68.0715 11.148 68.3141 10.812C68.5615 10.476 68.8811 10.217 69.2731 10.035C69.6698 9.853 70.0968 9.762 70.5541 9.762C71.1095 9.762 71.6181 9.87867 72.0801 10.112C72.5468 10.3407 72.9155 10.665 73.1861 11.085L71.8351 11.883C71.7698 11.771 71.6788 11.6683 71.5621 11.575C71.4455 11.477 71.3125 11.3977 71.1631 11.337C71.0138 11.2717 70.8575 11.2343 70.6941 11.225C70.4841 11.2157 70.2928 11.2343 70.1201 11.281C69.9475 11.3277 69.8075 11.407 69.7001 11.519C69.5975 11.631 69.5461 11.7803 69.5461 11.967C69.5461 12.1443 69.6161 12.2773 69.7561 12.366C69.8961 12.45 70.0641 12.5153 70.2601 12.562C70.4608 12.6087 70.6521 12.66 70.8341 12.716C71.2448 12.8513 71.6298 13.017 71.9891 13.213C72.3531 13.409 72.6448 13.6493 72.8641 13.934C73.0835 14.2187 73.1885 14.5593 73.1791 14.956C73.1791 15.4087 73.0438 15.8053 72.7731 16.146C72.5025 16.482 72.1525 16.7387 71.7231 16.916C71.2985 17.0933 70.8435 17.1633 70.3581 17.126ZM77.3477 17.182C76.7037 17.182 76.1157 17.0163 75.5837 16.685C75.0564 16.3537 74.6341 15.908 74.3167 15.348C74.0041 14.788 73.8477 14.1697 73.8477 13.493C73.8477 12.9843 73.9387 12.5083 74.1207 12.065C74.3027 11.617 74.5524 11.225 74.8697 10.889C75.1917 10.5483 75.5651 10.2823 75.9897 10.091C76.4144 9.89967 76.8671 9.804 77.3477 9.804C77.8937 9.804 78.3931 9.92067 78.8457 10.154C79.3031 10.3827 79.6904 10.6977 80.0077 11.099C80.3251 11.5003 80.5561 11.9577 80.7007 12.471C80.8454 12.9843 80.8781 13.521 80.7987 14.081H75.6817C75.7471 14.3423 75.8544 14.578 76.0037 14.788C76.1531 14.9933 76.3421 15.159 76.5707 15.285C76.7994 15.4063 77.0584 15.4693 77.3477 15.474C77.6464 15.4787 77.9171 15.4087 78.1597 15.264C78.4071 15.1147 78.6124 14.914 78.7757 14.662L80.5187 15.068C80.2341 15.6887 79.8094 16.1973 79.2447 16.594C78.6801 16.986 78.0477 17.182 77.3477 17.182ZM75.6257 12.8H79.0697C79.0184 12.52 78.9087 12.268 78.7407 12.044C78.5774 11.8153 78.3744 11.6333 78.1317 11.498C77.8891 11.3627 77.6277 11.295 77.3477 11.295C77.0677 11.295 76.8087 11.3627 76.5707 11.498C76.3327 11.6287 76.1297 11.8083 75.9617 12.037C75.7984 12.261 75.6864 12.5153 75.6257 12.8ZM84.0573 17.126C83.6933 17.1027 83.341 17.0303 83.0003 16.909C82.6643 16.783 82.3657 16.6127 82.1043 16.398C81.843 16.1833 81.6423 15.9267 81.5023 15.628L82.9443 15.012C83.0003 15.1053 83.0913 15.2057 83.2173 15.313C83.3433 15.4157 83.4927 15.502 83.6653 15.572C83.8427 15.642 84.0363 15.677 84.2463 15.677C84.4237 15.677 84.5917 15.6537 84.7503 15.607C84.9137 15.5557 85.0443 15.4787 85.1423 15.376C85.245 15.2733 85.2963 15.1403 85.2963 14.977C85.2963 14.8043 85.2357 14.6713 85.1143 14.578C84.9977 14.48 84.8483 14.4077 84.6663 14.361C84.489 14.3097 84.3163 14.263 84.1483 14.221C83.705 14.1323 83.292 13.9947 82.9093 13.808C82.5313 13.6213 82.2257 13.381 81.9923 13.087C81.7637 12.7883 81.6493 12.429 81.6493 12.009C81.6493 11.547 81.7707 11.148 82.0133 10.812C82.2607 10.476 82.5803 10.217 82.9723 10.035C83.369 9.853 83.796 9.762 84.2533 9.762C84.8087 9.762 85.3173 9.87867 85.7793 10.112C86.246 10.3407 86.6147 10.665 86.8853 11.085L85.5343 11.883C85.469 11.771 85.378 11.6683 85.2613 11.575C85.1447 11.477 85.0117 11.3977 84.8623 11.337C84.713 11.2717 84.5567 11.2343 84.3933 11.225C84.1833 11.2157 83.992 11.2343 83.8193 11.281C83.6467 11.3277 83.5067 11.407 83.3993 11.519C83.2967 11.631 83.2453 11.7803 83.2453 11.967C83.2453 12.1443 83.3153 12.2773 83.4553 12.366C83.5953 12.45 83.7633 12.5153 83.9593 12.562C84.16 12.6087 84.3513 12.66 84.5333 12.716C84.944 12.8513 85.329 13.017 85.6883 13.213C86.0523 13.409 86.344 13.6493 86.5633 13.934C86.7827 14.2187 86.8877 14.5593 86.8783 14.956C86.8783 15.4087 86.743 15.8053 86.4723 16.146C86.2017 16.482 85.8517 16.7387 85.4223 16.916C84.9977 17.0933 84.5427 17.1633 84.0573 17.126Z" fill="#2A2A2A"/>
+            <path d="M99.56 17V15.705C99.8913 15.4297 100.272 15.11 100.701 14.746C101.13 14.3773 101.567 13.9877 102.01 13.577C102.453 13.1617 102.862 12.7487 103.235 12.338C103.608 11.9227 103.909 11.5307 104.138 11.162C104.371 10.7887 104.488 10.4643 104.488 10.189C104.488 9.87633 104.411 9.59167 104.257 9.335C104.108 9.07367 103.905 8.866 103.648 8.712C103.391 8.55333 103.107 8.474 102.794 8.474C102.481 8.474 102.194 8.55333 101.933 8.712C101.676 8.866 101.469 9.07367 101.31 9.335C101.156 9.59167 101.079 9.87633 101.079 10.189H99.623C99.623 9.59633 99.7677 9.062 100.057 8.586C100.351 8.10533 100.736 7.725 101.212 7.445C101.693 7.16033 102.22 7.018 102.794 7.018C103.373 7.018 103.9 7.16033 104.376 7.445C104.852 7.72967 105.232 8.11233 105.517 8.593C105.802 9.069 105.944 9.601 105.944 10.189C105.944 10.5157 105.876 10.8517 105.741 11.197C105.606 11.5423 105.417 11.8947 105.174 12.254C104.936 12.6133 104.658 12.9773 104.341 13.346C104.024 13.7147 103.683 14.0833 103.319 14.452C102.955 14.8207 102.584 15.1847 102.206 15.544H106.028V17H99.56ZM110.727 17.182C110.148 17.182 109.626 17.0513 109.159 16.79C108.697 16.524 108.298 16.1577 107.962 15.691C107.626 15.2243 107.369 14.6853 107.192 14.074C107.015 13.458 106.926 12.8 106.926 12.1C106.926 11.4 107.015 10.742 107.192 10.126C107.369 9.51 107.626 8.971 107.962 8.509C108.298 8.04233 108.697 7.67833 109.159 7.417C109.626 7.151 110.148 7.018 110.727 7.018C111.296 7.018 111.814 7.151 112.281 7.417C112.748 7.67833 113.144 8.04233 113.471 8.509C113.802 8.971 114.057 9.51 114.234 10.126C114.411 10.742 114.5 11.4 114.5 12.1C114.5 12.8 114.411 13.458 114.234 14.074C114.057 14.6853 113.802 15.2243 113.471 15.691C113.144 16.1577 112.748 16.524 112.281 16.79C111.814 17.0513 111.296 17.182 110.727 17.182ZM110.727 15.726C111.264 15.726 111.709 15.558 112.064 15.222C112.423 14.8813 112.692 14.4357 112.869 13.885C113.046 13.3343 113.135 12.7393 113.135 12.1C113.135 11.428 113.042 10.819 112.855 10.273C112.673 9.72233 112.402 9.286 112.043 8.964C111.688 8.63733 111.25 8.474 110.727 8.474C110.312 8.474 109.95 8.572 109.642 8.768C109.339 8.964 109.087 9.23233 108.886 9.573C108.69 9.91367 108.541 10.301 108.438 10.735C108.34 11.169 108.291 11.624 108.291 12.1C108.291 12.7393 108.382 13.3343 108.564 13.885C108.746 14.4357 109.017 14.8813 109.376 15.222C109.74 15.558 110.19 15.726 110.727 15.726Z" fill="#6A6A6A"/>
+            <rect width="26" height="26" rx="4" fill="#5E44F8"/>
+            <path d="M274.84 17V7.2H278.34C278.872 7.2 279.353 7.333 279.782 7.599C280.216 7.865 280.559 8.222 280.811 8.67C281.063 9.118 281.189 9.61033 281.189 10.147C281.189 10.6977 281.058 11.197 280.797 11.645C280.54 12.0883 280.195 12.443 279.761 12.709C279.327 12.9703 278.853 13.101 278.34 13.101H276.548V17H274.84ZM276.548 11.393H278.158C278.401 11.393 278.622 11.3323 278.823 11.211C279.024 11.0897 279.182 10.9263 279.299 10.721C279.42 10.5157 279.481 10.287 279.481 10.035C279.481 9.77833 279.42 9.54733 279.299 9.342C279.182 9.13667 279.024 8.97333 278.823 8.852C278.622 8.73067 278.401 8.67 278.158 8.67H276.548V11.393ZM282.271 17L282.264 10H283.972L283.979 10.623C284.217 10.371 284.501 10.1727 284.833 10.028C285.164 9.87867 285.521 9.804 285.904 9.804C286.16 9.804 286.417 9.84133 286.674 9.916L286.002 11.638C285.824 11.568 285.647 11.533 285.47 11.533C285.194 11.533 284.942 11.6007 284.714 11.736C284.49 11.8667 284.31 12.0463 284.175 12.275C284.044 12.499 283.979 12.7487 283.979 13.024V17H282.271ZM290.211 17.182C289.567 17.182 288.979 17.0163 288.447 16.685C287.92 16.3537 287.497 15.908 287.18 15.348C286.867 14.788 286.711 14.1697 286.711 13.493C286.711 12.9843 286.802 12.5083 286.984 12.065C287.166 11.617 287.416 11.225 287.733 10.889C288.055 10.5483 288.428 10.2823 288.853 10.091C289.278 9.89967 289.73 9.804 290.211 9.804C290.757 9.804 291.256 9.92067 291.709 10.154C292.166 10.3827 292.554 10.6977 292.871 11.099C293.188 11.5003 293.419 11.9577 293.564 12.471C293.709 12.9843 293.741 13.521 293.662 14.081H288.545C288.61 14.3423 288.718 14.578 288.867 14.788C289.016 14.9933 289.205 15.159 289.434 15.285C289.663 15.4063 289.922 15.4693 290.211 15.474C290.51 15.4787 290.78 15.4087 291.023 15.264C291.27 15.1147 291.476 14.914 291.639 14.662L293.382 15.068C293.097 15.6887 292.673 16.1973 292.108 16.594C291.543 16.986 290.911 17.182 290.211 17.182ZM288.489 12.8H291.933C291.882 12.52 291.772 12.268 291.604 12.044C291.441 11.8153 291.238 11.6333 290.995 11.498C290.752 11.3627 290.491 11.295 290.211 11.295C289.931 11.295 289.672 11.3627 289.434 11.498C289.196 11.6287 288.993 11.8083 288.825 12.037C288.662 12.261 288.55 12.5153 288.489 12.8ZM296.921 17.126C296.557 17.1027 296.204 17.0303 295.864 16.909C295.528 16.783 295.229 16.6127 294.968 16.398C294.706 16.1833 294.506 15.9267 294.366 15.628L295.808 15.012C295.864 15.1053 295.955 15.2057 296.081 15.313C296.207 15.4157 296.356 15.502 296.529 15.572C296.706 15.642 296.9 15.677 297.11 15.677C297.287 15.677 297.455 15.6537 297.614 15.607C297.777 15.5557 297.908 15.4787 298.006 15.376C298.108 15.2733 298.16 15.1403 298.16 14.977C298.16 14.8043 298.099 14.6713 297.978 14.578C297.861 14.48 297.712 14.4077 297.53 14.361C297.352 14.3097 297.18 14.263 297.012 14.221C296.568 14.1323 296.155 13.9947 295.773 13.808C295.395 13.6213 295.089 13.381 294.856 13.087C294.627 12.7883 294.513 12.429 294.513 12.009C294.513 11.547 294.634 11.148 294.877 10.812C295.124 10.476 295.444 10.217 295.836 10.035C296.232 9.853 296.659 9.762 297.117 9.762C297.672 9.762 298.181 9.87867 298.643 10.112C299.109 10.3407 299.478 10.665 299.749 11.085L298.398 11.883C298.332 11.771 298.241 11.6683 298.125 11.575C298.008 11.477 297.875 11.3977 297.726 11.337C297.576 11.2717 297.42 11.2343 297.257 11.225C297.047 11.2157 296.855 11.2343 296.683 11.281C296.51 11.3277 296.37 11.407 296.263 11.519C296.16 11.631 296.109 11.7803 296.109 11.967C296.109 12.1443 296.179 12.2773 296.319 12.366C296.459 12.45 296.627 12.5153 296.823 12.562C297.023 12.6087 297.215 12.66 297.397 12.716C297.807 12.8513 298.192 13.017 298.552 13.213C298.916 13.409 299.207 13.6493 299.427 13.934C299.646 14.2187 299.751 14.5593 299.742 14.956C299.742 15.4087 299.606 15.8053 299.336 16.146C299.065 16.482 298.715 16.7387 298.286 16.916C297.861 17.0933 297.406 17.1633 296.921 17.126ZM303.91 17.182C303.266 17.182 302.678 17.0163 302.146 16.685C301.619 16.3537 301.197 15.908 300.879 15.348C300.567 14.788 300.41 14.1697 300.41 13.493C300.41 12.9843 300.501 12.5083 300.683 12.065C300.865 11.617 301.115 11.225 301.432 10.889C301.754 10.5483 302.128 10.2823 302.552 10.091C302.977 9.89967 303.43 9.804 303.91 9.804C304.456 9.804 304.956 9.92067 305.408 10.154C305.866 10.3827 306.253 10.6977 306.57 11.099C306.888 11.5003 307.119 11.9577 307.263 12.471C307.408 12.9843 307.441 13.521 307.361 14.081H302.244C302.31 14.3423 302.417 14.578 302.566 14.788C302.716 14.9933 302.905 15.159 303.133 15.285C303.362 15.4063 303.621 15.4693 303.91 15.474C304.209 15.4787 304.48 15.4087 304.722 15.264C304.97 15.1147 305.175 14.914 305.338 14.662L307.081 15.068C306.797 15.6887 306.372 16.1973 305.807 16.594C305.243 16.986 304.61 17.182 303.91 17.182ZM302.188 12.8H305.632C305.581 12.52 305.471 12.268 305.303 12.044C305.14 11.8153 304.937 11.6333 304.694 11.498C304.452 11.3627 304.19 11.295 303.91 11.295C303.63 11.295 303.371 11.3627 303.133 11.498C302.895 11.6287 302.692 11.8083 302.524 12.037C302.361 12.261 302.249 12.5153 302.188 12.8ZM314.912 12.576V17H313.204V13.024C313.204 12.7487 313.136 12.499 313.001 12.275C312.866 12.0463 312.684 11.8667 312.455 11.736C312.231 11.6007 311.981 11.533 311.706 11.533C311.431 11.533 311.179 11.6007 310.95 11.736C310.726 11.8667 310.546 12.0463 310.411 12.275C310.28 12.499 310.215 12.7487 310.215 13.024V17H308.507L308.5 10H310.208L310.215 10.623C310.453 10.371 310.738 10.1727 311.069 10.028C311.4 9.87867 311.757 9.804 312.14 9.804C312.649 9.804 313.113 9.93 313.533 10.182C313.953 10.4293 314.287 10.763 314.534 11.183C314.786 11.5983 314.912 12.0627 314.912 12.576ZM320.059 11.708H318.701V17H316.993V11.708H315.957V10H316.993V7.802H318.701V10H320.059V11.708Z" fill="#2A2A2A"/>
+            <path d="M334.729 17V8.656H333.56L333.959 7.2H336.185V17H334.729ZM342.06 17V14.494H337.867V13.031L341.71 7.2H343.516V13.038H344.412V14.494H343.516V17H342.06ZM339.561 13.031L342.06 13.038L342.046 9.209L339.561 13.031Z" fill="#6A6A6A"/>
+            <rect x="234" width="26" height="26" rx="4" fill="#F5487F"/>
+            </svg>
+            
+    </div>
+    </div>
+</div>
+</div>
+</div>
+<div class="p-5 shadow-sm mt-4 rounded-2xl bg-white min-h-[533px]  overflow-y-auto">
+  <div class="flex justify-between">
+    <time class="title-heading">Newsfeed</time>
+    <a href="dashboard-parent-login-newsfeed.html" class="allnewfeed text-base font-urbanist text-dark-blue font-bold underline-offset-0	">View All</a>
+  </div>
+   
+    <ol class="mt-3">
+        <li>
+            <a href="#" class="items-center block py-3 sm:flex ">
+                <img class="w-11 h-11 mb-3 mr-3  sm:mb-0" src="./src/images/annoucementname.svg" alt="Laura Romeros image"/>
+                <div class="pl-3">
+                      <h5 class="font-urbanist mb-1 text-xs font-semibold text-dark-black">Annoucement Name</h5>
+                   <p class="text-xs font-urbanist leading-normal font-medium text-secondary ">Lorem ipsum dolor sit amet consectetur. Id et diam neque diam. Platea id ipsum magnis sit odio non mollis.</p>
+                 
+                </div>
+            </a>
+        </li>
+        <li>
+          <a href="#" class="items-center block py-3 sm:flex ">
+              <img class="w-11 h-11 mb-3 mr-3  sm:mb-0" src="./src/images/annoucementname.svg" alt="Laura Romeros image"/>
+              <div class="pl-3">
+                    <h5 class="font-urbanist mb-1 text-xs font-semibold text-dark-black">Annoucement Name</h5>
+                 <p class="text-xs font-urbanist leading-normal font-medium text-secondary ">Lorem ipsum dolor sit amet consectetur. Id et diam neque diam. Platea id ipsum magnis sit odio non mollis.</p>
+               
+              </div>
+          </a>
+      </li>
+      <li>
+        <a href="#" class="items-center block py-3 sm:flex ">
+            <img class="w-11 h-11 mb-3 mr-3  sm:mb-0" src="./src/images/annoucementname.svg" alt="Laura Romeros image"/>
+            <div class="pl-3">
+                  <h5 class="font-urbanist mb-1 text-xs font-semibold text-dark-black">Annoucement Name</h5>
+               <p class="text-xs font-urbanist leading-normal font-medium text-secondary ">Lorem ipsum dolor sit amet consectetur. Id et diam neque diam. Platea id ipsum magnis sit odio non mollis.</p>
+             
+            </div>
+        </a>
+    </li>
+    <li>
+      <a href="#" class="items-center block py-3 sm:flex ">
+          <img class="w-11 h-11 mb-3 mr-3  sm:mb-0" src="./src/images/annoucementname.svg" alt="Laura Romeros image"/>
+          <div class="pl-3">
+                <h5 class="font-urbanist mb-1 text-xs font-semibold text-dark-black">Annoucement Name</h5>
+             <p class="text-xs font-urbanist leading-normal font-medium text-secondary ">Lorem ipsum dolor sit amet consectetur. Id et diam neque diam. Platea id ipsum magnis sit odio non mollis.</p>
+           
+          </div>
+      </a>
+  </li>
+     
+    </ol>
+</div>
+
+
+
+    </div>
+   
+    <div class="w-full max-w-full  lg-mt-0 px-2.5 lg:w-4/12 lg:flex-none">
+      <div class="bg-pink-dark px-5 py-6 rounded-2xl">
+        <a href="#" class="my-achievments" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#generate-registration">Add Achievments <span class="p-2.5 bg-white"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 14V8H0V6H6V0H8V6H14V8H8V14H6Z" fill="#F5487F"/>
+          </svg>
+          </span></a>
+      </div>
+
+      <div class="shadow-sm p-5  my-4 bg-white rounded-2xl">
+        <div class="flex items-center justify-between">
+          <h6 class="title-heading">Fees</h6>
+          <div class="p-0">
+            <a href="#">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.25 4.5C5.78587 4.5 5.34075 4.68437 5.01256 5.01256C4.68437 5.34075 4.5 5.78587 4.5 6.25V12H9.25C9.61114 12 9.96873 12.0711 10.3024 12.2093C10.636 12.3475 10.9392 12.5501 11.1945 12.8055C11.4499 13.0608 11.6525 13.364 11.7907 13.6976C11.9289 14.0313 12 14.3889 12 14.75V19.5H17.75C18.2141 19.5 18.6592 19.3156 18.9874 18.9874C19.3156 18.6592 19.5 18.2141 19.5 17.75V13.75C19.5 13.5511 19.579 13.3603 19.7197 13.2197C19.8603 13.079 20.0511 13 20.25 13C20.4489 13 20.6397 13.079 20.7803 13.2197C20.921 13.3603 21 13.5511 21 13.75V17.75C21 18.612 20.6576 19.4386 20.0481 20.0481C19.4386 20.6576 18.612 21 17.75 21H6.25C5.38805 21 4.5614 20.6576 3.9519 20.0481C3.34241 19.4386 3 18.612 3 17.75V6.25C3 5.38805 3.34241 4.5614 3.9519 3.9519C4.5614 3.34241 5.38805 3 6.25 3H10.25C10.4489 3 10.6397 3.07902 10.7803 3.21967C10.921 3.36032 11 3.55109 11 3.75C11 3.94891 10.921 4.13968 10.7803 4.28033C10.6397 4.42098 10.4489 4.5 10.25 4.5H6.25ZM13 3.75C13 3.55109 13.079 3.36032 13.2197 3.21967C13.3603 3.07902 13.5511 3 13.75 3H20.25C20.4489 3 20.6397 3.07902 20.7803 3.21967C20.921 3.36032 21 3.55109 21 3.75V10.25C21 10.4489 20.921 10.6397 20.7803 10.7803C20.6397 10.921 20.4489 11 20.25 11C20.0511 11 19.8603 10.921 19.7197 10.7803C19.579 10.6397 19.5 10.4489 19.5 10.25V5.56L14.28 10.78C14.1378 10.9125 13.9498 10.9846 13.7555 10.9812C13.5612 10.9777 13.3758 10.899 13.2384 10.7616C13.101 10.6242 13.0223 10.4388 13.0188 10.2445C13.0154 10.0502 13.0875 9.86217 13.22 9.72L18.44 4.5H13.75C13.5511 4.5 13.3603 4.42098 13.2197 4.28033C13.079 4.13968 13 3.94891 13 3.75Z" fill="#CACACA"/>
+              </svg>
+            </a>
+              
+          </div> 
+        </div>
+<div class="text-center pt-5">
+  <p class="text-secondary text-sm font-medium font-urbanist leading-normal">Your Fees Status is</p>
+  <h3 class="text-bright-red text-4xl font-urbanist font-bold leading-normal my-2">$1,342.65</h3>
+  <p class="text-secondary text-sm font-medium font-urbanist leading-normal">To be Paid</p>
+  <button type="button" class="pay-now-button">
+    Pay Now
+  </button>
+</div>
+
+      </div>
+
+      <div class="p-5 shadow-sm mt-4 rounded-2xl bg-white">
+        <div class="flex justify-between">
+          <time class="title-heading ">To Do List</time>
+          <a href="dashboard-student-login-todoCalendar.html" class="allnewfeed text-base font-urbanist text-dark-blue font-bold underline-offset-0	">View All</a>
+        </div>
+
+        <ul class="mt-5">
+          <li>
+            <div class="flex p-2.5 hover:bg-harmonies rounded ">
+              <div class="w-14 h-14 p-4 bg-soft-peach rounded text-center">
+                <p class="font-urbanist font-bold text-xs text-secondary">24  Mar</p>
+              </div>
+              <div class="pl-4">
+                <h5 class="text-sm font-urbanist font-bold text-dark-black leading-normal">Task Name</h5>
+                <p class="text-secondary text-xs mb-2 font-medium leading-normal ">Lorem ipsum dolor sit amet consectetur. Id congue felis eu sit in. Aliquam tincidunt sit arcu accumsan.</p>
+                <div class="text-right">
+                  <a href="#" class="text-dark-blue text-xs font-medium leading-normal">
+                    20 Jan 2022, 12:00am
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="flex p-2.5 hover:bg-harmonies rounded ">
+              <div class="w-14 h-14 p-4 bg-soft-peach rounded text-center">
+                <p class="font-urbanist font-bold text-xs text-secondary">24  Mar</p>
+              </div>
+              <div class="pl-4">
+                <h5 class="text-sm font-urbanist font-bold text-dark-black leading-normal">Task Name</h5>
+                <p class="text-secondary mb-2 text-xs font-medium leading-normal ">Lorem ipsum dolor sit amet consectetur. Id congue felis eu sit in. Aliquam tincidunt sit arcu accumsan.</p>
+                <div class="text-right">
+                  <a href="#" class="text-dark-blue  text-xs font-medium leading-normal">
+                    20 Jan 2022, 12:00am
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="flex p-2.5 hover:bg-harmonies rounded ">
+              <div class="w-14 h-14 p-4 bg-soft-peach rounded text-center">
+                <p class="font-urbanist font-bold text-xs text-secondary">24  Mar</p>
+              </div>
+              <div class="pl-4">
+                <h5 class="text-sm font-urbanist font-bold text-dark-black leading-normal">Task Name</h5>
+                <p class="text-secondary mb-2 text-xs font-medium leading-normal ">Lorem ipsum dolor sit amet consectetur. Id congue felis eu sit in. Aliquam tincidunt sit arcu accumsan.</p>
+                <div class="text-right">
+                  <a href="#" class="text-dark-blue  text-xs font-medium leading-normal">
+                    20 Jan 2022, 12:00am
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="flex p-2.5 hover:bg-harmonies rounded ">
+              <div class="w-14 h-14 p-4 bg-soft-peach rounded text-center">
+                <p class="font-urbanist font-bold text-xs text-secondary">24  Mar</p>
+              </div>
+              <div class="pl-4">
+                <h5 class="text-sm font-urbanist font-bold text-dark-black leading-normal">Task Name</h5>
+                <p class="text-secondary mb-2 text-xs font-medium leading-normal ">Lorem ipsum dolor sit amet consectetur. Id congue felis eu sit in. Aliquam tincidunt sit arcu accumsan.</p>
+                <div class="text-right">
+                  <a href="#" class="text-dark-blue  text-xs font-medium leading-normal">
+                    20 Jan 2022, 12:00am
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="flex p-2.5 hover:bg-harmonies rounded ">
+              <div class="w-14 h-14 p-4 bg-soft-peach rounded text-center">
+                <p class="font-urbanist font-bold text-xs text-secondary">24  Mar</p>
+              </div>
+              <div class="pl-4">
+                <h5 class="text-sm font-urbanist font-bold text-dark-black leading-normal">Task Name</h5>
+                <p class="text-secondary mb-2 text-xs font-medium leading-normal ">Lorem ipsum dolor sit amet consectetur. Id congue felis eu sit in. Aliquam tincidunt sit arcu accumsan.</p>
+                <div class="text-right">
+                  <a href="#" class="text-dark-blue  text-xs font-medium leading-normal">
+                    20 Jan 2022, 12:00am
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="flex p-2.5 hover:bg-harmonies rounded ">
+              <div class="w-14 h-14 p-4 bg-soft-peach rounded text-center">
+                <p class="font-urbanist font-bold text-xs text-secondary">24  Mar</p>
+              </div>
+              <div class="pl-4">
+                <h5 class="text-sm font-urbanist font-bold text-dark-black leading-normal">Task Name</h5>
+                <p class="text-secondary mb-2 text-xs font-medium leading-normal ">Lorem ipsum dolor sit amet consectetur. Id congue felis eu sit in. Aliquam tincidunt sit arcu accumsan.</p>
+                <div class="text-right">
+                  <a href="#" class="text-dark-blue  text-xs font-medium leading-normal">
+                    20 Jan 2022, 12:00am
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+
+   
+    </div>
+</div>
+</div>
+
+
+
+
+
+<!--------------model---------------->
+
+<div class="  fixed inset-0 top-0 left-0 z-1050 right hidden lg:pl-60   w-full h-full outline-none bg-lavender-mist overflow-x-hidden overflow-y-auto" id="generate-registration" tabindex="-1" aria-labelledby="exampleModalLgLabel" data-te-modal-init  aria-hidden="true" data-te-backdrop="static"
+data-te-keyboard="false">
+  <div class="mt-14 relative">
+
+  <div data-te-modal-dialog-ref
+   class=" xs:mx-auto xs:mt-7 sm:max-w-500  absolute m-auto left-0 right-0 w-auto pointer-events-none transform-none rounded-lg  opacity-100 shadow-lg bg-white">
+    <div data-te-modal-dialog-ref 
+    class=" py-5 px-6     relative flex flex-col w-full pointer-events-auto  bg-clip-padding outline-none text-current">
+      <div class=" pb-4 relative rounded-t-md">
+        <div class="flex flex-shrink-0  items-center justify-between rounded-t-md ">
+       
+        <h5 class="text-lg font-bold font-urbanist text-left text-dark-black">Upload Achievement</h5>
+      
+      <button type="button" class="box-content rounded-lg p-1.5 border border-white-grey hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none" data-te-modal-dismiss
+      aria-label="Close">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+    <div class="bg-golden-fead p-3 mt-4 rounded-lg">
+      <div class="flex">
+       <span class="w-5 h-5">
+         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path d="M10 7V11M10 14V14.01M1 10C1 11.1819 1.23279 12.3522 1.68508 13.4442C2.13738 14.5361 2.80031 15.5282 3.63604 16.364C4.47177 17.1997 5.46392 17.8626 6.55585 18.3149C7.64778 18.7672 8.8181 19 10 19C11.1819 19 12.3522 18.7672 13.4442 18.3149C14.5361 17.8626 15.5282 17.1997 16.364 16.364C17.1997 15.5282 17.8626 14.5361 18.3149 13.4442C18.7672 12.3522 19 11.1819 19 10C19 8.8181 18.7672 7.64778 18.3149 6.55585C17.8626 5.46392 17.1997 4.47177 16.364 3.63604C15.5282 2.80031 14.5361 2.13738 13.4442 1.68508C12.3522 1.23279 11.1819 1 10 1C8.8181 1 7.64778 1.23279 6.55585 1.68508C5.46392 2.13738 4.47177 2.80031 3.63604 3.63604C2.80031 4.47177 2.13738 5.46392 1.68508 6.55585C1.23279 7.64778 1 8.8181 1 10Z" stroke="#D88913" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+           </svg>
+           
+       </span>
+
+       <div class="content pl-2 pb-4">
+         <h5 class="text-sm font-urbanist font-bold text-golden-bell ">Important Notice</h5>
+         <p class="text-xs font-medium font-urbanist text-secondary mt-2">Lorem ipsum dolor sit amet consectetur. Nisl porttitor commodo vel ornare eu leo vulputate enim convallis. Volutpat aenean vitae tincidunt consectetur in dui morbi elit pellentesque.</p>
+       </div>
+      </div>
+   </div>
+  
+  
+    <div class=" my-4 w-full">  
+      <label class="font-urbanist font-semibold text-sm text-dark-black">
+        Student Name
+      </label>
+    <div class="small-font select  w-full relative"> 
+      <select>
+        <option>Payment Mode</option>
+        <option>Yes</option>
+        <option>No</option>  </select> 
+       </div>  
+  </div>  
+  <div class=" my-4  w-full">  
+   <label class="font-urbanist font-semibold text-sm text-dark-black">
+     Achievement Name
+   </label>
+   <input type="text" class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3" placeholder="My achievement" required="">
+ </div>
+     
+
+     
+
+      <div class=" my-4  w-full">  
+        <label class="font-urbanist font-semibold text-sm text-dark-black">
+         Achievement Type
+        </label>
+      <div class=" small-font select w-full relative"> 
+        <select>
+          <option>Academic</option>
+          <option>Co-Curricular</option>
+          <option>Non-Academic</option>  </select> 
+         </div>  
+    </div> 
+    <div class=" my-4  w-full">  
+      <label class="font-urbanist font-semibold text-sm text-dark-black">
+       Date
+      </label>
+      <input type="date"  class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3" placeholder="Select Date" required="">
+    </div>
+    
+    <div class=" my-4  w-full">  
+      <label class="font-urbanist font-semibold text-sm text-dark-black">
+        Description
+      </label>
+      <textarea   class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-sm rounded-lg block w-full px-5 py-3"></textarea>
+    </div>
+
+    <div class=" my-4  w-full">  
+      <label class="font-urbanist font-semibold text-sm text-dark-black">
+        Primary Tags
+      </label>
+      <div   class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-sm rounded-lg block w-full px-3 py-3">
+
+
+<div class="flex space-x-2.5"> 
+ <div class="flex items-center px-2.5 py-2.5 bg-silver-white rounded-lg mb-4">
+          <label for="default-checkbox" class="mr-2 text-xs font-bold text-dark-blue font-urbanist">Tags</label>
+          <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-dark-blue">
+      </div>
+      <div class="flex items-center px-2.5 py-2.5 bg-silver-white rounded-lg mb-4">
+        <label for="checkbox1" class="mr-2 text-xs font-bold text-dark-blue font-urbanist">Tags</label>
+        <input id="checkbox1" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-dark-blue">
+    </div>
+    <div class="flex items-center px-2.5 py-2.5 bg-silver-white rounded-lg mb-4">
+      <label for="checkbox2" class="mr-2 text-xs font-bold text-dark-blue font-urbanist">Tags</label>
+      <input id="checkbox2" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-dark-blue">
+  </div>
+
+    </div>
+    </div>
+    </div>
+
+
+
+    <div class=" my-4  w-full">  
+      <label class="font-urbanist font-semibold text-sm text-dark-black">
+        Secondary Tags
+      </label>
+      <div   class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-sm rounded-lg block w-full px-3 py-3">
+
+
+<div class="flex space-x-2.5"> 
+ <div class="flex items-center px-2.5 py-2.5 bg-silver-white rounded-lg mb-4">
+          <label for="default-checkbox" class="mr-2 text-xs font-bold text-dark-blue font-urbanist">Tags</label>
+          <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-dark-blue">
+      </div>
+      <div class="flex items-center px-2.5 py-2.5 bg-silver-white rounded-lg mb-4">
+        <label for="checkbox1" class="mr-2 text-xs font-bold text-dark-blue font-urbanist">Tags</label>
+        <input id="checkbox1" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-dark-blue">
+    </div>
+    <div class="flex items-center px-2.5 py-2.5 bg-silver-white rounded-lg mb-4">
+      <label for="checkbox2" class="mr-2 text-xs font-bold text-dark-blue font-urbanist">Tags</label>
+      <input id="checkbox2" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-dark-blue">
+  </div>
+
+    </div>
+    </div>
+    </div>
+
+
+    <div class=" my-4  w-full">  
+      <label class=" font-urbanist font-semibold text-sm text-dark-black">
+        Upload Certificate
+      </label>
+
+      <span class="sr-only font-urbanist text-sm text-secondary font-medium">Choose File</span>
+      <input type="file" class="block mt-5 w-full font-medium font-urbanist text-sm text-slate-500
+        file:mr-4 file:py-2 file:px-4
+        file:rounded-lg file:border-0
+        file:text-sm file:font-medium
+        file:font-urbanist
+        file:bg-pink-dark file:text-white
+        hover:file:bg-pink-dark
+      "/>
+    </label> 
+      </div>
+
+
+    <div class=" mt-8  flex items-center justify-end">
+      <div class="mr-5">
+        <button type="button"  data-te-modal-dismiss
+        data-te-ripple-init class="font-urbanist font-bold text-sm rounded text-secondary bg-soft-peach hover:bg-dark-blue hover:text-white py-3 px-5 " >
+          Cancel
+        </button>
+      </div>
+      <button type="button"
+      data-te-modal-dismiss
+        
+      data-te-toggle="modal" data-te-target="#generate" class="font-urbanist font-bold text-sm rounded text-white  bg-dark-blue  py-3 px-5 " data-te-modal-dismiss
+      data-te-ripple-init  aria-label="Close">
+      Submit
+      </button>
+    </div>
+
+      </div>
+    </div>
+   </div>
+ </div>
+</div>
+ <!--------model---------------------->
+
+
+<!-- Modal top right-->
+<div
+  data-te-modal-init
+  class="fixed left-0 top-0 z-1050 hidden h-full w-full overflow-y-auto overflow-x-hidden outline-none"
+  id="rightTopModal"
+  tabindex="-1"
+  aria-labelledby="rightTopModalLabel"
+  aria-hidden="true">
+  <div
+    data-te-modal-dialog-ref
+    class="pointer-events-none absolute sm:right-52 h-auto w-full translate-x-[100%] opacity-0 transition-all duration-300 ease-in-out   mx-auto mt-16 sm:min-w-380 sm:max-w-380">
+    <div
+      class="sm:min-w-300 shadow-[0_0.5rem_1rem_rgba(#000, 0.15)] pointer-events-auto relative flex w-full flex-col rounded-lg border-none bg-white bg-clip-padding text-current shadow-lg outline-none dark:bg-neutral-600">
+      <div
+        class="flex flex-shrink-0 items-center justify-between rounded-t-md  p-4 ">
+        <h5
+          class="text-lg font-bold leading-normal text-dark-black font-urbanist"
+          id="rightTopModalLabel">
+          Notifications
+        </h5>
+        <button
+          type="button"
+          class="box-content rounded-none border-none text-secondary hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none"
+          data-te-modal-dismiss
+          aria-label="Close">
+          <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11.8431 21.2427L16.0858 17.0001L11.8431 12.7574L13.2574 11.3432L17.5 15.5859L21.7426 11.3432L23.1569 12.7574L18.9142 17.0001L23.1569 21.2427L21.7426 22.6569L17.5 18.4143L13.2574 22.6569L11.8431 21.2427Z" fill="#CACACA"/>
+            </svg>
+            
+        </button>
+      </div>
+      <div class="relative p-4" data-te-modal-body-ref>
+
+        <div class=" mt-3 rounded">
+          <div class="border-b sm:flex justify-between border-white-grey">
+        <ul
+          class=" custom-tab nav-tab flex  sm:flex-row flex-wrap list-none"
+          role="tablist"
+          data-te-nav-ref>
+          <li class="nav-itemesa sm:pr-5 pr-1.5" role="presentation">
+            <a
+              href="#tabs-newsfeed"
+              class="tab-menu text-white-grey data-[te-nav-active]:border-dark-blue data-[te-nav-active]:text-dark-blue pb-3"
+              data-te-toggle="pill"
+              data-te-target="#tabs-newsfeed"
+              data-te-nav-active
+              role="tab"
+              aria-controls="tabs-newsfeed"
+              aria-selected="true"
+              >Newsfeed</a
+            >
+          </li>
+          <li class="nav-itemesa sm:px-5 px-1.5" role="presentation">
+            <a
+              href="#tabs-to-do"
+              class="tab-menu text-white-grey data-[te-nav-active]:border-dark-blue data-[te-nav-active]:text-dark-blue pb-3"
+              data-te-toggle="pill"
+              data-te-target="#tabs-to-do"
+              role="tab"
+              aria-controls="tabs-to-do"
+              aria-selected="false"
+              >To-do</a
+            >
+          </li>
+          <li class="nav-itemesa sm:px-5 px-1.5" role="presentation">
+            <a
+              href="#tabs-approvals"
+              class="tab-menu text-white-grey data-[te-nav-active]:border-dark-blue data-[te-nav-active]:text-dark-blue pb-3"
+              data-te-toggle="pill"
+              data-te-target="#tabs-approvals"
+              role="tab"
+              aria-controls="tabs-approvals"
+              aria-selected="false"
+              >Approvals</a
+            >
+          </li>
+         
+        </ul>
+       
+           </div>
+           </div>
+
+           <div class="mb-3">
+            <div
+              class="hidden opacity-100 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
+              id="tabs-newsfeed"
+              role="tabpanel"
+              aria-labelledby="tabs-newsfeed-tab"
+              data-te-tab-active>
+<div  class="scrollbar scrollbar-thumb-light-grey rounded pr-2 scrollbar-track-black scrollbar-w-10 scroll-m-1  h-80 overflow-y-auto">
+<div class="px-1.5 mt-5 py-2.5 hover:bg-silver-white rounded-lg">
+  <div class="flex items-start">
+    <div class=" w-52 ">
+    <img class="rounded-full" src="./src/images/profile.jpg">
+  </div>
+  <div class="pl-3 relative">
+    <span class="bg-dark-blue w-2.5 h-2.5 rounded-full absolute top-0 right-0"></span>
+    <h5 class="font-semibold text-sm text-dark-black font-urbanist">New Assignments in Maths Class</h5>
+    <p class="font-medium text-secondary font-urbanist text-xs leading-5">Lorem ipsum dolor sit amet consectetur. Nisl porttitor commodo vel ornare eu leo vulputate enim convallis. Volutpat aenean vitae tincidunt consectetur in dui morbi elit pellentesque.</p>
+
+    <div class="flex items-center mt-1.5 justify-between">
+      <h6 class="font-semibold text-small text-dark-black font-urbanist">Monday 4:30pm</h6>
+      <h6 class="font-semibold text-small text-dark-black font-urbanist">Jan, 27, 2022</h6>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="px-1.5 mt-5 py-2.5 hover:bg-silver-white rounded-lg">
+  <div class="flex items-start">
+    <div class=" w-52 ">
+    <img class="rounded-full" src="./src/images/profile.jpg">
+  </div>
+  <div class="pl-3 relative">
+    <span class="bg-dark-blue w-2.5 h-2.5 rounded-full absolute top-0 right-0"></span>
+    <h5 class="font-semibold text-sm text-dark-black font-urbanist">New Assignments in Maths Class</h5>
+    <p class="font-medium text-secondary font-urbanist text-xs leading-5">Lorem ipsum dolor sit amet consectetur. Nisl porttitor commodo vel ornare eu leo vulputate enim convallis. Volutpat aenean vitae tincidunt consectetur in dui morbi elit pellentesque.</p>
+
+    <div class="flex items-center mt-1.5 justify-between">
+      <h6 class="font-semibold text-small text-dark-black font-urbanist">Monday 4:30pm</h6>
+      <h6 class="font-semibold text-small text-dark-black font-urbanist">Jan, 27, 2022</h6>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+       </div>
+
+
+
+
+              <div
+              class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
+              id="tabs-to-do"
+              role="tabpanel"
+              aria-labelledby="tabs-to-do-tab">
+
+
+To-do
+
+              </div>
+
+
+
+
+              <div
+              class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
+              id="tabs-approvals"
+              role="tabpanel"
+              aria-labelledby="tabs-approvals-tab">
+
+              Approvals
+
+              </div>
+
+
+              </div>
+      
+      </div>
+      <div
+        class=" rounded-b-lg text-center border-t border-white-grey border-opacity-100 p-4 dark:border-opacity-50">
+   
+        <button
+          type="button"
+          class="bg-dark-blue rounded px-7 py-2 font-urbanist font-semibold text-small text-white"
+          data-te-modal-dismiss
+          data-te-ripple-init
+          data-te-ripple-color="light">
+          Mark all as read
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal top right-->
+<!---main end--->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="node_modules/tw-elements/dist/js/index.min.js"></script>
+   <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/chosen-js/chosen.jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+  <script src="./src/js/chart.js"></script>
+  <script src="./src/js/admin.js"></script>
+  
+
+</body>
+
+
+</html>
