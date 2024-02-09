@@ -134,7 +134,9 @@
   @apply w-full block  text-xs font-urbanist font-medium text-secondary rounded-lg border px-4 py-3 border-white-grey;
 }
 }
-
+.short-table tbody tr:first-child {
+  border-bottom: 1px solid #ccc;
+}
 .fees-detail {
   height: 610px;
   overflow-y: auto;
@@ -1434,13 +1436,53 @@ order: 7;
 
 
 
+.short-table td::before {
+  content: attr(data-label) " ";
+  display: block;
+  color: #5e44f8;
+  position: relative;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.short-table thead {
+  display: none;
+}
+.short-table tr td:first-child {
+  position: relative;
+  width: 100%;
+}
+.short-table tr td:first-child::after{
+  content: "";
+  width: 90%;
+  height: 1px;
+  position: absolute; 
+  bottom: 0;
+  background-color: #ccc;
+}
+.short-table tr td:nth-child(2) {
+  width: 100%;
+}
 
 
 
-
-
-
-
+.short-table tr {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #eee!important;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: #fff;
+}
+.short-table tr td:nth-child(3) {
+  text-align: left;
+}
+.short-table tr td:nth-child(4) {
+  background-color: #F9FAFB;
+  width: 100%;
+}
 
 
 

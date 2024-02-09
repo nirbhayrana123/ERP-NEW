@@ -470,88 +470,120 @@
           </div>
           </div>
           
-          <div class="w-full text-left my-3 border-white-grey rounded-lg border-tebals rounded-tr-lg ">
-            <div class="lg:flex px-6 py-5  hidden items-center rounded-tl-lg justify-between bg-white-blrb">
-          <div class="items text-center">
-            <h6 class="text-base font-bold  text-dark-black font-urbanist">
-               Added by</h6>
-          </div>
-          <div class="items text-center">
-            <h6 class="text-base font-bold text-dark-black font-urbanist">Date</h6>
-          </div>
-          <div class="items text-center">
-            <h6 class="text-base font-bold text-dark-black font-urbanist">Description</h6>
-          </div>
-          <div class="items text-center">
-            <h6 class="text-base font-bold text-dark-black font-urbanist">Action</h6>
-          </div>
-            </div>
+          <table class=" md:border short-table md:border-white-grey w-full rounded-md">
+            <thead class=" rounded-tl-lg bg-white-blrb">
+               <tr>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Added by</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Date</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Description</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Action</th>
+  </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                <td class="md:px-4 md:py-4 px-3 py-3">
+                  <div class="flex items-center justify-end space-x-2">
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                        </svg>
+                        
+                        
+                    </a>
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                        </svg>
+                        
+                    </a>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                <td class="md:px-4 md:py-4 px-3 py-3">
+                  <div class="flex items-center justify-end space-x-2">
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                        </svg>
+                        
+                        
+                    </a>
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                        </svg>
+                        
+                    </a>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+            </table>
           
-            <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-              <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-                <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                  
-                  <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                  </p>
-              </div>
-              <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-                <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-              </div>
-              <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-                <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-                <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-              </div>
-              <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-                <div class="flex items-center justify-end space-x-2">
-                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                      </svg>
-                      
-                      
-                  </a>
-                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                      </svg>
-                      
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-              <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-                <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                  
-                  <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                  </p>
-              </div>
-              <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-                <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-              </div>
-              <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-                <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-                <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-              </div>
-              <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-                <div class="flex items-center justify-end space-x-2">
-                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                      </svg>
-                      
-                      
-                  </a>
-                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                      </svg>
-                      
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          
+            <table class=" md:border short-table my-3 md:border-white-grey w-full rounded-md">
+              <thead class=" rounded-tl-lg bg-white-blrb">
+                <tr>
+                <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Added by</th>
+                <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Date</th>
+                <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Description</th>
+                <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Action</th>
+              </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                  <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                  <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                  <td class="md:px-4 md:py-4 px-3 py-3">
+                    <div class="flex items-center justify-end space-x-2">
+                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                          </svg>
+                          
+                          
+                      </a>
+                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                  <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                  <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                  <td class="md:px-4 md:py-4 px-3 py-3">
+                    <div class="flex items-center justify-end space-x-2">
+                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                          </svg>
+                          
+                          
+                      </a>
+                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+              </table>
               
             </div>
             
@@ -600,88 +632,62 @@
             </div>
             </div>
             
-            <div class="w-full text-left my-3 border-white-grey rounded-lg border-tebals rounded-tr-lg ">
-              <div class="lg:flex px-6 py-5  hidden items-center rounded-tl-lg justify-between bg-white-blrb">
-            <div class="items text-center">
-              <h6 class="text-base font-bold  text-dark-black font-urbanist">
-                 Added by</h6>
-            </div>
-            <div class="items text-center">
-              <h6 class="text-base font-bold text-dark-black font-urbanist">Date</h6>
-            </div>
-            <div class="items text-center">
-              <h6 class="text-base font-bold text-dark-black font-urbanist">Description</h6>
-            </div>
-            <div class="items text-center">
-              <h6 class="text-base font-bold text-dark-black font-urbanist">Action</h6>
-            </div>
-              </div>
-            
-              <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-                <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-                  <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                    
-                    <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                    </p>
-                </div>
-                <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-                  <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-                </div>
-                <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-                  <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-                  <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-                </div>
-                <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-                  <div class="flex items-center justify-end space-x-2">
-                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                        </svg>
-                        
-                        
-                    </a>
-                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                        </svg>
-                        
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-                <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-                  <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                    
-                    <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                    </p>
-                </div>
-                <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-                  <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-                </div>
-                <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-                  <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-                  <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-                </div>
-                <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-                  <div class="flex items-center justify-end space-x-2">
-                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                        </svg>
-                        
-                        
-                    </a>
-                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                        </svg>
-                        
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <table class=" md:border short-table my-3 md:border-white-grey w-full rounded-md">
+              <thead class=" rounded-tl-lg bg-white-blrb">
+                <tr>
+                <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Added by</th>
+                <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Date</th>
+                <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Description</th>
+                <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Action</th>
+              </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                  <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                  <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                  <td class="md:px-4 md:py-4 px-3 py-3">
+                    <div class="flex items-center justify-end space-x-2">
+                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                          </svg>
+                          
+                          
+                      </a>
+                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                  <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                  <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                  <td class="md:px-4 md:py-4 px-3 py-3">
+                    <div class="flex items-center justify-end space-x-2">
+                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                          </svg>
+                          
+                          
+                      </a>
+                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+              </table>
                 
               </div>
             
@@ -729,88 +735,62 @@
               </div>
               </div>
               
-              <div class="w-full text-left my-3 border-white-grey rounded-lg border-tebals rounded-tr-lg ">
-                <div class="lg:flex px-6 py-5  hidden items-center rounded-tl-lg justify-between bg-white-blrb">
-              <div class="items text-center">
-                <h6 class="text-base font-bold  text-dark-black font-urbanist">
-                   Added by</h6>
-              </div>
-              <div class="items text-center">
-                <h6 class="text-base font-bold text-dark-black font-urbanist">Date</h6>
-              </div>
-              <div class="items text-center">
-                <h6 class="text-base font-bold text-dark-black font-urbanist">Description</h6>
-              </div>
-              <div class="items text-center">
-                <h6 class="text-base font-bold text-dark-black font-urbanist">Action</h6>
-              </div>
-                </div>
-              
-                <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-                  <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-                    <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                      
-                      <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                      </p>
-                  </div>
-                  <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-                    <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-                  </div>
-                  <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-                    <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-                    <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-                  </div>
-                  <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-                    <div class="flex items-center justify-end space-x-2">
-                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                          </svg>
-                          
-                          
-                      </a>
-                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                          </svg>
-                          
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-                  <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-                    <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                      
-                      <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                      </p>
-                  </div>
-                  <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-                    <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-                  </div>
-                  <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-                    <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-                    <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-                  </div>
-                  <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-                    <div class="flex items-center justify-end space-x-2">
-                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                          </svg>
-                          
-                          
-                      </a>
-                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                          </svg>
-                          
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <table class=" md:border short-table my-3 md:border-white-grey w-full rounded-md">
+                <thead class=" rounded-tl-lg bg-white-blrb">
+                  <tr>
+                  <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Added by</th>
+                  <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Date</th>
+                  <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Description</th>
+                  <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Action</th>
+                </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                    <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                    <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                    <td class="md:px-4 md:py-4 px-3 py-3">
+                      <div class="flex items-center justify-end space-x-2">
+                        <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                          <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                            </svg>
+                            
+                            
+                        </a>
+                        <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                          <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                            </svg>
+                            
+                        </a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                    <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                    <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                    <td class="md:px-4 md:py-4 px-3 py-3">
+                      <div class="flex items-center justify-end space-x-2">
+                        <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                          <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                            </svg>
+                            
+                            
+                        </a>
+                        <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                          <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                            </svg>
+                            
+                        </a>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+                </table>
                   
                 </div>
             
@@ -849,13 +829,13 @@
                           <div class="rounded-lg bg-green px-2 py-1.5">
                           <p class="text-sm font-semibold font-urbanist text-light-green">Active</p>
                         </div>
-                        <div class="rounded-lg lg:hidden block bg-secondarybg px-2 py-1.5">
-                          <p class="text-sm  font-semibold font-urbanist text-light-grey">Complete</p>
+                        <div class="rounded-lg bg-secondarybg px-2 py-1.5">
+                          <p class="text-sm font-semibold font-urbanist text-light-grey">Complete</p>
                         </div>
                         </div>
                       </div>
                      
-                      <div class="text-center lg:hidden block lg:w-32 lg:ml-0 ml-5 " data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
+                      <div class="text-center lg:w-32 lg:ml-0 ml-5 " data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
                         <a 
                         href="#" 
                         class="transititext-primary lg:bg-transparent p-2 bg-white rounded-md  text-center block transition duration-150 ease-in-out   "
@@ -1042,13 +1022,13 @@
                           <div class="rounded-lg bg-green px-2 py-1.5">
                           <p class="text-sm font-semibold font-urbanist text-light-green">Active</p>
                         </div>
-                        <div class="rounded-lg lg:hidden block bg-secondarybg px-2 py-1.5">
+                        <div class="rounded-lg bg-secondarybg px-2 py-1.5">
                           <p class="text-sm font-semibold font-urbanist text-light-grey">Complete</p>
                         </div>
                         </div>
                       </div>
                      
-                      <div class="text-center lg:hidden block lg:w-32 lg:ml-0 ml-5" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
+                      <div class="text-center lg:w-32 lg:ml-0 ml-5" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
                         <a
                         href="#" 
                         class="transititext-primary lg:bg-transparent p-2 bg-white rounded-md  text-center block transition duration-150 ease-in-out   "
@@ -1233,13 +1213,13 @@
                         <div class="rounded-lg bg-green px-2 py-1.5">
                         <p class="text-sm font-semibold font-urbanist text-light-green">Active</p>
                       </div>
-                      <div class="rounded-lg lg:hidden block bg-secondarybg px-2 py-1.5">
+                      <div class="rounded-lg bg-secondarybg px-2 py-1.5">
                         <p class="text-sm font-semibold font-urbanist text-light-grey">Complete</p>
                       </div>
                       </div>
                     </div>
                    
-                    <div class="text-center lg:w-32 lg:ml-0 ml-5 lg:hidden block" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
+                    <div class="text-center lg:w-32 lg:ml-0 ml-5" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
                       <a
                       href="#" 
                       class="transititext-primary lg:bg-transparent p-2 bg-white rounded-md  text-center block transition duration-150 ease-in-out   "
@@ -1486,88 +1466,120 @@
         </div>
         </div>
         
-        <div class="w-full text-left my-3 border-white-grey rounded-lg border-tebals rounded-tr-lg ">
-          <div class="lg:flex px-6 py-5  hidden items-center rounded-tl-lg justify-between bg-white-blrb">
-        <div class="items text-center">
-          <h6 class="text-base font-bold  text-dark-black font-urbanist">
-             Added by</h6>
-        </div>
-        <div class="items text-center">
-          <h6 class="text-base font-bold text-dark-black font-urbanist">Date</h6>
-        </div>
-        <div class="items text-center">
-          <h6 class="text-base font-bold text-dark-black font-urbanist">Description</h6>
-        </div>
-        <div class="items text-center">
-          <h6 class="text-base font-bold text-dark-black font-urbanist">Action</h6>
-        </div>
-          </div>
+        <table class=" md:border short-table md:border-white-grey w-full rounded-md">
+          <thead class=" rounded-tl-lg bg-white-blrb">
+            <tr>
+            <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Added by</th>
+            <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Date</th>
+            <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Description</th>
+            <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Action</th>
+          </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+              <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+              <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+              <td class="md:px-4 md:py-4 px-3 py-3">
+                <div class="flex items-center justify-end space-x-2">
+                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                      </svg>
+                      
+                      
+                  </a>
+                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                      </svg>
+                      
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+              <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+              <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+              <td class="md:px-4 md:py-4 px-3 py-3">
+                <div class="flex items-center justify-end space-x-2">
+                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                      </svg>
+                      
+                      
+                  </a>
+                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                      </svg>
+                      
+                  </a>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+          </table>
         
-          <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-            <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-              <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                
-                <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                </p>
-            </div>
-            <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-              <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-            </div>
-            <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-              <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-              <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-            </div>
-            <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-              <div class="flex items-center justify-end space-x-2">
-                <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                    </svg>
-                    
-                    
-                </a>
-                <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                    </svg>
-                    
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-            <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-              <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                
-                <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                </p>
-            </div>
-            <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-              <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-            </div>
-            <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-              <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-              <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-            </div>
-            <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-              <div class="flex items-center justify-end space-x-2">
-                <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                    </svg>
-                    
-                    
-                </a>
-                <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                    </svg>
-                    
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+        
+          <table class=" md:border short-table my-3 md:border-white-grey w-full rounded-md">
+            <thead class=" rounded-tl-lg bg-white-blrb">
+               <tr>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Added by</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Date</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Description</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Action</th>
+  </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                <td class="md:px-4 md:py-4 px-3 py-3">
+                  <div class="flex items-center justify-end space-x-2">
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                        </svg>
+                        
+                        
+                    </a>
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                        </svg>
+                        
+                    </a>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                <td class="md:px-4 md:py-4 px-3 py-3">
+                  <div class="flex items-center justify-end space-x-2">
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                        </svg>
+                        
+                        
+                    </a>
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                        </svg>
+                        
+                    </a>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+            </table>
             
           </div>
           
@@ -1616,88 +1628,62 @@
           </div>
           </div>
           
-          <div class="w-full text-left my-3 border-white-grey rounded-lg border-tebals rounded-tr-lg ">
-            <div class="lg:flex px-6 py-5  hidden items-center rounded-tl-lg justify-between bg-white-blrb">
-          <div class="items text-center">
-            <h6 class="text-base font-bold  text-dark-black font-urbanist">
-               Added by</h6>
-          </div>
-          <div class="items text-center">
-            <h6 class="text-base font-bold text-dark-black font-urbanist">Date</h6>
-          </div>
-          <div class="items text-center">
-            <h6 class="text-base font-bold text-dark-black font-urbanist">Description</h6>
-          </div>
-          <div class="items text-center">
-            <h6 class="text-base font-bold text-dark-black font-urbanist">Action</h6>
-          </div>
-            </div>
-          
-            <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-              <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-                <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                  
-                  <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                  </p>
-              </div>
-              <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-                <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-              </div>
-              <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-                <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-                <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-              </div>
-              <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-                <div class="flex items-center justify-end space-x-2">
-                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                      </svg>
-                      
-                      
-                  </a>
-                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                      </svg>
-                      
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-              <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-                <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                  
-                  <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                  </p>
-              </div>
-              <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-                <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-              </div>
-              <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-                <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-                <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-              </div>
-              <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-                <div class="flex items-center justify-end space-x-2">
-                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                      </svg>
-                      
-                      
-                  </a>
-                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                      </svg>
-                      
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          <table class=" md:border short-table my-3 md:border-white-grey w-full rounded-md">
+            <thead class=" rounded-tl-lg bg-white-blrb">
+               <tr>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Added by</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Date</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Description</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Action</th>
+  </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                <td class="md:px-4 md:py-4 px-3 py-3">
+                  <div class="flex items-center justify-end space-x-2">
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                        </svg>
+                        
+                        
+                    </a>
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                        </svg>
+                        
+                    </a>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                <td class="md:px-4 md:py-4 px-3 py-3">
+                  <div class="flex items-center justify-end space-x-2">
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                        </svg>
+                        
+                        
+                    </a>
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                        </svg>
+                        
+                    </a>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+            </table>
               
             </div>
           
@@ -1745,88 +1731,62 @@
             </div>
             </div>
             
-            <div class="w-full text-left my-3 border-white-grey rounded-lg border-tebals rounded-tr-lg ">
-              <div class="lg:flex px-6 py-5  hidden items-center rounded-tl-lg justify-between bg-white-blrb">
-            <div class="items text-center">
-              <h6 class="text-base font-bold  text-dark-black font-urbanist">
-                 Added by</h6>
-            </div>
-            <div class="items text-center">
-              <h6 class="text-base font-bold text-dark-black font-urbanist">Date</h6>
-            </div>
-            <div class="items text-center">
-              <h6 class="text-base font-bold text-dark-black font-urbanist">Description</h6>
-            </div>
-            <div class="items text-center">
-              <h6 class="text-base font-bold text-dark-black font-urbanist">Action</h6>
-            </div>
-              </div>
-            
-              <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-                <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-                  <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                    
-                    <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                    </p>
-                </div>
-                <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-                  <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-                </div>
-                <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-                  <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-                  <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-                </div>
-                <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-                  <div class="flex items-center justify-end space-x-2">
-                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                        </svg>
-                        
-                        
-                    </a>
-                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                        </svg>
-                        
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-                <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-                  <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                    
-                    <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                    </p>
-                </div>
-                <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-                  <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-                </div>
-                <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-                  <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-                  <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-                </div>
-                <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-                  <div class="flex items-center justify-end space-x-2">
-                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                        </svg>
-                        
-                        
-                    </a>
-                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                        </svg>
-                        
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <table class=" md:border short-table my-3 md:border-white-grey w-full rounded-md">
+              <thead class=" rounded-tl-lg bg-white-blrb">
+                <tr>
+                <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Added by</th>
+                <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Date</th>
+                <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Description</th>
+                <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Action</th>
+              </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                  <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                  <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                  <td class="md:px-4 md:py-4 px-3 py-3">
+                    <div class="flex items-center justify-end space-x-2">
+                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                          </svg>
+                          
+                          
+                      </a>
+                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                  <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                  <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                  <td class="md:px-4 md:py-4 px-3 py-3">
+                    <div class="flex items-center justify-end space-x-2">
+                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                          </svg>
+                          
+                          
+                      </a>
+                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+              </table>
                 
               </div>
           
@@ -1865,13 +1825,13 @@
                         <div class="rounded-lg bg-green px-2 py-1.5">
                         <p class="text-sm font-semibold font-urbanist text-light-green">Active</p>
                       </div>
-                      <div class="rounded-lg lg:hidden block bg-secondarybg px-2 py-1.5">
-                        <p class="text-sm  font-semibold font-urbanist text-light-grey">Complete</p>
+                      <div class="rounded-lg bg-secondarybg px-2 py-1.5">
+                        <p class="text-sm font-semibold font-urbanist text-light-grey">Complete</p>
                       </div>
                       </div>
                     </div>
                    
-                    <div class="text-center lg:hidden block lg:w-32 lg:ml-0 ml-5 " data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
+                    <div class="text-center lg:w-32 lg:ml-0 ml-5 " data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
                       <a 
                       href="#" 
                       class="transititext-primary lg:bg-transparent p-2 bg-white rounded-md  text-center block transition duration-150 ease-in-out   "
@@ -2058,13 +2018,13 @@
                         <div class="rounded-lg bg-green px-2 py-1.5">
                         <p class="text-sm font-semibold font-urbanist text-light-green">Active</p>
                       </div>
-                      <div class="rounded-lg lg:hidden block bg-secondarybg px-2 py-1.5">
+                      <div class="rounded-lg bg-secondarybg px-2 py-1.5">
                         <p class="text-sm font-semibold font-urbanist text-light-grey">Complete</p>
                       </div>
                       </div>
                     </div>
                    
-                    <div class="text-center lg:hidden block lg:w-32 lg:ml-0 ml-5" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
+                    <div class="text-center lg:w-32 lg:ml-0 ml-5" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
                       <a
                       href="#" 
                       class="transititext-primary lg:bg-transparent p-2 bg-white rounded-md  text-center block transition duration-150 ease-in-out   "
@@ -2249,13 +2209,13 @@
                       <div class="rounded-lg bg-green px-2 py-1.5">
                       <p class="text-sm font-semibold font-urbanist text-light-green">Active</p>
                     </div>
-                    <div class="rounded-lg lg:hidden block bg-secondarybg px-2 py-1.5">
+                    <div class="rounded-lg bg-secondarybg px-2 py-1.5">
                       <p class="text-sm font-semibold font-urbanist text-light-grey">Complete</p>
                     </div>
                     </div>
                   </div>
                  
-                  <div class="text-center lg:w-32 lg:ml-0 ml-5 lg:hidden block" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
+                  <div class="text-center lg:w-32 lg:ml-0 ml-5" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
                     <a
                     href="#" 
                     class="transititext-primary lg:bg-transparent p-2 bg-white rounded-md  text-center block transition duration-150 ease-in-out   "
@@ -2502,88 +2462,120 @@
         </div>
         </div>
         
-        <div class="w-full text-left my-3 border-white-grey rounded-lg border-tebals rounded-tr-lg ">
-          <div class="lg:flex px-6 py-5  hidden items-center rounded-tl-lg justify-between bg-white-blrb">
-        <div class="items text-center">
-          <h6 class="text-base font-bold  text-dark-black font-urbanist">
-             Added by</h6>
-        </div>
-        <div class="items text-center">
-          <h6 class="text-base font-bold text-dark-black font-urbanist">Date</h6>
-        </div>
-        <div class="items text-center">
-          <h6 class="text-base font-bold text-dark-black font-urbanist">Description</h6>
-        </div>
-        <div class="items text-center">
-          <h6 class="text-base font-bold text-dark-black font-urbanist">Action</h6>
-        </div>
-          </div>
+        <table class=" md:border short-table md:border-white-grey w-full rounded-md">
+          <thead class=" rounded-tl-lg bg-white-blrb">
+            <tr>
+            <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Added by</th>
+            <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Date</th>
+            <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Description</th>
+            <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Action</th>
+          </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+              <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+              <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+              <td class="md:px-4 md:py-4 px-3 py-3">
+                <div class="flex items-center justify-end space-x-2">
+                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                      </svg>
+                      
+                      
+                  </a>
+                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                      </svg>
+                      
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+              <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+              <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+              <td class="md:px-4 md:py-4 px-3 py-3">
+                <div class="flex items-center justify-end space-x-2">
+                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                      </svg>
+                      
+                      
+                  </a>
+                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                      </svg>
+                      
+                  </a>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+          </table>
         
-          <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-            <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-              <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                
-                <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                </p>
-            </div>
-            <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-              <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-            </div>
-            <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-              <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-              <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-            </div>
-            <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-              <div class="flex items-center justify-end space-x-2">
-                <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                    </svg>
-                    
-                    
-                </a>
-                <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                    </svg>
-                    
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-            <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-              <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                
-                <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                </p>
-            </div>
-            <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-              <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-            </div>
-            <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-              <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-              <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-            </div>
-            <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-              <div class="flex items-center justify-end space-x-2">
-                <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                    </svg>
-                    
-                    
-                </a>
-                <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                    </svg>
-                    
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+        
+          <table class=" md:border short-table my-3 md:border-white-grey w-full rounded-md">
+            <thead class=" rounded-tl-lg bg-white-blrb">
+               <tr>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Added by</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Date</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Description</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Action</th>
+  </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                <td class="md:px-4 md:py-4 px-3 py-3">
+                  <div class="flex items-center justify-end space-x-2">
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                        </svg>
+                        
+                        
+                    </a>
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                        </svg>
+                        
+                    </a>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                <td class="md:px-4 md:py-4 px-3 py-3">
+                  <div class="flex items-center justify-end space-x-2">
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                        </svg>
+                        
+                        
+                    </a>
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                        </svg>
+                        
+                    </a>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+            </table>
             
           </div>
           
@@ -2632,88 +2624,62 @@
           </div>
           </div>
           
-          <div class="w-full text-left my-3 border-white-grey rounded-lg border-tebals rounded-tr-lg ">
-            <div class="lg:flex px-6 py-5  hidden items-center rounded-tl-lg justify-between bg-white-blrb">
-          <div class="items text-center">
-            <h6 class="text-base font-bold  text-dark-black font-urbanist">
-               Added by</h6>
-          </div>
-          <div class="items text-center">
-            <h6 class="text-base font-bold text-dark-black font-urbanist">Date</h6>
-          </div>
-          <div class="items text-center">
-            <h6 class="text-base font-bold text-dark-black font-urbanist">Description</h6>
-          </div>
-          <div class="items text-center">
-            <h6 class="text-base font-bold text-dark-black font-urbanist">Action</h6>
-          </div>
-            </div>
-          
-            <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-              <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-                <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                  
-                  <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                  </p>
-              </div>
-              <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-                <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-              </div>
-              <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-                <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-                <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-              </div>
-              <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-                <div class="flex items-center justify-end space-x-2">
-                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                      </svg>
-                      
-                      
-                  </a>
-                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                      </svg>
-                      
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-              <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-                <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                  
-                  <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                  </p>
-              </div>
-              <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-                <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-              </div>
-              <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-                <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-                <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-              </div>
-              <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-                <div class="flex items-center justify-end space-x-2">
-                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                      </svg>
-                      
-                      
-                  </a>
-                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                      </svg>
-                      
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          <table class=" md:border short-table my-3 md:border-white-grey w-full rounded-md">
+            <thead class=" rounded-tl-lg bg-white-blrb">
+               <tr>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Added by</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Date</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Description</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Action</th>
+  </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                <td class="md:px-4 md:py-4 px-3 py-3">
+                  <div class="flex items-center justify-end space-x-2">
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                        </svg>
+                        
+                        
+                    </a>
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                        </svg>
+                        
+                    </a>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                <td class="md:px-4 md:py-4 px-3 py-3">
+                  <div class="flex items-center justify-end space-x-2">
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                        </svg>
+                        
+                        
+                    </a>
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                        </svg>
+                        
+                    </a>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+            </table>
               
             </div>
           
@@ -2761,88 +2727,62 @@
             </div>
             </div>
             
-            <div class="w-full text-left my-3 border-white-grey rounded-lg border-tebals rounded-tr-lg ">
-              <div class="lg:flex px-6 py-5  hidden items-center rounded-tl-lg justify-between bg-white-blrb">
-            <div class="items text-center">
-              <h6 class="text-base font-bold  text-dark-black font-urbanist">
-                 Added by</h6>
-            </div>
-            <div class="items text-center">
-              <h6 class="text-base font-bold text-dark-black font-urbanist">Date</h6>
-            </div>
-            <div class="items text-center">
-              <h6 class="text-base font-bold text-dark-black font-urbanist">Description</h6>
-            </div>
-            <div class="items text-center">
-              <h6 class="text-base font-bold text-dark-black font-urbanist">Action</h6>
-            </div>
-              </div>
-            
-              <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-                <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-                  <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                    
-                    <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                    </p>
-                </div>
-                <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-                  <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-                </div>
-                <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-                  <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-                  <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-                </div>
-                <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-                  <div class="flex items-center justify-end space-x-2">
-                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                        </svg>
-                        
-                        
-                    </a>
-                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                        </svg>
-                        
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-                <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-                  <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                    
-                    <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                    </p>
-                </div>
-                <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-                  <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-                </div>
-                <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-                  <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-                  <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-                </div>
-                <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-                  <div class="flex items-center justify-end space-x-2">
-                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                        </svg>
-                        
-                        
-                    </a>
-                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                        </svg>
-                        
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <table class=" md:border short-table my-3 md:border-white-grey w-full rounded-md">
+              <thead class=" rounded-tl-lg bg-white-blrb">
+                <tr>
+                <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Added by</th>
+                <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Date</th>
+                <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Description</th>
+                <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Action</th>
+              </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                  <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                  <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                  <td class="md:px-4 md:py-4 px-3 py-3">
+                    <div class="flex items-center justify-end space-x-2">
+                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                          </svg>
+                          
+                          
+                      </a>
+                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                  <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                  <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                  <td class="md:px-4 md:py-4 px-3 py-3">
+                    <div class="flex items-center justify-end space-x-2">
+                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                          </svg>
+                          
+                          
+                      </a>
+                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+              </table>
                 
               </div>
           
@@ -2881,13 +2821,13 @@
                         <div class="rounded-lg bg-green px-2 py-1.5">
                         <p class="text-sm font-semibold font-urbanist text-light-green">Active</p>
                       </div>
-                      <div class="rounded-lg lg:hidden block bg-secondarybg px-2 py-1.5">
-                        <p class="text-sm  font-semibold font-urbanist text-light-grey">Complete</p>
+                      <div class="rounded-lg bg-secondarybg px-2 py-1.5">
+                        <p class="text-sm font-semibold font-urbanist text-light-grey">Complete</p>
                       </div>
                       </div>
                     </div>
                    
-                    <div class="text-center lg:hidden block lg:w-32 lg:ml-0 ml-5 " data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
+                    <div class="text-center lg:w-32 lg:ml-0 ml-5 " data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
                       <a 
                       href="#" 
                       class="transititext-primary lg:bg-transparent p-2 bg-white rounded-md  text-center block transition duration-150 ease-in-out   "
@@ -3074,13 +3014,13 @@
                         <div class="rounded-lg bg-green px-2 py-1.5">
                         <p class="text-sm font-semibold font-urbanist text-light-green">Active</p>
                       </div>
-                      <div class="rounded-lg lg:hidden block bg-secondarybg px-2 py-1.5">
+                      <div class="rounded-lg bg-secondarybg px-2 py-1.5">
                         <p class="text-sm font-semibold font-urbanist text-light-grey">Complete</p>
                       </div>
                       </div>
                     </div>
                    
-                    <div class="text-center lg:hidden block lg:w-32 lg:ml-0 ml-5" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
+                    <div class="text-center lg:w-32 lg:ml-0 ml-5" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
                       <a
                       href="#" 
                       class="transititext-primary lg:bg-transparent p-2 bg-white rounded-md  text-center block transition duration-150 ease-in-out   "
@@ -3265,13 +3205,13 @@
                       <div class="rounded-lg bg-green px-2 py-1.5">
                       <p class="text-sm font-semibold font-urbanist text-light-green">Active</p>
                     </div>
-                    <div class="rounded-lg lg:hidden block bg-secondarybg px-2 py-1.5">
+                    <div class="rounded-lg bg-secondarybg px-2 py-1.5">
                       <p class="text-sm font-semibold font-urbanist text-light-grey">Complete</p>
                     </div>
                     </div>
                   </div>
                  
-                  <div class="text-center lg:w-32 lg:ml-0 ml-5 lg:hidden block" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
+                  <div class="text-center lg:w-32 lg:ml-0 ml-5" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
                     <a
                     href="#" 
                     class="transititext-primary lg:bg-transparent p-2 bg-white rounded-md  text-center block transition duration-150 ease-in-out   "
@@ -3518,88 +3458,120 @@
         </div>
         </div>
         
-        <div class="w-full text-left my-3 border-white-grey rounded-lg border-tebals rounded-tr-lg ">
-          <div class="lg:flex px-6 py-5  hidden items-center rounded-tl-lg justify-between bg-white-blrb">
-        <div class="items text-center">
-          <h6 class="text-base font-bold  text-dark-black font-urbanist">
-             Added by</h6>
-        </div>
-        <div class="items text-center">
-          <h6 class="text-base font-bold text-dark-black font-urbanist">Date</h6>
-        </div>
-        <div class="items text-center">
-          <h6 class="text-base font-bold text-dark-black font-urbanist">Description</h6>
-        </div>
-        <div class="items text-center">
-          <h6 class="text-base font-bold text-dark-black font-urbanist">Action</h6>
-        </div>
-          </div>
+        <table class=" md:border short-table md:border-white-grey w-full rounded-md">
+          <thead class=" rounded-tl-lg bg-white-blrb">
+            <tr>
+            <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Added by</th>
+            <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Date</th>
+            <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Description</th>
+            <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Action</th>
+          </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+              <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+              <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+              <td class="md:px-4 md:py-4 px-3 py-3">
+                <div class="flex items-center justify-end space-x-2">
+                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                      </svg>
+                      
+                      
+                  </a>
+                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                      </svg>
+                      
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+              <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+              <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+              <td class="md:px-4 md:py-4 px-3 py-3">
+                <div class="flex items-center justify-end space-x-2">
+                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                      </svg>
+                      
+                      
+                  </a>
+                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                      </svg>
+                      
+                  </a>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+          </table>
         
-          <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-            <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-              <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                
-                <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                </p>
-            </div>
-            <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-              <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-            </div>
-            <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-              <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-              <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-            </div>
-            <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-              <div class="flex items-center justify-end space-x-2">
-                <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                    </svg>
-                    
-                    
-                </a>
-                <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                    </svg>
-                    
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-            <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-              <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                
-                <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                </p>
-            </div>
-            <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-              <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-            </div>
-            <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-              <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-              <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-            </div>
-            <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-              <div class="flex items-center justify-end space-x-2">
-                <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                    </svg>
-                    
-                    
-                </a>
-                <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                    </svg>
-                    
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+        
+          <table class=" md:border short-table my-3 md:border-white-grey w-full rounded-md">
+            <thead class=" rounded-tl-lg bg-white-blrb">
+               <tr>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Added by</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Date</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Description</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Action</th>
+  </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                <td class="md:px-4 md:py-4 px-3 py-3">
+                  <div class="flex items-center justify-end space-x-2">
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                        </svg>
+                        
+                        
+                    </a>
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                        </svg>
+                        
+                    </a>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                <td class="md:px-4 md:py-4 px-3 py-3">
+                  <div class="flex items-center justify-end space-x-2">
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                        </svg>
+                        
+                        
+                    </a>
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                        </svg>
+                        
+                    </a>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+            </table>
             
           </div>
           
@@ -3648,88 +3620,62 @@
           </div>
           </div>
           
-          <div class="w-full text-left my-3 border-white-grey rounded-lg border-tebals rounded-tr-lg ">
-            <div class="lg:flex px-6 py-5  hidden items-center rounded-tl-lg justify-between bg-white-blrb">
-          <div class="items text-center">
-            <h6 class="text-base font-bold  text-dark-black font-urbanist">
-               Added by</h6>
-          </div>
-          <div class="items text-center">
-            <h6 class="text-base font-bold text-dark-black font-urbanist">Date</h6>
-          </div>
-          <div class="items text-center">
-            <h6 class="text-base font-bold text-dark-black font-urbanist">Description</h6>
-          </div>
-          <div class="items text-center">
-            <h6 class="text-base font-bold text-dark-black font-urbanist">Action</h6>
-          </div>
-            </div>
-          
-            <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-              <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-                <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                  
-                  <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                  </p>
-              </div>
-              <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-                <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-              </div>
-              <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-                <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-                <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-              </div>
-              <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-                <div class="flex items-center justify-end space-x-2">
-                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                      </svg>
-                      
-                      
-                  </a>
-                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                      </svg>
-                      
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-              <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-                <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                  
-                  <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                  </p>
-              </div>
-              <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-                <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-              </div>
-              <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-                <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-                <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-              </div>
-              <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-                <div class="flex items-center justify-end space-x-2">
-                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                      </svg>
-                      
-                      
-                  </a>
-                  <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                      </svg>
-                      
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          <table class=" md:border short-table my-3 md:border-white-grey w-full rounded-md">
+            <thead class=" rounded-tl-lg bg-white-blrb">
+               <tr>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Added by</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Date</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Description</th>
+    <th class="px-4 py-5 text-base font-bold  text-dark-black font-urbanist">Action</th>
+  </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                <td class="md:px-4 md:py-4 px-3 py-3">
+                  <div class="flex items-center justify-end space-x-2">
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                        </svg>
+                        
+                        
+                    </a>
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                        </svg>
+                        
+                    </a>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                <td class="md:px-4 md:py-4 px-3 py-3">
+                  <div class="flex items-center justify-end space-x-2">
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                        </svg>
+                        
+                        
+                    </a>
+                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                        </svg>
+                        
+                    </a>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+            </table>
               
             </div>
           
@@ -3777,88 +3723,62 @@
             </div>
             </div>
             
-            <div class="w-full text-left my-3 border-white-grey rounded-lg border-tebals rounded-tr-lg ">
-              <div class="lg:flex px-6 py-5  hidden items-center rounded-tl-lg justify-between bg-white-blrb">
-            <div class="items text-center">
-              <h6 class="text-base font-bold  text-dark-black font-urbanist">
-                 Added by</h6>
-            </div>
-            <div class="items text-center">
-              <h6 class="text-base font-bold text-dark-black font-urbanist">Date</h6>
-            </div>
-            <div class="items text-center">
-              <h6 class="text-base font-bold text-dark-black font-urbanist">Description</h6>
-            </div>
-            <div class="items text-center">
-              <h6 class="text-base font-bold text-dark-black font-urbanist">Action</h6>
-            </div>
-              </div>
-            
-              <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-                <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-                  <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                    
-                    <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                    </p>
-                </div>
-                <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-                  <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-                </div>
-                <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-                  <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-                  <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-                </div>
-                <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-                  <div class="flex items-center justify-end space-x-2">
-                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                        </svg>
-                        
-                        
-                    </a>
-                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                        </svg>
-                        
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="lg:flex lg:my-0 my-2 flex-wrap lg:rounded-none rounded lg:px-6 px-3 lg:py-5 py-3  items-center border-b lg:bg-transparent bg-white border-white-grey justify-between ">
-                <div class="items lg:w-auto w-full lg:border-b-0 border-b border-white-grey py-2 lg:text-center text-left">
-                  <p class="text-sm font-semibold flex items-center  text-dark-black font-urbanist">
-                    
-                    <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> 
-                    </p>
-                </div>
-                <div class="items lg:w-auto w-full lg:my-0 my-2 py-2 lg:text-center text-left">
-                  <p class="text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</p>
-                </div>
-                <div class="items lg:w-auto  w-full lg:my-0 my-2 py-2  lg:text-center text-left">
-                  <h5 class="text-sm font-urbanist font-semibold text-dark-blue mb-1 lg:hidden block">Description</h5>
-                  <p class="text-sm font-semibold brnone leading-4 text-secondary font-urbanist">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</p>
-                </div>
-                <div class="items lg:w-auto w-full lg:bg-transparent rounded-b-lg py-2 lg:pr-0 pr-2 bg-grey02 lg:text-center text-right">
-                  <div class="flex items-center justify-end space-x-2">
-                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
-                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
-                        </svg>
-                        
-                        
-                    </a>
-                    <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
-                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
-                        </svg>
-                        
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <table class=" md:border short-table my-3 md:border-white-grey w-full rounded-md">
+              <thead class=" rounded-tl-lg bg-white-blrb">
+                <tr>
+                <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Added by</th>
+                <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Date</th>
+                <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Description</th>
+                <th class="px-4 py-4 text-base font-bold  text-dark-black font-urbanist">Action</th>
+              </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                  <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                  <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                  <td class="md:px-4 md:py-4 px-3 py-3">
+                    <div class="flex items-center justify-end space-x-2">
+                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                          </svg>
+                          
+                          
+                      </a>
+                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold flex items-center  text-dark-black font-urbanist"> <img src="src/images/studevtas.png" class="mr-3 lg:hidden block"> <span class="font-semibold  font-urbanist text-sm ">John Smith </span> <span class="font-normal lg:hidden block text-xs text-secondary"> (Added By)</span> </td>
+                  <td class="md:px-4 md:py-4 px-3 py-3 md:text-center text-sm font-semibold text-secondary font-urbanist">24 Jan,2024</td>
+                  <td class="md:px-4 md:py-4 px-3 py-3 text-sm font-semibold brnone leading-4 text-center text-secondary font-urbanist" data-label="Description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> Lorem ipsum dolor sit amet,</td>
+                  <td class="md:px-4 md:py-4 px-3 py-3">
+                    <div class="flex items-center justify-end space-x-2">
+                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white ">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M19.3 8.97969L15.05 4.77969L16.45 3.37969C16.8333 2.99635 17.3043 2.80469 17.863 2.80469C18.421 2.80469 18.8917 2.99635 19.275 3.37969L20.675 4.77969C21.0583 5.16302 21.2583 5.62569 21.275 6.16769C21.2917 6.70902 21.1083 7.17135 20.725 7.55469L19.3 8.97969ZM4 21.0547C3.71667 21.0547 3.47933 20.9587 3.288 20.7667C3.096 20.5754 3 20.338 3 20.0547V17.2297C3 17.0964 3.025 16.9674 3.075 16.8427C3.125 16.7174 3.2 16.6047 3.3 16.5047L13.6 6.20469L17.85 10.4547L7.55 20.7547C7.45 20.8547 7.33767 20.9297 7.213 20.9797C7.08767 21.0297 6.95833 21.0547 6.825 21.0547H4Z" fill="#8DB776"/>
+                          </svg>
+                          
+                          
+                      </a>
+                      <a href="#" class="rounded p-2 lg:bg-transparent bg-white">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20.0547H19V18.0547H5V20.0547ZM19 9.05469H15V3.05469H9V9.05469H5L12 16.0547L19 9.05469Z" fill="#5E44F8"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+              </table>
                 
               </div>
           
@@ -3897,13 +3817,13 @@
                         <div class="rounded-lg bg-green px-2 py-1.5">
                         <p class="text-sm font-semibold font-urbanist text-light-green">Active</p>
                       </div>
-                      <div class="rounded-lg lg:hidden block bg-secondarybg px-2 py-1.5">
-                        <p class="text-sm  font-semibold font-urbanist text-light-grey">Complete</p>
+                      <div class="rounded-lg bg-secondarybg px-2 py-1.5">
+                        <p class="text-sm font-semibold font-urbanist text-light-grey">Complete</p>
                       </div>
                       </div>
                     </div>
                    
-                    <div class="text-center lg:hidden block lg:w-32 lg:ml-0 ml-5 " data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
+                    <div class="text-center lg:w-32 lg:ml-0 ml-5 " data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
                       <a 
                       href="#" 
                       class="transititext-primary lg:bg-transparent p-2 bg-white rounded-md  text-center block transition duration-150 ease-in-out   "
@@ -4090,13 +4010,13 @@
                         <div class="rounded-lg bg-green px-2 py-1.5">
                         <p class="text-sm font-semibold font-urbanist text-light-green">Active</p>
                       </div>
-                      <div class="rounded-lg lg:hidden block bg-secondarybg px-2 py-1.5">
+                      <div class="rounded-lg bg-secondarybg px-2 py-1.5">
                         <p class="text-sm font-semibold font-urbanist text-light-grey">Complete</p>
                       </div>
                       </div>
                     </div>
                    
-                    <div class="text-center lg:hidden block lg:w-32 lg:ml-0 ml-5" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
+                    <div class="text-center lg:w-32 lg:ml-0 ml-5" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
                       <a
                       href="#" 
                       class="transititext-primary lg:bg-transparent p-2 bg-white rounded-md  text-center block transition duration-150 ease-in-out   "
@@ -4281,13 +4201,13 @@
                       <div class="rounded-lg bg-green px-2 py-1.5">
                       <p class="text-sm font-semibold font-urbanist text-light-green">Active</p>
                     </div>
-                    <div class="rounded-lg lg:hidden block bg-secondarybg px-2 py-1.5">
+                    <div class="rounded-lg bg-secondarybg px-2 py-1.5">
                       <p class="text-sm font-semibold font-urbanist text-light-grey">Complete</p>
                     </div>
                     </div>
                   </div>
                  
-                  <div class="text-center lg:w-32 lg:ml-0 ml-5 lg:hidden block" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
+                  <div class="text-center lg:w-32 lg:ml-0 ml-5" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#updatefollowupdetails">
                     <a
                     href="#" 
                     class="transititext-primary lg:bg-transparent p-2 bg-white rounded-md  text-center block transition duration-150 ease-in-out   "
