@@ -174,73 +174,91 @@
  <div class=" lg:ml-60 ml-0 relative ">
    <!---top bar start --->
    <div class="fixed top-0  lg:ml-60  z-10     left-0 right-0 shadow-sm bg-white lg:rounded-tr-3xl">
-     <div>
-       <div class="flex  justify-between">
-         <div class="flex items-center h-16 justify-start w-full">
-           <button class="logo-sidebar inline-flex items-center p-2 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+    <div>
+      <div class="flex   justify-between pr-5">
+        <div class="flex items-center h-16 justify-start w-full">
+         
+  
+         <div class="flex-1 md:hidden items-center">   
+           <div class="relative flex items-center  w-full pl-5">
+             <div class="avtar relative w-8">
+               <img src="./src/images/alumni.png" alt="avatar1" class="rounded-full w-8 h-8 mt-2">
+               <div class="absolute  w-5 h-5 rounded-full bg-red text-white sm:text-xs text-xsm   left-6  top-1 flex font-urbanist justify-center items-center">
+               05</div>
+             </div>
+             <select class="text-dark-blue ml-5 font-urbanist font-bold sm:text-xs  mb-0 rounded-sm  py-2 ">
                
-               <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
-               </svg>
-            </button>
-   
- <div class="flex-1 items-center">   
-   <div class="relative w-full pl-5">
-       <div class="absolute inset-y-0 left-0 flex items-center pl-8 pointer-events-none">
-         <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-           <path d="M16.031 14.617L20.314 18.899L18.899 20.314L14.617 16.031C13.0237 17.3082 11.042 18.0029 9 18C4.032 18 0 13.968 0 9C0 4.032 4.032 0 9 0C13.968 0 18 4.032 18 9C18.0029 11.042 17.3082 13.0237 16.031 14.617ZM14.025 13.875C15.2941 12.5699 16.0029 10.8204 16 9C16 5.132 12.867 2 9 2C5.132 2 2 5.132 2 9C2 12.867 5.132 16 9 16C10.8204 16.0029 12.5699 15.2941 13.875 14.025L14.025 13.875Z" fill="#6A6A6A"/>
-           </svg>
-           
-       </div>
-       <input type="text" id="simple-search" class="bg-transparent focus:outline-none focus:shadow-none font-urbanist font-medium   text-gray-500 text-base   block w-full pl-12 p-2.5   placeholder-white-grey  " placeholder="Search Directory">
-   </div>
-  
- </div>
- 
- <div class="h-full w-20 border-x  cursor-pointer bg-white border-white-grey flex items-center justify-center relative">
-   <svg width="20" height="22" viewBox="0 0 20 22" class="hover:fill-dark-blue hover:stroke-dark-blue " fill="none" xmlns="http://www.w3.org/2000/svg">
-     <path d="M10 21.8533C10.42 21.8437 10.823 21.6858 11.1378 21.4076C11.4525 21.1294 11.6588 20.7489 11.72 20.3333H8.21338C8.27636 20.7602 8.49226 21.1497 8.82091 21.4293C9.14957 21.7089 9.56859 21.8596 10 21.8533Z" fill="#1F306E"/>
-     <path d="M19.9001 17.7533L19.6734 17.5533C19.0304 16.9804 18.4676 16.3234 18.0001 15.6C17.4896 14.6017 17.1836 13.5115 17.1001 12.3933V9.09999C17.0974 8.69995 17.0617 8.30082 16.9934 7.90665C15.8642 7.67454 14.8498 7.05933 14.1221 6.16517C13.3944 5.27101 12.998 4.15285 13.0001 2.99999V2.57999C12.3041 2.23744 11.5562 2.01219 10.7868 1.91332V1.07332C10.7868 0.837276 10.693 0.610902 10.5261 0.443994C10.3592 0.277087 10.1328 0.183319 9.89678 0.183319C9.66074 0.183319 9.43436 0.277087 9.26746 0.443994C9.10055 0.610902 9.00678 0.837276 9.00678 1.07332V1.94665C7.28393 2.18969 5.70716 3.04782 4.56759 4.36261C3.42803 5.6774 2.8026 7.36008 2.80678 9.09999V12.3933C2.72328 13.5115 2.4173 14.6017 1.90678 15.6C1.44737 16.3216 0.893577 16.9785 0.260114 17.5533L0.0334473 17.7533V19.6333H19.9001V17.7533Z" fill="#1F306E"/>
-     </svg>
-     
-   <div
-     class="absolute w-2 h-2 rounded-full bg-red text-white text-xs left-11 top-5 flex justify-center items-center">
-   </div>
- </div>
- <div class="h-full w-20 border-r border-white-grey  cursor-pointer bg-white  flex items-center justify-center">
-   <svg width="24" height="24" viewBox="0 0 24 24" class="hover:fill-dark-blue hover:stroke-dark-blue " fill="none" xmlns="http://www.w3.org/2000/svg">
-     <path d="M12.0116 9.15468C11.3108 9.15468 10.6546 9.42655 10.1577 9.92343C9.66317 10.4203 9.38895 11.0766 9.38895 11.7773C9.38895 12.4781 9.66317 13.1344 10.1577 13.6312C10.6546 14.1258 11.3108 14.4 12.0116 14.4C12.7124 14.4 13.3686 14.1258 13.8655 13.6312C14.36 13.1344 14.6343 12.4781 14.6343 11.7773C14.6343 11.0766 14.36 10.4203 13.8655 9.92343C13.6228 9.67887 13.334 9.48498 13.0157 9.35301C12.6974 9.22104 12.3561 9.15362 12.0116 9.15468ZM21.6749 14.6742L20.1421 13.3641C20.2147 12.9187 20.2522 12.4641 20.2522 12.0117C20.2522 11.5594 20.2147 11.1023 20.1421 10.6594L21.6749 9.34921C21.7907 9.25008 21.8736 9.11806 21.9125 8.97069C21.9514 8.82332 21.9446 8.66759 21.8929 8.52421L21.8718 8.46327C21.4499 7.28364 20.8178 6.1902 20.0061 5.23593L19.964 5.18671C19.8654 5.07081 19.734 4.9875 19.5872 4.94776C19.4403 4.90801 19.2849 4.91369 19.1413 4.96405L17.2382 5.64139C16.535 5.06483 15.7522 4.61014 14.9038 4.29374L14.5358 2.30389C14.5081 2.15399 14.4353 2.01609 14.3273 1.9085C14.2193 1.80091 14.0811 1.72873 13.9311 1.70155L13.8679 1.68983C12.6491 1.46952 11.3647 1.46952 10.146 1.68983L10.0827 1.70155C9.93269 1.72873 9.79451 1.80091 9.6865 1.9085C9.57849 2.01609 9.50578 2.15399 9.47801 2.30389L9.1077 4.30311C8.2673 4.62204 7.48441 5.07563 6.78973 5.64608L4.87255 4.96405C4.72903 4.91329 4.57346 4.9074 4.42652 4.94717C4.27958 4.98695 4.14821 5.07049 4.04989 5.18671L4.0077 5.23593C3.19745 6.19121 2.56553 7.28438 2.14208 8.46327L2.12098 8.52421C2.01551 8.81718 2.10223 9.1453 2.33895 9.34921L3.89051 10.6734C3.81786 11.1141 3.7827 11.5641 3.7827 12.0094C3.7827 12.4594 3.81786 12.9094 3.89051 13.3453L2.34364 14.6695C2.22785 14.7686 2.14497 14.9007 2.10604 15.048C2.0671 15.1954 2.07395 15.3511 2.12567 15.4945L2.14676 15.5555C2.57098 16.7344 3.19676 17.8242 4.01239 18.7828L4.05458 18.832C4.15314 18.9479 4.28451 19.0312 4.43136 19.071C4.57822 19.1107 4.73367 19.105 4.87723 19.0547L6.79442 18.3726C7.49286 18.9469 8.27098 19.4016 9.11239 19.7156L9.4827 21.7148C9.51046 21.8647 9.58318 22.0026 9.69119 22.1102C9.79919 22.2178 9.93738 22.29 10.0874 22.3172L10.1507 22.3289C11.3814 22.5504 12.6418 22.5504 13.8725 22.3289L13.9358 22.3172C14.0858 22.29 14.224 22.2178 14.332 22.1102C14.44 22.0026 14.5128 21.8647 14.5405 21.7148L14.9085 19.725C15.7569 19.4062 16.5397 18.9539 17.2429 18.3773L19.146 19.0547C19.2895 19.1054 19.4451 19.1113 19.592 19.0716C19.739 19.0318 19.8703 18.9482 19.9686 18.832L20.0108 18.7828C20.8265 17.8195 21.4522 16.7344 21.8765 15.5555L21.8975 15.4945C21.9983 15.2039 21.9116 14.8781 21.6749 14.6742ZM12.0116 15.8976C9.73583 15.8976 7.8913 14.0531 7.8913 11.7773C7.8913 9.50155 9.73583 7.65702 12.0116 7.65702C14.2874 7.65702 16.1319 9.50155 16.1319 11.7773C16.1319 14.0531 14.2874 15.8976 12.0116 15.8976Z" fill="#1F306E"/>
-     </svg>
-     
- </div>
- 
- <div class="h-full min-w-20 px-3 border-x border-white-grey bg-white relative cursor-pointer flex flex-col justify-center items-center">
-   <div class="avtar relative">
-   <img src="./src/images/alumni.png" alt="avatar1" class="rounded-full w-8 h-8 mt-2" />
-   <div
-   class="absolute  w-5 h-5 rounded-full bg-red text-white sm:text-xs text-xsm   left-6 sm:top-4 top-1 flex font-urbanist justify-center items-center">
-   05</div>
- </div>
-   <p class="text-light-grey font-urbanist font-semibold sm:text-xs text-xsm mb-0 rounded-sm  py-2 ">Alumni</p>
-   
- </div>
- <div class="h-full min-w-20 px-3 lg:rounded-tr-3xl bg-white relative cursor-pointer flex flex-col justify-center items-center">
-   <div class="relative">
-     <img src="./src/images/avtar.png" alt="avatar1" class="rounded-full w-8 h-8 mt-2" />
-     <div
-     class="absolute  w-5 h-5 rounded-full bg-red text-white sm:text-xs text-xsm   left-6 sm:top-4 top-1 flex font-urbanist justify-center items-center">
-     05</div>
-   </div>
- 
-   <p class="text-light-grey font-urbanist font-semibold sm:text-xs text-xsm mb-0 rounded-sm border-b-4 py-2 border-dark-blue">Student</p>
-  
- </div>
- 
+              <option>Alumni</option> 
+              <option>Alumni</option> 
+               </select>
+           </div>
+          
          </div>
-        
-       </div>
-     </div>
+
+<div class="flex-1 items-center">   
+  <div class="relative md:block hidden w-full pl-5">
+      <div class="absolute inset-y-0 left-0 flex items-center pl-8 pointer-events-none">
+        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16.031 14.617L20.314 18.899L18.899 20.314L14.617 16.031C13.0237 17.3082 11.042 18.0029 9 18C4.032 18 0 13.968 0 9C0 4.032 4.032 0 9 0C13.968 0 18 4.032 18 9C18.0029 11.042 17.3082 13.0237 16.031 14.617ZM14.025 13.875C15.2941 12.5699 16.0029 10.8204 16 9C16 5.132 12.867 2 9 2C5.132 2 2 5.132 2 9C2 12.867 5.132 16 9 16C10.8204 16.0029 12.5699 15.2941 13.875 14.025L14.025 13.875Z" fill="#6A6A6A"/>
+          </svg>
+          
+      </div>
+      <input type="text" id="simple-search" class="bg-transparent focus:outline-none focus:shadow-none font-urbanist font-medium   text-gray-500 text-base   block w-full pl-12 p-2.5   placeholder-white-grey  " placeholder="Search Directory">
+  </div>
+ 
+</div>
+
+<div class="h-full w-20 md:border-x  cursor-pointer bg-white border-white-grey flex items-center justify-center relative">
+ <div class="bg-slate-300 md:bg-transparent rounded md:p-0 p-2">
+  <svg width="20" height="22" viewBox="0 0 20 22" class="hover:fill-dark-blue hover:stroke-dark-blue " fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10 21.8533C10.42 21.8437 10.823 21.6858 11.1378 21.4076C11.4525 21.1294 11.6588 20.7489 11.72 20.3333H8.21338C8.27636 20.7602 8.49226 21.1497 8.82091 21.4293C9.14957 21.7089 9.56859 21.8596 10 21.8533Z" fill="#1F306E"/>
+    <path d="M19.9001 17.7533L19.6734 17.5533C19.0304 16.9804 18.4676 16.3234 18.0001 15.6C17.4896 14.6017 17.1836 13.5115 17.1001 12.3933V9.09999C17.0974 8.69995 17.0617 8.30082 16.9934 7.90665C15.8642 7.67454 14.8498 7.05933 14.1221 6.16517C13.3944 5.27101 12.998 4.15285 13.0001 2.99999V2.57999C12.3041 2.23744 11.5562 2.01219 10.7868 1.91332V1.07332C10.7868 0.837276 10.693 0.610902 10.5261 0.443994C10.3592 0.277087 10.1328 0.183319 9.89678 0.183319C9.66074 0.183319 9.43436 0.277087 9.26746 0.443994C9.10055 0.610902 9.00678 0.837276 9.00678 1.07332V1.94665C7.28393 2.18969 5.70716 3.04782 4.56759 4.36261C3.42803 5.6774 2.8026 7.36008 2.80678 9.09999V12.3933C2.72328 13.5115 2.4173 14.6017 1.90678 15.6C1.44737 16.3216 0.893577 16.9785 0.260114 17.5533L0.0334473 17.7533V19.6333H19.9001V17.7533Z" fill="#1F306E"/>
+    </svg>
    </div>
+    
+  <div
+    class="absolute w-2 h-2 rounded-full bg-red text-white text-xs left-11 top-5 flex justify-center items-center">
+  </div>
+</div>
+<div class="h-full  hidden w-20 border-r border-white-grey  cursor-pointer bg-white  md:flex items-center justify-center">
+  <svg width="24" height="24" viewBox="0 0 24 24" class="hover:fill-dark-blue hover:stroke-dark-blue " fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12.0116 9.15468C11.3108 9.15468 10.6546 9.42655 10.1577 9.92343C9.66317 10.4203 9.38895 11.0766 9.38895 11.7773C9.38895 12.4781 9.66317 13.1344 10.1577 13.6312C10.6546 14.1258 11.3108 14.4 12.0116 14.4C12.7124 14.4 13.3686 14.1258 13.8655 13.6312C14.36 13.1344 14.6343 12.4781 14.6343 11.7773C14.6343 11.0766 14.36 10.4203 13.8655 9.92343C13.6228 9.67887 13.334 9.48498 13.0157 9.35301C12.6974 9.22104 12.3561 9.15362 12.0116 9.15468ZM21.6749 14.6742L20.1421 13.3641C20.2147 12.9187 20.2522 12.4641 20.2522 12.0117C20.2522 11.5594 20.2147 11.1023 20.1421 10.6594L21.6749 9.34921C21.7907 9.25008 21.8736 9.11806 21.9125 8.97069C21.9514 8.82332 21.9446 8.66759 21.8929 8.52421L21.8718 8.46327C21.4499 7.28364 20.8178 6.1902 20.0061 5.23593L19.964 5.18671C19.8654 5.07081 19.734 4.9875 19.5872 4.94776C19.4403 4.90801 19.2849 4.91369 19.1413 4.96405L17.2382 5.64139C16.535 5.06483 15.7522 4.61014 14.9038 4.29374L14.5358 2.30389C14.5081 2.15399 14.4353 2.01609 14.3273 1.9085C14.2193 1.80091 14.0811 1.72873 13.9311 1.70155L13.8679 1.68983C12.6491 1.46952 11.3647 1.46952 10.146 1.68983L10.0827 1.70155C9.93269 1.72873 9.79451 1.80091 9.6865 1.9085C9.57849 2.01609 9.50578 2.15399 9.47801 2.30389L9.1077 4.30311C8.2673 4.62204 7.48441 5.07563 6.78973 5.64608L4.87255 4.96405C4.72903 4.91329 4.57346 4.9074 4.42652 4.94717C4.27958 4.98695 4.14821 5.07049 4.04989 5.18671L4.0077 5.23593C3.19745 6.19121 2.56553 7.28438 2.14208 8.46327L2.12098 8.52421C2.01551 8.81718 2.10223 9.1453 2.33895 9.34921L3.89051 10.6734C3.81786 11.1141 3.7827 11.5641 3.7827 12.0094C3.7827 12.4594 3.81786 12.9094 3.89051 13.3453L2.34364 14.6695C2.22785 14.7686 2.14497 14.9007 2.10604 15.048C2.0671 15.1954 2.07395 15.3511 2.12567 15.4945L2.14676 15.5555C2.57098 16.7344 3.19676 17.8242 4.01239 18.7828L4.05458 18.832C4.15314 18.9479 4.28451 19.0312 4.43136 19.071C4.57822 19.1107 4.73367 19.105 4.87723 19.0547L6.79442 18.3726C7.49286 18.9469 8.27098 19.4016 9.11239 19.7156L9.4827 21.7148C9.51046 21.8647 9.58318 22.0026 9.69119 22.1102C9.79919 22.2178 9.93738 22.29 10.0874 22.3172L10.1507 22.3289C11.3814 22.5504 12.6418 22.5504 13.8725 22.3289L13.9358 22.3172C14.0858 22.29 14.224 22.2178 14.332 22.1102C14.44 22.0026 14.5128 21.8647 14.5405 21.7148L14.9085 19.725C15.7569 19.4062 16.5397 18.9539 17.2429 18.3773L19.146 19.0547C19.2895 19.1054 19.4451 19.1113 19.592 19.0716C19.739 19.0318 19.8703 18.9482 19.9686 18.832L20.0108 18.7828C20.8265 17.8195 21.4522 16.7344 21.8765 15.5555L21.8975 15.4945C21.9983 15.2039 21.9116 14.8781 21.6749 14.6742ZM12.0116 15.8976C9.73583 15.8976 7.8913 14.0531 7.8913 11.7773C7.8913 9.50155 9.73583 7.65702 12.0116 7.65702C14.2874 7.65702 16.1319 9.50155 16.1319 11.7773C16.1319 14.0531 14.2874 15.8976 12.0116 15.8976Z" fill="#1F306E"/>
+    </svg>
+    
+</div>
+
+<div class="h-full min-w-20 px-3 border-x border-white-grey bg-white relative cursor-pointer hidden md:flex flex-col justify-center items-center">
+  <div class="avtar relative">
+  <img src="./src/images/alumni.png" alt="avatar1" class="rounded-full w-8 h-8 mt-2" />
+  <div
+  class="absolute  w-5 h-5 rounded-full bg-red text-white sm:text-xs text-xsm   left-6 sm:top-4 top-1 flex font-urbanist justify-center items-center">
+  05</div>
+</div>
+  <p class="text-light-grey font-urbanist font-semibold sm:text-xs text-xsm mb-0 rounded-sm  py-2 ">Alumni</p>
+  
+</div>
+<div class="h-full min-w-20 px-3 lg:rounded-tr-3xl bg-white relative cursor-pointer hidden md:flex flex-col justify-center items-center">
+  <div class="relative">
+    <img src="./src/images/avtar.png" alt="avatar1" class="rounded-full w-8 h-8 mt-2" />
+    <div
+    class="absolute  w-5 h-5 rounded-full bg-red text-white sm:text-xs text-xsm   left-6 sm:top-4 top-1 flex font-urbanist justify-center items-center">
+    05</div>
+  </div>
+
+  <p class="text-light-grey font-urbanist font-semibold sm:text-xs text-xsm mb-0 rounded-sm border-b-4 py-2 border-dark-blue">Student</p>
+ 
+</div>
+<button class="logo-sidebar inline-flex items-center p-2 text-sm text-gray-500 rounded-lg lg:hidden  focus:outline-none  focus:ring-2 ring-gray-200 dark:text-gray-400 bg-bluetransperent ">
+              
+ <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+    <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
+ </svg>
+</button>
+        </div>
+       
+      </div>
+    </div>
+  </div>
     <!---top bar end--->
 
    <div class="p-4 bg-grey-color mt-16 relative "> 
@@ -294,7 +312,7 @@
     
 
     <div class="mt-3">
-      <img src="src/images/maps.png">
+      <img class="w-full" src="src/images/maps.png">
     </div>
 
 </div>
@@ -397,7 +415,7 @@
     <p class="text-secondary text-xs font-urbanist font-medium">Vehicle Number</p>
   </div>
   <div class="col-span-6 ">
-    <h5 class="text-xs font font-bold text-space-angel font-urbanist">Vehicle Number</h5>
+    <h5 class="text-xs font font-bold text-space-angel font-urbanist">DL - 1PB - 8779</h5>
 </div>
 </div>
 <div class="grid grid-cols-12 my-3 gap-6">
@@ -428,7 +446,7 @@
       <p class="text-secondary text-xs font-urbanist font-medium">Vehicle Number</p>
     </div>
     <div class="col-span-6 ">
-      <h5 class="text-xs font font-bold text-space-angel font-urbanist">Vehicle Number</h5>
+      <h5 class="text-xs font font-bold text-space-angel font-urbanist">DL - 1PB - 8779</h5>
   </div>
   </div>
   <div class="grid grid-cols-12 my-3 gap-6">
@@ -482,7 +500,7 @@
 <div class=" grid grid-cols-2 md:grid-cols-3 mt-9 gap-4">
   <div class="p-0">
     <h5 class="text-sm font-urbanist font-semibold text-secondary">Total Students</h5>
-    <h3 class="text-secondary my-2.5 font-urbanist font-bold text-2xl">13,489</h3>
+    <h3 class="text-dark-black my-2.5 font-urbanist font-bold text-2xl">13,489</h3>
     <h6 class="font-urbanist text-sm font-medium text-light-grey">(All time Stats)</h6>
   </div>
   <div class="p-0">
@@ -589,29 +607,29 @@
                  
                     <thead class="bg-crystal-blue dark:bg-gray-700">
                         <tr>
-                            <th scope="col" class="bundle-table-th">
+                            <th scope="col" class="bundle-table-th text-center">
                               SL. No.
                             </th>
-                            <th scope="col" class="bundle-table-th ">
+                            <th scope="col" class="bundle-table-th text-center ">
                               Student ID
                             </th>
-                            <th scope="col" class="bundle-table-th">
+                            <th scope="col" class="bundle-table-th text-center">
                               Student Name
                             </th>
                             <th scope="col" class="bundle-table-th text-center">
                               Class
                             </th>
-                            <th scope="col" class="bundle-table-th">
+                            <th scope="col" class="bundle-table-th text-center">
                               Account
                             </th>
                            
-                            <th scope="col" class="bundle-table-th">
+                            <th scope="col" class="bundle-table-th text-center">
                               Stop
                             </th>
-                            <th scope="col" class="bundle-table-th">
+                            <th scope="col" class="bundle-table-th text-center">
                               Mobile
                             </th>
-                            <th scope="col" class="bundle-table-th">
+                            <th scope="col" class="bundle-table-th text-center">
                               Action
                             </th>
                         </tr>
@@ -635,8 +653,40 @@
                             <td class="text-dark-black  py-6 px-6 font-urbanist font-bold text-center text-base" data-label="Mobile No.">
                               9810010098
                             </td>
-                            <td class=" text-right py-2 px-3 ">  
-                              <div class="flex items-center justify-end">
+                            <td class=" text-center py-2 px-3 ">  
+                              <div class="flex items-center md:justify-center justify-end">
+                                <a href="#" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#view-student-health-record" class="sm:px-1 pr-2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M19.3 8.925L15.05 4.725L16.45 3.325C16.8333 2.94167 17.3043 2.75 17.863 2.75C18.421 2.75 18.8917 2.94167 19.275 3.325L20.675 4.725C21.0583 5.10833 21.2583 5.571 21.275 6.113C21.2917 6.65433 21.1083 7.11667 20.725 7.5L19.3 8.925ZM4 21C3.71667 21 3.47933 20.904 3.288 20.712C3.096 20.5207 3 20.2833 3 20V17.175C3 17.0417 3.025 16.9127 3.075 16.788C3.125 16.6627 3.2 16.55 3.3 16.45L13.6 6.15L17.85 10.4L7.55 20.7C7.45 20.8 7.33767 20.875 7.213 20.925C7.08767 20.975 6.95833 21 6.825 21H4Z" fill="#8DB776"/>
+                                  </svg>
+                                  </a>
+                                <a href="#" class="sm:px-1 pr-2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M7 21C6.45 21 5.97933 20.8043 5.588 20.413C5.196 20.021 5 19.55 5 19V6C4.71667 6 4.479 5.90433 4.287 5.713C4.09567 5.521 4 5.28333 4 5C4 4.71667 4.09567 4.479 4.287 4.287C4.479 4.09567 4.71667 4 5 4H9C9 3.71667 9.096 3.479 9.288 3.287C9.47933 3.09567 9.71667 3 10 3H14C14.2833 3 14.521 3.09567 14.713 3.287C14.9043 3.479 15 3.71667 15 4H19C19.2833 4 19.5207 4.09567 19.712 4.287C19.904 4.479 20 4.71667 20 5C20 5.28333 19.904 5.521 19.712 5.713C19.5207 5.90433 19.2833 6 19 6V19C19 19.55 18.8043 20.021 18.413 20.413C18.021 20.8043 17.55 21 17 21H7ZM7 6V19H17V6H7ZM9 16C9 16.2833 9.096 16.5207 9.288 16.712C9.47933 16.904 9.71667 17 10 17C10.2833 17 10.521 16.904 10.713 16.712C10.9043 16.5207 11 16.2833 11 16V9C11 8.71667 10.9043 8.479 10.713 8.287C10.521 8.09567 10.2833 8 10 8C9.71667 8 9.47933 8.09567 9.288 8.287C9.096 8.479 9 8.71667 9 9V16ZM13 16C13 16.2833 13.096 16.5207 13.288 16.712C13.4793 16.904 13.7167 17 14 17C14.2833 17 14.521 16.904 14.713 16.712C14.9043 16.5207 15 16.2833 15 16V9C15 8.71667 14.9043 8.479 14.713 8.287C14.521 8.09567 14.2833 8 14 8C13.7167 8 13.4793 8.09567 13.288 8.287C13.096 8.479 13 8.71667 13 9V16Z" fill="#F7284A"/>
+                                  </svg>
+                                  </a>
+                               
+                              </div>
+                          </td>
+                        </tr>
+                        <tr class="border-b border-white-grey">
+                          <td class="text-dark-black  py-6 px-6 font-urbanist font-bold text-center text-base" data-label="SL. No.">1508</td> 
+                            <td class="text-dark-black  py-6 px-6 font-urbanist font-bold text-center text-base">
+                              0000
+                            </td>
+                            <td class="text-dark-black  py-6 px-6 font-urbanist font-bold text-center text-base">Bob Lee</td>
+                            <td class="text-dark-black  py-6 px-6 font-urbanist font-bold text-center text-base" data-label="Class">6 A</td> 
+                            <td class="bundle-table-td-secondary py-4">
+                              <div class="rounded-lg bg-secondarybg px-2 py-1.5">
+                                <p class="text-sm font-semibold font-urbanist text-secondary">No Dues</p>
+                              </div>
+                            </td>
+                            <td class="text-dark-black  py-6 px-6 font-urbanist font-bold text-center text-base" data-label="Stop">
+                              Hawaii
+                            </td>
+                            <td class="text-dark-black  py-6 px-6 font-urbanist font-bold text-center text-base" data-label="Mobile No.">
+                              9810010098
+                            </td>
+                            <td class=" text-center py-2 px-3 ">  
+                              <div class="flex items-center md:justify-center justify-end">
                                 <a href="#" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#view-student-health-record" class="sm:px-1 pr-2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                   <path d="M19.3 8.925L15.05 4.725L16.45 3.325C16.8333 2.94167 17.3043 2.75 17.863 2.75C18.421 2.75 18.8917 2.94167 19.275 3.325L20.675 4.725C21.0583 5.10833 21.2583 5.571 21.275 6.113C21.2917 6.65433 21.1083 7.11667 20.725 7.5L19.3 8.925ZM4 21C3.71667 21 3.47933 20.904 3.288 20.712C3.096 20.5207 3 20.2833 3 20V17.175C3 17.0417 3.025 16.9127 3.075 16.788C3.125 16.6627 3.2 16.55 3.3 16.45L13.6 6.15L17.85 10.4L7.55 20.7C7.45 20.8 7.33767 20.875 7.213 20.925C7.08767 20.975 6.95833 21 6.825 21H4Z" fill="#8DB776"/>
                                   </svg>
@@ -667,8 +717,8 @@
                             <td class="text-dark-black  py-6 px-6 font-urbanist font-bold text-center text-base" data-label="Mobile No.">
                               9810010098
                             </td>
-                            <td class=" text-right py-2 px-3 ">  
-                              <div class="flex items-center justify-end">
+                            <td class=" text-center py-2 px-3 ">  
+                              <div class="flex items-center md:justify-center justify-end">
                                 <a href="#" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#view-student-health-record" class="sm:px-1 pr-2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                   <path d="M19.3 8.925L15.05 4.725L16.45 3.325C16.8333 2.94167 17.3043 2.75 17.863 2.75C18.421 2.75 18.8917 2.94167 19.275 3.325L20.675 4.725C21.0583 5.10833 21.2583 5.571 21.275 6.113C21.2917 6.65433 21.1083 7.11667 20.725 7.5L19.3 8.925ZM4 21C3.71667 21 3.47933 20.904 3.288 20.712C3.096 20.5207 3 20.2833 3 20V17.175C3 17.0417 3.025 16.9127 3.075 16.788C3.125 16.6627 3.2 16.55 3.3 16.45L13.6 6.15L17.85 10.4L7.55 20.7C7.45 20.8 7.33767 20.875 7.213 20.925C7.08767 20.975 6.95833 21 6.825 21H4Z" fill="#8DB776"/>
                                   </svg>
@@ -689,8 +739,8 @@
                             <td class="text-dark-black  py-6 px-6 font-urbanist font-bold text-center text-base">Bob Lee</td>
                             <td class="text-dark-black  py-6 px-6 font-urbanist font-bold text-center text-base" data-label="Class">6 A</td> 
                             <td class="bundle-table-td-secondary py-4">
-                              <div class="rounded-lg bg-strawberry px-2 py-1.5">
-                                <p class="text-sm font-semibold font-urbanist text-red">Default</p>
+                              <div class="rounded-lg bg-secondarybg px-2 py-1.5">
+                                <p class="text-sm font-semibold font-urbanist text-secondary">No Dues</p>
                               </div>
                             </td>
                             <td class="text-dark-black  py-6 px-6 font-urbanist font-bold text-center text-base" data-label="Stop">
@@ -699,40 +749,8 @@
                             <td class="text-dark-black  py-6 px-6 font-urbanist font-bold text-center text-base" data-label="Mobile No.">
                               9810010098
                             </td>
-                            <td class=" text-right py-2 px-3 ">  
-                              <div class="flex items-center justify-end">
-                                <a href="#" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#view-student-health-record" class="sm:px-1 pr-2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M19.3 8.925L15.05 4.725L16.45 3.325C16.8333 2.94167 17.3043 2.75 17.863 2.75C18.421 2.75 18.8917 2.94167 19.275 3.325L20.675 4.725C21.0583 5.10833 21.2583 5.571 21.275 6.113C21.2917 6.65433 21.1083 7.11667 20.725 7.5L19.3 8.925ZM4 21C3.71667 21 3.47933 20.904 3.288 20.712C3.096 20.5207 3 20.2833 3 20V17.175C3 17.0417 3.025 16.9127 3.075 16.788C3.125 16.6627 3.2 16.55 3.3 16.45L13.6 6.15L17.85 10.4L7.55 20.7C7.45 20.8 7.33767 20.875 7.213 20.925C7.08767 20.975 6.95833 21 6.825 21H4Z" fill="#8DB776"/>
-                                  </svg>
-                                  </a>
-                                <a href="#" class="sm:px-1 pr-2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M7 21C6.45 21 5.97933 20.8043 5.588 20.413C5.196 20.021 5 19.55 5 19V6C4.71667 6 4.479 5.90433 4.287 5.713C4.09567 5.521 4 5.28333 4 5C4 4.71667 4.09567 4.479 4.287 4.287C4.479 4.09567 4.71667 4 5 4H9C9 3.71667 9.096 3.479 9.288 3.287C9.47933 3.09567 9.71667 3 10 3H14C14.2833 3 14.521 3.09567 14.713 3.287C14.9043 3.479 15 3.71667 15 4H19C19.2833 4 19.5207 4.09567 19.712 4.287C19.904 4.479 20 4.71667 20 5C20 5.28333 19.904 5.521 19.712 5.713C19.5207 5.90433 19.2833 6 19 6V19C19 19.55 18.8043 20.021 18.413 20.413C18.021 20.8043 17.55 21 17 21H7ZM7 6V19H17V6H7ZM9 16C9 16.2833 9.096 16.5207 9.288 16.712C9.47933 16.904 9.71667 17 10 17C10.2833 17 10.521 16.904 10.713 16.712C10.9043 16.5207 11 16.2833 11 16V9C11 8.71667 10.9043 8.479 10.713 8.287C10.521 8.09567 10.2833 8 10 8C9.71667 8 9.47933 8.09567 9.288 8.287C9.096 8.479 9 8.71667 9 9V16ZM13 16C13 16.2833 13.096 16.5207 13.288 16.712C13.4793 16.904 13.7167 17 14 17C14.2833 17 14.521 16.904 14.713 16.712C14.9043 16.5207 15 16.2833 15 16V9C15 8.71667 14.9043 8.479 14.713 8.287C14.521 8.09567 14.2833 8 14 8C13.7167 8 13.4793 8.09567 13.288 8.287C13.096 8.479 13 8.71667 13 9V16Z" fill="#F7284A"/>
-                                  </svg>
-                                  </a>
-                               
-                              </div>
-                          </td>
-                        </tr>
-                        <tr class="border-b border-white-grey">
-                          <td class="text-dark-black  py-6 px-6 font-urbanist font-bold text-center text-base" data-label="SL. No.">1508</td> 
-                            <td class="text-dark-black  py-6 px-6 font-urbanist font-bold text-center text-base">
-                              0000
-                            </td>
-                            <td class="text-dark-black  py-6 px-6 font-urbanist font-bold text-center text-base">Bob Lee</td>
-                            <td class="text-dark-black  py-6 px-6 font-urbanist font-bold text-center text-base" data-label="Class">6 A</td> 
-                            <td class="bundle-table-td-secondary py-4">
-                              <div class="rounded-lg bg-strawberry px-2 py-1.5">
-                                <p class="text-sm font-semibold font-urbanist text-red">Default</p>
-                              </div>
-                            </td>
-                            <td class="text-dark-black  py-6 px-6 font-urbanist font-bold text-center text-base" data-label="Stop">
-                              Hawaii
-                            </td>
-                            <td class="text-dark-black  py-6 px-6 font-urbanist font-bold text-center text-base" data-label="Mobile No.">
-                              9810010098
-                            </td>
-                            <td class=" text-right py-2 px-3 ">  
-                              <div class="flex items-center justify-end">
+                            <td class=" text-center py-2 px-3 ">  
+                              <div class="flex items-center md:justify-center justify-end">
                                 <a href="#" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#view-student-health-record" class="sm:px-1 pr-2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                   <path d="M19.3 8.925L15.05 4.725L16.45 3.325C16.8333 2.94167 17.3043 2.75 17.863 2.75C18.421 2.75 18.8917 2.94167 19.275 3.325L20.675 4.725C21.0583 5.10833 21.2583 5.571 21.275 6.113C21.2917 6.65433 21.1083 7.11667 20.725 7.5L19.3 8.925ZM4 21C3.71667 21 3.47933 20.904 3.288 20.712C3.096 20.5207 3 20.2833 3 20V17.175C3 17.0417 3.025 16.9127 3.075 16.788C3.125 16.6627 3.2 16.55 3.3 16.45L13.6 6.15L17.85 10.4L7.55 20.7C7.45 20.8 7.33767 20.875 7.213 20.925C7.08767 20.975 6.95833 21 6.825 21H4Z" fill="#8DB776"/>
                                   </svg>
@@ -781,14 +799,14 @@
 
   </ul>  
 </div>
-  <button  class="add-fee-head-button md:ml-0 ml-auto md:mt-0 mt-3 relative h-10 py-1 justify-between bg-dark-blue lg:min-w-applicant min-w-auto flex items-center" >
+  <button  class="add-fee-head-button md:ml-0 ml-auto md:mt-0 mt-3 relative h-10 py-1 justify-between bg-dark-blue   flex items-center" >
     <span class="md:bg-transparent  rounded p-1">
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M5 20H19V18H5V20ZM19 9H15V3H9V9H5L12 16L19 9Z" fill="white"/>
         </svg>
         
       </span>
-    <span class="lg:block hidden">  Create Route</span>
+    <span class="lg:block hidden">  Download</span>
 
  </button> 
 </div>
@@ -827,103 +845,103 @@
       </thead>
       <tbody class="bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700">
           <tr class="border-b border-white-grey ">
-            <td class=" font-bold font-urbanist text-dark-black text-sm p-5" data-label="Grade">1st</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section A">4</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="SectionB">6</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section C">10</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section D"> 11 </td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section E">20</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Total">51</td>                                    
+            <td class=" font-bold font-urbanist text-dark-black text-sm p-6" data-label="Grade">1st</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section A">4</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="SectionB">6</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section C">10</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section D"> 11 </td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section E">20</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Total">51</td>                                    
           </tr>
           <tr class="border-b border-white-grey ">
-            <td class="font-bold font-urbanist text-dark-black text-sm  p-5" data-label="Grade">2nd</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section A">4</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="SectionB">6</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section C">10</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section D"> 11 </td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section E">20</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Total">51</td>                                    
+            <td class="font-bold font-urbanist text-dark-black text-sm  p-6" data-label="Grade">2nd</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section A">4</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="SectionB">6</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section C">10</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section D"> 11 </td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section E">20</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Total">51</td>                                    
           </tr>
           <tr class="border-b border-white-grey ">
-            <td class="font-bold font-urbanist text-dark-black text-sm  p-5" data-label="Grade">3rd</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section A">4</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="SectionB">6</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section C">10</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section D"> 11 </td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section E">20</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Total">51</td>                                    
+            <td class="font-bold font-urbanist text-dark-black text-sm  p-6" data-label="Grade">3rd</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section A">4</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="SectionB">6</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section C">10</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section D"> 11 </td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section E">20</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Total">51</td>                                    
           </tr>
           <tr class="border-b border-white-grey ">
-            <td class="font-bold font-urbanist text-dark-black text-sm  p-5" data-label="Grade">4th</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section A">4</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="SectionB">6</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section C">10</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section D"> 11 </td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section E">20</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Total">51</td>                                    
+            <td class="font-bold font-urbanist text-dark-black text-sm  p-6" data-label="Grade">4th</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section A">4</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="SectionB">6</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section C">10</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section D"> 11 </td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section E">20</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Total">51</td>                                    
           </tr>
           <tr class="border-b border-white-grey ">
-            <td class="font-bold font-urbanist text-dark-black text-sm  p-5" data-label="Grade">5th</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section A">4</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="SectionB">6</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section C">10</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section D"> 11 </td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section E">20</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Total">51</td>                                    
+            <td class="font-bold font-urbanist text-dark-black text-sm  p-6" data-label="Grade">5th</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section A">4</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="SectionB">6</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section C">10</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section D"> 11 </td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section E">20</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Total">51</td>                                    
           </tr>
           <tr class="border-b border-white-grey ">
-            <td class="font-bold font-urbanist text-dark-black text-sm  p-5" data-label="Grade">6th</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section A">4</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="SectionB">6</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section C">10</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section D"> 11 </td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section E">20</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Total">51</td>                                    
+            <td class="font-bold font-urbanist text-dark-black text-sm  p-6" data-label="Grade">6th</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section A">4</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="SectionB">6</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section C">10</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section D"> 11 </td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section E">20</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Total">51</td>                                    
           </tr>
           <tr class="border-b border-white-grey ">
-            <td class="font-bold font-urbanist text-dark-black text-sm  p-5" data-label="Grade">7th</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section A">4</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="SectionB">6</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section C">10</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section D"> 11 </td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section E">20</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Total">51</td>                                    
+            <td class="font-bold font-urbanist text-dark-black text-sm  p-6" data-label="Grade">7th</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section A">4</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="SectionB">6</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section C">10</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section D"> 11 </td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section E">20</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Total">51</td>                                    
           </tr>
           <tr class="border-b border-white-grey ">
-            <td class="font-bold font-urbanist text-dark-black text-sm  p-5" data-label="Grade">8th</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section A">4</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="SectionB">6</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section C">10</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section D"> 11 </td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section E">20</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Total">51</td>                                    
+            <td class="font-bold font-urbanist text-dark-black text-sm  p-6" data-label="Grade">8th</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section A">4</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="SectionB">6</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section C">10</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section D"> 11 </td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section E">20</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Total">51</td>                                    
           </tr>
           <tr class="border-b border-white-grey ">
-            <td class="font-bold font-urbanist text-dark-black text-sm  p-5" data-label="Grade">9th</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section A">4</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="SectionB">6</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section C">10</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section D"> 11 </td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section E">20</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Total">51</td>                                    
+            <td class="font-bold font-urbanist text-dark-black text-sm  p-6" data-label="Grade">9th</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section A">4</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="SectionB">6</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section C">10</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section D"> 11 </td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section E">20</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Total">51</td>                                    
           </tr>
           <tr class="border-b border-white-grey ">
-            <td class="font-bold font-urbanist text-dark-black text-sm  p-5" data-label="Grade">10th</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section A">4</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="SectionB">6</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section C">10</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section D"> 11 </td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section E">20</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Total">51</td>                                    
+            <td class="font-bold font-urbanist text-dark-black text-sm  p-6" data-label="Grade">10th</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section A">4</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="SectionB">6</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section C">10</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section D"> 11 </td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section E">20</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Total">51</td>                                    
           </tr>
           <tr class="border-b border-white-grey ">
-            <td class="font-bold font-urbanist text-dark-black text-sm  p-5" data-label="Grade">11th</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section A">4</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="SectionB">6</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section C">10</td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section D"> 11 </td>
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Section E">20</td> 
-              <td class="font-semibold font-urbanist text-secondary text-sm p-5" data-label="Total">51</td>                                    
+            <td class="font-bold font-urbanist text-dark-black text-sm  p-6" data-label="Grade">11th</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section A">4</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="SectionB">6</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section C">10</td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section D"> 11 </td>
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Section E">20</td> 
+              <td class="font-semibold font-urbanist text-secondary text-sm p-6" data-label="Total">51</td>                                    
           </tr>
       </tbody>
   </table>
@@ -949,103 +967,103 @@
                        
     <thead class="bg-crystal-blue dark:bg-gray-700">
         <tr>
-            <th scope="col" class="bundle-table-th">
+            <th scope="col" class="bundle-table-th text-center">
               SL. No.
             </th>
-            <th scope="col" class="bundle-table-th ">
+            <th scope="col" class="bundle-table-th text-center ">
               Student Name
             </th>
-            <th scope="col" class="bundle-table-th">
+            <th scope="col" class="bundle-table-th text-center">
               Adm.No
             </th>
-            <th scope="col" class="bundle-table-th">
+            <th scope="col" class="bundle-table-th text-center">
               Class
             </th>
-            <th scope="col" class="bundle-table-th">
+            <th scope="col" class="bundle-table-th text-center">
               Mobile No.
             </th>
            
-            <th scope="col" class="bundle-table-th">
+            <th scope="col" class="bundle-table-th text-center">
               Route No.
             </th>
-            <th scope="col" class="bundle-table-th">
+            <th scope="col" class="bundle-table-th text-center">
               Stop
             </th>
         </tr>
     </thead>
     <tbody class="bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700">
         <tr class="border-b border-white-grey ">
-          <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="SL. No.">1</td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" >AANYA SHARMA</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Adm.No">12735</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Class">3RD-A</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Mobile No.">6547839057</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5"> Route No.17 </td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Stop">Haus Khas Chowk</td>                                    
+          <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="SL. No.">1</td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" >AANYA SHARMA</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Adm.No">12735</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Class">3RD-A</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Mobile No.">6547839057</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center"> Route No.17 </td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Stop">Haus Khas Chowk</td>                                    
         </tr>
         <tr class="border-b border-white-grey ">
-          <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="SL. No.">2</td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" >AANYA SHARMA</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Adm.No">12735</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Class">3RD-A</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Mobile No.">6547839057</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5"> Route No.17 </td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Stop">Haus Khas Chowk</td>                                    
+          <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="SL. No.">2</td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" >AANYA SHARMA</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Adm.No">12735</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Class">3RD-A</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Mobile No.">6547839057</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center"> Route No.17 </td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Stop">Haus Khas Chowk</td>                                    
         </tr>
        
         <tr class="border-b border-white-grey ">
-          <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="SL. No.">3</td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" >AANYA SHARMA</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Adm.No">12735</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Class">3RD-A</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Mobile No.">6547839057</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5"> Route No.17 </td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Stop">Haus Khas Chowk</td>                                    
+          <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="SL. No.">3</td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" >AANYA SHARMA</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Adm.No">12735</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Class">3RD-A</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Mobile No.">6547839057</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center"> Route No.17 </td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Stop">Haus Khas Chowk</td>                                    
         </tr>
         <tr class="border-b border-white-grey ">
-          <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="SL. No.">4</td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" >AANYA SHARMA</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Adm.No">12735</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Class">3RD-A</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Mobile No.">6547839057</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5"> Route No.17 </td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Stop">Haus Khas Chowk</td>                                    
+          <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="SL. No.">4</td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" >AANYA SHARMA</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Adm.No">12735</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Class">3RD-A</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Mobile No.">6547839057</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center"> Route No.17 </td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Stop">Haus Khas Chowk</td>                                    
         </tr>
         <tr class="border-b border-white-grey ">
-          <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="SL. No.">5</td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" >AANYA SHARMA</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Adm.No">12735</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Class">3RD-A</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Mobile No.">6547839057</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5"> Route No.17 </td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Stop">Haus Khas Chowk</td>                                    
+          <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="SL. No.">5</td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" >AANYA SHARMA</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Adm.No">12735</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Class">3RD-A</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Mobile No.">6547839057</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center"> Route No.17 </td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Stop">Haus Khas Chowk</td>                                    
         </tr>
         <tr class="border-b border-white-grey ">
-          <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="SL. No.">6</td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" >AANYA SHARMA</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Adm.No">12735</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Class">3RD-A</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Mobile No.">6547839057</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5"> Route No.17 </td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Stop">Haus Khas Chowk</td>                                    
+          <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="SL. No.">6</td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" >AANYA SHARMA</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Adm.No">12735</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Class">3RD-A</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Mobile No.">6547839057</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center"> Route No.17 </td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Stop">Haus Khas Chowk</td>                                    
         </tr>
         <tr class="border-b border-white-grey ">
-          <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="SL. No.">7</td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" >AANYA SHARMA</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Adm.No">12735</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Class">3RD-A</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Mobile No.">6547839057</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5"> Route No.17 </td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Stop">Haus Khas Chowk</td>                                    
+          <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="SL. No.">7</td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" >AANYA SHARMA</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Adm.No">12735</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Class">3RD-A</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Mobile No.">6547839057</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center"> Route No.17 </td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Stop">Haus Khas Chowk</td>                                    
         </tr>
         <tr class="border-b border-white-grey ">
-          <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="SL. No.">8</td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" >AANYA SHARMA</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Adm.No">12735</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Class">3RD-A</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Mobile No.">6547839057</td>
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5"> Route No.17 </td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Stop">Haus Khas Chowk</td>                                    
+          <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="SL. No.">8</td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" >AANYA SHARMA</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Adm.No">12735</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Class">3RD-A</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Mobile No.">6547839057</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center"> Route No.17 </td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Stop">Haus Khas Chowk</td>                                    
         </tr>
     </tbody>
 </table>
@@ -1146,7 +1164,7 @@
                 <p class="text-secondary text-xs font-urbanist font-medium">Vehicle Number</p>
               </div>
               <div class="col-span-6 ">
-                <h5 class="text-xs font font-bold text-space-angel font-urbanist">Vehicle Number</h5>
+                <h5 class="text-xs font font-bold text-space-angel font-urbanist">DL - 1PB - 8779</h5>
             </div>
             </div>
             <div class="grid grid-cols-12 my-3 gap-6">
@@ -1178,7 +1196,7 @@
                   <p class="text-secondary text-xs font-urbanist font-medium">Vehicle Number</p>
                 </div>
                 <div class="col-span-6 ">
-                  <h5 class="text-xs font font-bold text-space-angel font-urbanist">Vehicle Number</h5>
+                  <h5 class="text-xs font font-bold text-space-angel font-urbanist">DL - 1PB - 8779</h5>
               </div>
               </div>
               <div class="grid grid-cols-12 my-3 gap-6">
@@ -1211,94 +1229,94 @@
                        
       <thead class="bg-crystal-blue dark:bg-gray-700">
           <tr>
-              <th scope="col" class="bundle-table-th">
+              <th scope="col" class="bundle-table-th text-center">
                 SL. No.
               </th>
-              <th scope="col" class="bundle-table-th">
+              <th scope="col" class="bundle-table-th text-center">
                 Student Name
               </th>
-              <th scope="col" class="bundle-table-th ">
+              <th scope="col" class="bundle-table-th text-center ">
                 Adm.No
               </th>
-              <th scope="col" class="bundle-table-th">
+              <th scope="col" class="bundle-table-th text-center">
                 Student ID
               </th>
              
-              <th scope="col" class="bundle-table-th">
+              <th scope="col" class="bundle-table-th text-center">
                 Class-Section
               </th>
-              <th scope="col" class="bundle-table-th">
+              <th scope="col" class="bundle-table-th text-center">
                 Route Number
               </th>
-              <th scope="col" class="bundle-table-th">
+              <th scope="col" class="bundle-table-th text-center">
                 Transport
               </th>
              
-              <th scope="col" class="bundle-table-th">
+              <th scope="col" class="bundle-table-th text-center">
                 Paid
               </th>
           </tr>
       </thead>
       <tbody class="bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700">
           <tr class="border-b border-white-grey ">
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="SL. No.">1</td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" >ABHROJIT GHOSh</td>
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Adm.No" >11258</td>
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="ID">STU203</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="SL. No.">1</td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" >ABHROJIT GHOSh</td>
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Adm.No" >11258</td>
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="ID">STU203</td>
               
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Class">11TH - C</td>
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Class">11TH - C</td>
               
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" >Route No.17</td> 
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Transport"> Other Area </td> 
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Paid">2663017</td>                                                                       
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" >Route No.17</td> 
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Transport"> Other Area </td> 
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Paid">2663017</td>                                                                       
           </tr>
           <tr class="border-b border-white-grey ">
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="SL. No.">2</td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" >ABHROJIT GHOSh</td>
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Adm.No" >11258</td>
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="ID">STU203</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="SL. No.">2</td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" >ABHROJIT GHOSh</td>
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Adm.No" >11258</td>
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="ID">STU203</td>
               
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Class">11TH - C</td>
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Class">11TH - C</td>
               
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" >Route No.17</td> 
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Transport"> Other Area </td> 
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Paid">2663017</td>                                                                       
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" >Route No.17</td> 
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Transport"> Other Area </td> 
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Paid">2663017</td>                                                                       
           </tr>
           <tr class="border-b border-white-grey ">
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="SL. No.">3</td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" >ABHROJIT GHOSh</td>
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Adm.No" >11258</td>
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="ID">STU203</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="SL. No.">3</td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" >ABHROJIT GHOSh</td>
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Adm.No" >11258</td>
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="ID">STU203</td>
               
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Class">11TH - C</td>
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Class">11TH - C</td>
               
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" >Route No.17</td> 
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Transport"> Other Area </td> 
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Paid">2663017</td>                                                                       
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" >Route No.17</td> 
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Transport"> Other Area </td> 
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Paid">2663017</td>                                                                       
           </tr>
           <tr class="border-b border-white-grey ">
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="SL. No.">4</td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" >ABHROJIT GHOSh</td>
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Adm.No" >11258</td>
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="ID">STU203</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="SL. No.">4</td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" >ABHROJIT GHOSh</td>
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Adm.No" >11258</td>
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="ID">STU203</td>
               
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Class">11TH - C</td>
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Class">11TH - C</td>
               
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" >Route No.17</td> 
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Transport"> Other Area </td> 
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Paid">2663017</td>                                                                       
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" >Route No.17</td> 
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Transport"> Other Area </td> 
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Paid">2663017</td>                                                                       
           </tr>
           <tr class="border-b border-white-grey ">
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="SL. No.">5</td> 
-            <td class="text-sm font-urbanist font-semibold text-secondary p-5" >ABHROJIT GHOSh</td>
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Adm.No" >11258</td>
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="ID">STU203</td>
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="SL. No.">5</td> 
+            <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" >ABHROJIT GHOSh</td>
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Adm.No" >11258</td>
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="ID">STU203</td>
               
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Class">11TH - C</td>
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Class">11TH - C</td>
               
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" >Route No.17</td> 
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Transport"> Other Area </td> 
-              <td class="text-sm font-urbanist font-semibold text-secondary p-5" data-label="Paid">2663017</td>                                                                       
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" >Route No.17</td> 
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Transport"> Other Area </td> 
+              <td class="text-sm font-urbanist font-semibold text-secondary p-6 text-center" data-label="Paid">2663017</td>                                                                       
           </tr>
       </tbody>
   </table>
@@ -1368,7 +1386,7 @@ data-te-keyboard="false">
       <label class="font-urbanist font-semibold text-sm text-dark-black">
         Route No.
       </label>
-      <input type="text" name="tag" id="tag" class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3" placeholder="Route Name" required="">
+      <input type="text" name="tag" id="tag" class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-4 py-3" placeholder="Route Name" required="">
     </div>
 
     <div class=" my-2.5  w-full">
@@ -1376,14 +1394,14 @@ data-te-keyboard="false">
         Route Coordinator
       </label>
       <div class="relative">
-      <div class="absolute inset-y-0 left-0 flex items-center pl-5 pointer-events-none">
+      <div class="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none">
         <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M12.8143 11.5767L15.6696 14.4314L14.7263 15.3747L11.8716 12.5194C10.8094 13.3708 9.48829 13.834 8.12695 13.832C4.81495 13.832 2.12695 11.144 2.12695 7.83203C2.12695 4.52003 4.81495 1.83203 8.12695 1.83203C11.439 1.83203 14.127 4.52003 14.127 7.83203C14.1289 9.19337 13.6658 10.5145 12.8143 11.5767ZM11.477 11.082C12.323 10.212 12.7955 9.04565 12.7936 7.83203C12.7936 5.25336 10.705 3.16536 8.12695 3.16536C5.54829 3.16536 3.46029 5.25336 3.46029 7.83203C3.46029 10.41 5.54829 12.4987 8.12695 12.4987C9.34057 12.5006 10.5069 12.0281 11.377 11.182L11.477 11.082Z" fill="#6A6A6A"/>
           </svg>
           
           
       </div>
-      <input type="text" id="simple-search" class="bg-transparent border border-white-grey text-white-grey text-xs font-urbanist font-medium rounded-lg block w-full pl-12 py-3" placeholder="Search by Teacher Name" required="">
+      <input type="text" id="simple-search" class="bg-transparent border border-white-grey text-white-grey text-xs font-urbanist font-medium rounded-lg block w-full pl-11 py-3" placeholder="Search by Teacher Name" required="">
       </div>
     </div>
 
@@ -1391,7 +1409,7 @@ data-te-keyboard="false">
       <label class="font-urbanist font-semibold text-sm text-dark-black">
         Coordinator Contact
       </label>
-      <input type="text" name="name" id="name" class=" bg-secondaryinput font-urbanist font-medium   border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3" placeholder="Coordinator Contact" required="">
+      <input type="text" name="name" id="name" class=" bg-secondaryinput font-urbanist font-medium   border border-white-grey text-white-grey text-xs rounded-lg block w-full px-4 py-3" placeholder="Coordinator Contact" required="">
     </div> 
  
 
@@ -1399,7 +1417,7 @@ data-te-keyboard="false">
      <label class="font-urbanist font-semibold text-sm text-dark-black">
       Vehicle No. (Morning)
      </label>
-   <select class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3">
+   <select class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-4 py-3">
      <option> DL-1PB-8779 </option>
      <option> DL-1PB-8779 </option>
      </select>
@@ -1409,7 +1427,7 @@ data-te-keyboard="false">
     <label class="font-urbanist font-semibold text-sm text-dark-black">
       Driver Name
     </label>
-  <select class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3">
+  <select class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-4 py-3">
     <option>BIRANJPAL SINGH   </option>
     <option>BIRANJPAL SINGH  </option>
     </select>
@@ -1419,7 +1437,7 @@ data-te-keyboard="false">
     <label class="font-urbanist font-semibold text-sm text-dark-black">
       Driver Number
     </label>
-    <input type="text" name="name" id="name" class=" bg-secondaryinput font-urbanist font-medium   border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3" placeholder="+40 735 631 620" required="">
+    <input type="text" name="name" id="name" class=" bg-secondaryinput font-urbanist font-medium   border border-white-grey text-white-grey text-xs rounded-lg block w-full px-4 py-3" placeholder="+40 735 631 620" required="">
   </div> 
  
   <div class=" my-2.5 flex items-center  w-full">  
@@ -1445,7 +1463,7 @@ data-te-keyboard="false">
     <label class="font-urbanist font-semibold text-sm text-dark-black">
       Vehicle No. (Afternoon)
     </label>
-  <select class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3">
+  <select class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-4 py-3">
     <option>Bus   </option>
     <option>Bus</option>
     </select>
@@ -1454,7 +1472,7 @@ data-te-keyboard="false">
     <label class="font-urbanist font-semibold text-sm text-dark-black">
       Driver Name
     </label>
-  <select class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3">
+  <select class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-4 py-3">
     <option>BIRANJPAL SINGH     </option>
     <option>BIRANJPAL SINGH  </option>
     </select>
@@ -1463,13 +1481,13 @@ data-te-keyboard="false">
     <label class="font-urbanist font-semibold text-sm text-dark-black">
       Driver Number
     </label>
-    <input type="text" name="name" id="name" class=" bg-secondaryinput font-urbanist font-medium   border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3" placeholder="+40 735 631 620" required="">
+    <input type="text" name="name" id="name" class=" bg-secondaryinput font-urbanist font-medium   border border-white-grey text-white-grey text-xs rounded-lg block w-full px-4 py-3" placeholder="+40 735 631 620" required="">
   </div> 
     <div class=" my-2.5  w-full">  
       <label class="font-urbanist font-semibold text-sm text-dark-black">
        Add Tags
       </label>
-      <input type="text" name="tag" id="tag" class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3" placeholder="Add Tags" required="">
+      <input type="text" name="tag" id="tag" class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-4 py-3" placeholder="Add Tags" required="">
     </div>
 
     <div class=" my-2.5  w-full">  
@@ -1477,13 +1495,13 @@ data-te-keyboard="false">
         <div class="w-2/6">
           <div class=" my-2  w-full">  
             
-            <input type="text" name="tag" id="tag" class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3" placeholder="Route Name" required="">
+            <input type="text" name="tag" id="tag" class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-4 py-3" placeholder="Route Name" required="">
           </div>
         </div>
         <div class="w-2/6">
           <div class=" my-2  w-full">  
             
-            <input type="text" name="tag" id="tag" class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3" placeholder="Route Name" required="">
+            <input type="text" name="tag" id="tag" class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-4 py-3" placeholder="$ 140" required="">
           </div>
         </div>
         <div class="w-2/6">
@@ -1502,13 +1520,13 @@ data-te-keyboard="false">
         <div class="w-2/6">
           <div class=" my-2  w-full">  
             
-            <input type="text" name="tag" id="tag" class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3" placeholder="Route Name" required="">
+            <input type="text" name="tag" id="tag" class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-4 py-3" placeholder="Route Name" required="">
           </div>
         </div>
         <div class="w-2/6">
           <div class=" my-2  w-full">  
             
-            <input type="text" name="tag" id="tag" class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3" placeholder="Route Name" required="">
+            <input type="text" name="tag" id="tag" class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-4 py-3" placeholder="$ 140" required="">
           </div>
         </div>
         <div class="w-2/6">
@@ -1584,7 +1602,7 @@ data-te-keyboard="false">
       <label class="font-urbanist font-semibold text-sm text-dark-black">
         Route Name
       </label>
-    <select class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3">
+    <select class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-4 py-3">
       <option> Route Name </option>
       <option> Route Name </option>
       </select>
@@ -1594,7 +1612,7 @@ data-te-keyboard="false">
       <label class="font-urbanist font-semibold text-sm text-dark-black">
         Stop
       </label>
-    <select class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3">
+    <select class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-4 py-3">
       <option>Stop </option>
       <option>Stop</option>
       </select>
@@ -1665,7 +1683,7 @@ data-te-keyboard="false">
         
       data-te-toggle="modal" data-te-target="#generate" class="font-urbanist font-bold text-sm rounded text-white  bg-dark-blue  py-3 px-5 " data-te-modal-dismiss
       data-te-ripple-init  aria-label="Close">
-      Submit
+      Add
       </button>
     </div>
 
@@ -1704,7 +1722,7 @@ data-te-keyboard="false">
       <label class="font-urbanist font-semibold text-sm text-dark-black">
         Vehicle Type
       </label>
-    <select class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3">
+    <select class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-4 py-3">
       <option>Vehicle Type </option>
       <option> Vehicle Type </option>
       </select>
@@ -1716,7 +1734,7 @@ data-te-keyboard="false">
       <label class="font-urbanist font-semibold text-sm text-dark-black">
         Vehicle No.
       </label>
-      <input type="text" name="tag" id="tag" class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3" placeholder="0000" required="">
+      <input type="text" name="tag" id="tag" class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-4 py-3" placeholder="0000" required="">
     </div>
 
     <div class=" mt-8  flex items-center justify-end">
@@ -1731,7 +1749,7 @@ data-te-keyboard="false">
         
       data-te-toggle="modal" data-te-target="#generate" class="font-urbanist font-bold text-sm rounded text-white  bg-dark-blue  py-3 px-5 " data-te-modal-dismiss
       data-te-ripple-init  aria-label="Close">
-      Submit
+      Add
       </button>
     </div>
 
@@ -1770,7 +1788,7 @@ data-te-keyboard="false">
       <label class="font-urbanist font-semibold text-sm text-dark-black">
         Driver Name
       </label>
-      <input type="text" name="tag" id="tag" class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3" placeholder="BIRANJPAL SINGH  " required="">
+      <input type="text" name="tag" id="tag" class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-4 py-3" placeholder="BIRANJPAL SINGH  " required="">
     </div>
 
     
@@ -1779,7 +1797,7 @@ data-te-keyboard="false">
       <label class="font-urbanist font-semibold text-sm text-dark-black">
         Driver Number
       </label>
-      <input type="text" name="tag" id="tag" class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-5 py-3" placeholder="+40 735 631 620" required="">
+      <input type="text" name="tag" id="tag" class=" font-urbanist font-medium  bg-white border border-white-grey text-white-grey text-xs rounded-lg block w-full px-4 py-3" placeholder="+40 735 631 620" required="">
     </div>
 
     <div class=" mt-8  flex items-center justify-end">
