@@ -271,25 +271,25 @@
  <li class="nav-itemesa sm:pr-5 pr-1.5" role="presentation">
    <a href="#periods" class="
    tab-menu text-light-grey data-[te-nav-active]:border-dark-blue data-[te-nav-active]:text-dark-blue
-   " id="periods-tab" data-te-toggle="pill" data-te-target="#periods" role="tab" aria-controls="periods"
+    data[te-nav-active]:font-bold " id="periods-tab" data-te-toggle="pill" data-te-target="#periods" role="tab" aria-controls="periods"
      aria-selected="true " data-te-nav-active>Periods</a>
  </li>
  <li class="nav-itemesa sm:px-5 px-1.5" role="presentation">
    <a href="#assignsubjectandteachers" class="
    tab-menu text-light-grey data-[te-nav-active]:border-dark-blue data-[te-nav-active]:text-dark-blue
-   " id="assignsubjectandteachers-tab" data-te-toggle="pill" data-te-target="#assignsubjectandteachers" role="tab"
+   data[te-nav-active]:font-bold" id="assignsubjectandteachers-tab" data-te-toggle="pill" data-te-target="#assignsubjectandteachers" role="tab"
      aria-controls="assignsubjectandteachers" aria-selected="false">Assign Subject and Teachers</a>
  </li>
  <li class="nav-itemesa  sm:px-5 px-1.5" role="presentation">
    <a href="#teacherload" class="
    tab-menu text-light-grey data-[te-nav-active]:border-dark-blue data-[te-nav-active]:text-dark-blue
-   " id="teacherload-tab" data-te-toggle="pill" data-te-target="#teacherload" role="tab"
+   data[te-nav-active]:font-bold" id="teacherload-tab" data-te-toggle="pill" data-te-target="#teacherload" role="tab"
      aria-controls="teacherload " aria-selected="false ">Teacher Load</a>
  </li>
  <li class="nav-itemesa  sm:px-5 px-1.5" role="presentation">
   <a href="#rules" class="
   tab-menu text-light-grey data-[te-nav-active]:border-dark-blue data-[te-nav-active]:text-dark-blue
-  " id="rules-tab" data-te-toggle="pill" data-te-target="#rules" role="tab"
+  data[te-nav-active]:font-bold" id="rules-tab" data-te-toggle="pill" data-te-target="#rules" role="tab"
     aria-controls="rules " aria-selected="false ">Rules</a>
 </li>
 </ul>
@@ -348,7 +348,7 @@
              <li class="nav-itemesa " role="presentation">
                <a href="#annual-fee" class="px-3 py-2.5 block
                text-bagni-scale font-urbanist font-bold text-sm data-[te-nav-active]:bg-dark-blue data-[te-nav-active]:text-white rounded
-               " id="annual-fee-tab" data-te-toggle="pill" data-te-target="#annual-fee" role="tab" aria-controls="annual-fee "  aria-selected="true " data-te-nav-active>Timetable 3</a>
+               " id="annual-fee-tab" data-te-toggle="pill" data-te-target="#annual-fee" role="tab" aria-controls="annual-fee "  aria-selected="true " data-te-nav-active>Timetable name</a>
              </li>
             
          
@@ -508,7 +508,7 @@
  
 <div id="accordionExample" class="mt-5">
   <div
-    class="rounded-t-lg border border-neutral-200 border-l-4 border-l-dark-blue bg-white dark:border-neutral-600 dark:bg-neutral-800">
+    class="rounded-lg border border-neutral-200 border-l-4 border-l-dark-blue bg-white dark:border-neutral-600 dark:bg-neutral-800">
     <h2 class="mb-0" id="headingOne">
       <button
         class="group relative  w-full items-center rounded-t-[15px] border-0 bg-white px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-neutral-800 dark:text-white [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800 dark:[&:not([data-te-collapse-collapsed])]:text-primary-400 dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)]"
@@ -520,12 +520,12 @@
         <div class="grid grid-cols-12 gap-4 mobailecustomes items-center  ">
           <h4 class="col-span-4      text-lg font-bold mobailetextw text-dark-black font-urbanist">Monday</h4>
 
-          <p class="col-span-4 text-base font-bold accountprid text-secondary font-urbanist">Period Count <span class="text-sm font-urbanist font-medium text-light-grey">8</span></p>
+          <p class="col-span-4 text-base font-bold accountprid text-secondary font-urbanist">Period Count <span class="text-sm font-urbanist md:bg-transparent bg-soft-peach rounded-lg md:p-0 p-2 font-medium text-light-grey">8</span></p>
 <div class="col-span-12 flex items-center justify-end md:col-span-4">
           <div class="flex mobailesconvert justify-between w-60 md:mt-0 mt-3  items-center">
             <a href="" class="text-sm font-bold text-secondary font-urbanist py-2.5 px-5 border  border-white-grey rounded">Apply to all</a>
 
-            <a href="" class="text-sm bg-red font-bold flex items-center text-white font-urbanist py-1.5 px-4 border  border-red rounded">Period <span class="p-2 ml-2 bg-white rounded"> <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <a href="" data-te-toggle="modal" data-te-target="#add-period" data-te-modal-init class="text-sm bg-red font-bold flex items-center text-white font-urbanist py-1.5 px-4 border  border-red rounded">Period <span class="p-2 ml-2 bg-white rounded"> <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M4.29102 9.95573V5.70573H0.0410156V4.28906H4.29102V0.0390625H5.70768V4.28906H9.95768V5.70573H5.70768V9.95573H4.29102Z" fill="#F7284A"/>
               </svg>
               </span></a>
@@ -564,7 +564,7 @@
               <td class="text-base font-urbanist font-bold text-secondary py-2 px-3">Timings
                 <span class="text-xs ml-1 font-urbanist font-medium text-light-grey ">7:50 AM - 2:00 PM</span>
               </td>
-              <td class="text-base font-urbanist font-bold text-secondary py-2 px-3">Period Duration <span class="text-xs ml-1 font-urbanist font-medium text-light-grey "> 8</span></td>
+              <td class="text-base font-urbanist font-bold text-secondary py-2 px-3">Period Duration <span class="text-xs ml-1 font-urbanist font-medium  text-light-grey "> 8</span></td>
               <td class=" text-right py-2 px-3 ">  
                 <div class="flex items-center back-colors justify-end">
                   <a href="#" data-te-toggle="modal" data-te-ripple-init="" data-te-target="#view-student-health-record" class="sm:px-1 pr-2 bg-white rounded " ><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -606,7 +606,7 @@
   
 </div>
 <div
-    class="rounded-t-lg border my-3 border-neutral-200 border-l-4 border-l-red bg-white dark:border-neutral-600 dark:bg-neutral-800">
+    class="rounded-lg border my-3 border-neutral-200 border-l-4 border-l-red bg-white dark:border-neutral-600 dark:bg-neutral-800">
     <h2 class="mb-0" id="headingTow">
       <button
         class="group relative  w-full items-center rounded-t-[15px] border-0 bg-white px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-neutral-800 dark:text-white [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800 dark:[&:not([data-te-collapse-collapsed])]:text-primary-400 dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)]"
@@ -619,12 +619,12 @@
         <div class="grid grid-cols-12 gap-4 mobailecustomes items-center  ">
           <h4 class="col-span-4      text-lg font-bold mobailetextw text-dark-black font-urbanist">Monday</h4>
 
-          <p class="col-span-4 text-base font-bold accountprid text-secondary font-urbanist">Period Count <span class="text-sm font-urbanist font-medium text-light-grey">8</span></p>
+          <p class="col-span-4 text-base font-bold accountprid text-secondary font-urbanist">Period Count <span class="text-sm font-urbanist md:bg-transparent bg-soft-peach rounded-lg md:p-0 p-2 font-medium text-light-grey">8</span></p>
 <div class="col-span-12 flex items-center justify-end md:col-span-4">
           <div class="flex mobailesconvert justify-between w-60 md:mt-0 mt-3  items-center">
             <a href="" class="text-sm font-bold text-secondary font-urbanist py-2.5 px-5 border  border-white-grey rounded">Apply to all</a>
 
-            <a href="" class="text-sm bg-red font-bold flex items-center text-white font-urbanist py-1.5 px-4 border  border-red rounded">Period <span class="p-2 ml-2 bg-white rounded"> <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <a href="" data-te-toggle="modal" data-te-target="#add-period" data-te-modal-init class="text-sm bg-red font-bold flex items-center text-white font-urbanist py-1.5 px-4 border  border-red rounded">Period <span class="p-2 ml-2 bg-white rounded"> <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M4.29102 9.95573V5.70573H0.0410156V4.28906H4.29102V0.0390625H5.70768V4.28906H9.95768V5.70573H5.70768V9.95573H4.29102Z" fill="#F7284A"/>
               </svg>
               </span></a>
@@ -704,7 +704,7 @@
   
 </div>
 <div
-    class="rounded-t-lg border my-3 border-neutral-200 border-l-4 border-l-light-green bg-white dark:border-neutral-600 dark:bg-neutral-800">
+    class="rounded-lg border my-3 border-neutral-200 border-l-4 border-l-light-green bg-white dark:border-neutral-600 dark:bg-neutral-800">
     <h2 class="mb-0" id="headingThree">
       <button
         class="group relative  w-full items-center rounded-t-[15px] border-0 bg-white px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-neutral-800 dark:text-white [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800 dark:[&:not([data-te-collapse-collapsed])]:text-primary-400 dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)]"
@@ -717,12 +717,12 @@
         <div class="grid grid-cols-12 gap-4 mobailecustomes items-center  ">
           <h4 class="col-span-4      text-lg font-bold mobailetextw text-dark-black font-urbanist">Monday</h4>
 
-          <p class="col-span-4 text-base font-bold accountprid text-secondary font-urbanist">Period Count <span class="text-sm font-urbanist font-medium text-light-grey">8</span></p>
+          <p class="col-span-4 text-base font-bold accountprid text-secondary font-urbanist">Period Count <span class="text-sm font-urbanist md:bg-transparent bg-soft-peach rounded-lg md:p-0 p-2 font-medium text-light-grey">8</span></p>
 <div class="col-span-12 flex items-center justify-end md:col-span-4">
           <div class="flex mobailesconvert justify-between w-60 md:mt-0 mt-3  items-center">
             <a href="" class="text-sm font-bold text-secondary font-urbanist py-2.5 px-5 border  border-white-grey rounded">Apply to all</a>
 
-            <a href="" class="text-sm bg-red font-bold flex items-center text-white font-urbanist py-1.5 px-4 border  border-red rounded">Period <span class="p-2 ml-2 bg-white rounded"> <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <a href="" data-te-toggle="modal" data-te-target="#add-period" data-te-modal-init class="text-sm bg-red font-bold flex items-center text-white font-urbanist py-1.5 px-4 border  border-red rounded">Period <span class="p-2 ml-2 bg-white rounded"> <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M4.29102 9.95573V5.70573H0.0410156V4.28906H4.29102V0.0390625H5.70768V4.28906H9.95768V5.70573H5.70768V9.95573H4.29102Z" fill="#F7284A"/>
               </svg>
               </span></a>
@@ -801,10 +801,8 @@
   </div>
   
 </div>
-
-
 <div
-    class="rounded-t-lg border my-3 border-neutral-200 border-l-4 border-l-darkgren-green bg-white dark:border-neutral-600 dark:bg-neutral-800">
+    class="rounded-lg border my-3 border-neutral-200 border-l-4 border-l-darkgren-green bg-white dark:border-neutral-600 dark:bg-neutral-800">
     <h2 class="mb-0" id="headingFour">
       <button
         class="group relative  w-full items-center rounded-t-[15px] border-0 bg-white px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-neutral-800 dark:text-white [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800 dark:[&:not([data-te-collapse-collapsed])]:text-primary-400 dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)]"
@@ -817,12 +815,12 @@
         <div class="grid grid-cols-12 gap-4 mobailecustomes items-center  ">
           <h4 class="col-span-4      text-lg font-bold mobailetextw text-dark-black font-urbanist">Monday</h4>
 
-          <p class="col-span-4 text-base font-bold accountprid text-secondary font-urbanist">Period Count <span class="text-sm font-urbanist font-medium text-light-grey">8</span></p>
+          <p class="col-span-4 text-base font-bold accountprid text-secondary font-urbanist">Period Count <span class="text-sm font-urbanist md:bg-transparent bg-soft-peach rounded-lg md:p-0 p-2 font-medium text-light-grey">8</span></p>
 <div class="col-span-12 flex items-center justify-end md:col-span-4">
           <div class="flex mobailesconvert justify-between w-60 md:mt-0 mt-3  items-center">
             <a href="" class="text-sm font-bold text-secondary font-urbanist py-2.5 px-5 border  border-white-grey rounded">Apply to all</a>
 
-            <a href="" class="text-sm bg-red font-bold flex items-center text-white font-urbanist py-1.5 px-4 border  border-red rounded">Period <span class="p-2 ml-2 bg-white rounded"> <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <a href="" data-te-toggle="modal" data-te-target="#add-period" data-te-modal-init class="text-sm bg-red font-bold flex items-center text-white font-urbanist py-1.5 px-4 border  border-red rounded">Period <span class="p-2 ml-2 bg-white rounded"> <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M4.29102 9.95573V5.70573H0.0410156V4.28906H4.29102V0.0390625H5.70768V4.28906H9.95768V5.70573H5.70768V9.95573H4.29102Z" fill="#F7284A"/>
               </svg>
               </span></a>
@@ -904,7 +902,7 @@
 
 
 <div
-    class="rounded-t-lg border my-3 border-neutral-200 border-l-4 border-l-brken-green bg-white dark:border-neutral-600 dark:bg-neutral-800">
+    class="rounded-lg border my-3 border-neutral-200 border-l-4 border-l-brken-green bg-white dark:border-neutral-600 dark:bg-neutral-800">
     <h2 class="mb-0" id="headingFive">
       <button
         class="group relative  w-full items-center rounded-t-[15px] border-0 bg-white px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-neutral-800 dark:text-white [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800 dark:[&:not([data-te-collapse-collapsed])]:text-primary-400 dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)]"
@@ -917,12 +915,12 @@
         <div class="grid grid-cols-12 gap-4 mobailecustomes items-center  ">
           <h4 class="col-span-4      text-lg font-bold mobailetextw text-dark-black font-urbanist">Monday</h4>
 
-          <p class="col-span-4 text-base font-bold accountprid text-secondary font-urbanist">Period Count <span class="text-sm font-urbanist font-medium text-light-grey">8</span></p>
+          <p class="col-span-4 text-base font-bold accountprid text-secondary font-urbanist">Period Count <span class="text-sm font-urbanist md:bg-transparent bg-soft-peach rounded-lg md:p-0 p-2 font-medium text-light-grey">8</span></p>
 <div class="col-span-12 flex items-center justify-end md:col-span-4">
           <div class="flex mobailesconvert justify-between w-60 md:mt-0 mt-3  items-center">
             <a href="" class="text-sm font-bold text-secondary font-urbanist py-2.5 px-5 border  border-white-grey rounded">Apply to all</a>
 
-            <a href="" class="text-sm bg-red font-bold flex items-center text-white font-urbanist py-1.5 px-4 border  border-red rounded">Period <span class="p-2 ml-2 bg-white rounded"> <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <a href="" data-te-toggle="modal" data-te-target="#add-period" data-te-modal-init class="text-sm bg-red font-bold flex items-center text-white font-urbanist py-1.5 px-4 border  border-red rounded">Period <span class="p-2 ml-2 bg-white rounded"> <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M4.29102 9.95573V5.70573H0.0410156V4.28906H4.29102V0.0390625H5.70768V4.28906H9.95768V5.70573H5.70768V9.95573H4.29102Z" fill="#F7284A"/>
               </svg>
               </span></a>

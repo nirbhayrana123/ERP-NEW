@@ -1972,8 +1972,11 @@ table.accoriantabls tr td span {
   padding: 5px;
 }
 .mobailecustomes p {
-  width: 115px;
-  margin-right: auto;
+  width: 120px;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
  
 .mobailecustomes .mobailesconvert a:first-child {
