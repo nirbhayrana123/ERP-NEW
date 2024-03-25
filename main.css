@@ -1990,7 +1990,31 @@ table.accoriantabls tr td span {
   width: 50%;
 }
 
-
+.mobailesborder::after {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 1px;
+  background-color: #ccc;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 55%;
+}
+.mobailesborder {
+  position: relative;
+}
+.mobailesborder::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  background-color: #ccc;
+  height: 35%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 15px;
+}
   }
 
   @media screen and (max-width: 500px) {

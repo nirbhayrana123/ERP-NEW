@@ -2837,6 +2837,10 @@ button.clender-view.view-details-button svg path {
   width: 100vw;
 }
 
+.w-3\/4 {
+  width: 75%;
+}
+
 .min-w-170 {
   min-width: 200px;
 }
@@ -7729,6 +7733,34 @@ text.highcharts-credits {
     text-align: center;
     width: 50%;
   }
+
+  .mobailesborder::after {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background-color: #ccc;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 55%;
+  }
+
+  .mobailesborder {
+    position: relative;
+  }
+
+  .mobailesborder::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    background-color: #ccc;
+    height: 35%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 15px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -9698,6 +9730,10 @@ text.highcharts-credits {
     top: 1rem;
   }
 
+  .sm\:col-span-4 {
+    grid-column: span 4 / span 4;
+  }
+
   .sm\:m-0 {
     margin: 0px;
   }
@@ -9728,6 +9764,10 @@ text.highcharts-credits {
 
   .sm\:ml-4 {
     margin-left: 1rem;
+  }
+
+  .sm\:ml-5 {
+    margin-left: 1.25rem;
   }
 
   .sm\:ml-8 {
@@ -9852,6 +9892,14 @@ text.highcharts-credits {
     border-radius: 0.5rem;
   }
 
+  .sm\:border-0 {
+    border-width: 0px;
+  }
+
+  .sm\:bg-transparent {
+    background-color: transparent;
+  }
+
   .sm\:p-4 {
     padding: 1rem;
   }
@@ -9920,6 +9968,10 @@ text.highcharts-credits {
 
   .sm\:pr-5 {
     padding-right: 1.25rem;
+  }
+
+  .sm\:text-left {
+    text-align: left;
   }
 
   .sm\:text-center {
@@ -10150,6 +10202,10 @@ text.highcharts-credits {
     justify-content: space-between;
   }
 
+  .md\:gap-3 {
+    gap: 0.75rem;
+  }
+
   .md\:border {
     border-width: 1px;
   }
@@ -10186,6 +10242,11 @@ text.highcharts-credits {
 
   .md\:bg-transparent {
     background-color: transparent;
+  }
+
+  .md\:bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
   .md\:p-0 {
