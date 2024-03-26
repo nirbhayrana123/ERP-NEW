@@ -2681,6 +2681,10 @@ button.clender-view.view-details-button svg path {
   width: 0.75rem;
 }
 
+.w-3\/4 {
+  width: 75%;
+}
+
 .w-32 {
   width: 8rem;
 }
@@ -2835,10 +2839,6 @@ button.clender-view.view-details-button svg path {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-3\/4 {
-  width: 75%;
 }
 
 .min-w-170 {
